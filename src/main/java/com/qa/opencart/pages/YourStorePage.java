@@ -1,10 +1,7 @@
 package com.qa.opencart.pages;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -226,6 +223,26 @@ public class YourStorePage {
         log.error("Footer doesn't contains this brand");
         System.out.println(" =====> Provide the brand from existing list <===== ");
         return false;
+    }
+
+    //    Search Feature:
+    private WebElement getSearchField() {
+        By searchFieldLocator = By.cssSelector("input[name='search']");
+        wait.until(ExpectedConditions.presenceOfElementLocated(searchFieldLocator));
+        return driver.findElement(searchFieldLocator);
+    }
+
+    private WebElement getSearchBtn() {
+        By searchBtnLocator = By.cssSelector("span[class='input-group-btn']");
+        wait.until(ExpectedConditions.presenceOfElementLocated(searchBtnLocator));
+        return driver.findElement(searchBtnLocator);
+    }
+
+    public SearchPage doSearch(String productName) {
+        getSearchField().sendKeys(productName);
+        getSearchBtn().click();
+        return new SearchPage(driver);
+
     }
 }
 

@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5fdcb2c-6753-4644-be07-793bb0423ed3" name="Changes" comment="" />
+    <list default="true" id="f5fdcb2c-6753-4644-be07-793bb0423ed3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/opencart/test/SearchPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/Luma.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Luma.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/YourStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/YourStorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/YourStorePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/YourStorePage.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -21,6 +32,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2GQ13k8HQjJvn3oGpjw4tW8VvHG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,9 +41,60 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/dzmitryrazhkou/Desktop/OpenCart_Selenium"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qa.opencart.opencart.test" />
+      <recent name="com.qa.opencart.pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SearchPageTest.doProductSearchTest">
+    <configuration name="SearchPageTest.doProductSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCart_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.opencart.opencart.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.opencart.opencart.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.opencart.test.SearchPageTest" />
+      <option name="METHOD_NAME" value="doProductSearchTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchPageTest.validateSearchPageTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCart_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.opencart.opencart.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.opencart.opencart.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.opencart.test.SearchPageTest" />
+      <option name="METHOD_NAME" value="validateSearchPageTitleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SearchPageTest.doProductSearchTest" />
+        <item itemvalue="TestNG.SearchPageTest.validateSearchPageTitleTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,5 +105,16 @@
       <updated>1666305797454</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
