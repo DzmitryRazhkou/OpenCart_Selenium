@@ -1,23 +1,13 @@
 package com.qa.opencart.pages;
 
+import com.qa.opencart.basepage.BasePage;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
-
-public class RegisterPage {
-
-    private final WebDriver driver;
-    private final WebDriverWait wait;
-    private final Logger log;
-
+public class RegisterPage extends BasePage {
     public RegisterPage(WebDriver driver) {
-        this.driver = driver;
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        log = Logger.getLogger(RegisterPage.class);
+        super(driver);
     }
 
 //    Register Section:
@@ -91,7 +81,7 @@ public class RegisterPage {
     }
 
     public String generatePasswordTwoDigits(){
-        String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()-_=+[{]}\\|;:\'\",<.>/?";
+        String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()-_=+[{]}\\|;:'\",<.>/?";
         String pwd = RandomStringUtils.random( 2, characters );
         System.out.println( pwd );
         return pwd;

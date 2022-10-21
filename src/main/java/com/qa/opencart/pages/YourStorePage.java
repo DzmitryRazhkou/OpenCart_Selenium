@@ -1,24 +1,18 @@
 package com.qa.opencart.pages;
 
-import org.apache.log4j.Logger;
-import org.openqa.selenium.*;
+import com.qa.opencart.basepage.BasePage;
+import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
-public class YourStorePage {
-
-    private WebDriver driver;
-    private WebDriverWait wait;
-    private Logger log;
-
+public class YourStorePage extends BasePage {
     public YourStorePage(WebDriver driver) {
-        this.driver = driver;
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        log = Logger.getLogger(YourStorePage.class);
+        super(driver);
     }
 
     //    Validate Your Store Page Logo:

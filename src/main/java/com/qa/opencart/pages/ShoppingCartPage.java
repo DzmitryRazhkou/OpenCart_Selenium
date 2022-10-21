@@ -1,23 +1,13 @@
 package com.qa.opencart.pages;
 
-import org.apache.log4j.Logger;
+import com.qa.opencart.basepage.BasePage;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
-
-public class ShoppingCartPage {
-
-    private final WebDriver driver;
-    private final WebDriverWait wait;
-    private final Logger log;
-
+public class ShoppingCartPage extends BasePage {
     public ShoppingCartPage(WebDriver driver) {
-        this.driver = driver;
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        log = Logger.getLogger(ShoppingCartPage.class);
+        super(driver);
     }
 
     //    Shopping Cart Section:
@@ -120,7 +110,7 @@ public class ShoppingCartPage {
         wait.until(ExpectedConditions.presenceOfElementLocated(newAddressRadioLocator));
         return driver.findElement(newAddressRadioLocator);
     }
-    private void customWait(By by) {;
+    private void customWait(By by) {
         for (int i = 0; i < 100; i++) {
             try {
                 driver.findElement(by);

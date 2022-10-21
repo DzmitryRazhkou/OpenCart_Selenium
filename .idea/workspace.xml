@@ -5,45 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5fdcb2c-6753-4644-be07-793bb0423ed3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/basetest/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/ShoppingCartPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/basepage/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/Luma.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/Luma.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/CheckOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/CheckOutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/ContactUsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/MyAccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/ShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/ShoppingCartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/YourStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/YourStorePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/opencart/listeners/ExtentReportListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/listeners/ExtentReportListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/opencart/listeners/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/listeners/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/opencart/listeners/RetryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/listeners/RetryAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/opencart/test/ContactUsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/ContactUsPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/opencart/test/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/opencart/test/MyAccountPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/MyAccountPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/opencart/test/RegisterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/RegisterPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/opencart/test/SearchPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/SearchPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/opencart/test/ShoppingCartPageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/opencart/test/YourStorePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/YourStorePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/SearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/ShoppingCartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/ShoppingCartPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/YourStorePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/YourStorePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/opencart/listeners/ExtentReportListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/opencart/listeners/Listeners.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/opencart/listeners/RetryAnalyzer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/opencart/test/ContactUsPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/opencart/test/LoginPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/opencart/test/MyAccountPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/opencart/test/RegisterPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/opencart/test/SearchPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/opencart/test/ShoppingCartPageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/opencart/test/YourStorePageTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/log4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">

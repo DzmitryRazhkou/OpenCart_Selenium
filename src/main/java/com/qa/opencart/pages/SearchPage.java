@@ -1,24 +1,15 @@
 package com.qa.opencart.pages;
 
-import org.apache.log4j.Logger;
+import com.qa.opencart.basepage.BasePage;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SearchPage {
-
-    private final WebDriver driver;
-    private final WebDriverWait wait;
-    private final Logger log;
-
+public class SearchPage extends BasePage {
     public SearchPage(WebDriver driver) {
-        this.driver = driver;
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        log = Logger.getLogger(SearchPage.class);
+        super(driver);
     }
 
     //    Validate Title Page:
@@ -84,7 +75,7 @@ public class SearchPage {
     }
 
     //    Proceed To CheckOut:
-    private void customWait(By by) {;
+    private void customWait(By by) {
         for (int i = 0; i < 100; i++) {
             try {
                 driver.findElement(by);

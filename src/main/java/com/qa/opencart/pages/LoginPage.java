@@ -1,24 +1,16 @@
 package com.qa.opencart.pages;
 
-import org.apache.log4j.Logger;
+import com.qa.opencart.basepage.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import java.time.Duration;
 
-public class LoginPage {
-
-    private final WebDriver driver;
-    private final WebDriverWait wait;
-    private final Logger log;
+public class LoginPage extends BasePage {
 
     public LoginPage(WebDriver driver) {
-        this.driver = driver;
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        log = Logger.getLogger(LoginPage.class);
+        super(driver);
     }
 
     //    Login Section:
@@ -60,12 +52,6 @@ public class LoginPage {
         By submitLocator = By.cssSelector("input[type='submit']");
         wait.until(ExpectedConditions.presenceOfElementLocated(submitLocator));
         return driver.findElement(submitLocator);
-    }
-    public String getSuccessMessage() {
-        log.info("User receives a success message. ");
-        By enquiryLocator = By.cssSelector("#content p");
-        wait.until(ExpectedConditions.presenceOfElementLocated(enquiryLocator));
-        return driver.findElement(enquiryLocator).getText();
     }
 
     public MyAccountPage loginCorrectCredentials(String email, String password) {
