@@ -1,0 +1,26 @@
+2022-10-21 14:35:19,240  INFO [main] YourStorePage:142 - User clicks on the my account button. 
+2022-10-21 14:35:19,273  INFO [main] YourStorePage:144 - User clicks on the login button. 
+2022-10-21 14:35:19,596  INFO [main] YourStorePage:146 - User navigates on the login page. 
+2022-10-21 14:35:19,596  INFO [main] LoginPage:72 - User types an email. 
+2022-10-21 14:35:19,722  INFO [main] LoginPage:76 - User types a password. 
+2022-10-21 14:35:19,770  INFO [main] LoginPage:80 - User clicks on the submit button. 
+2022-10-21 14:35:20,831  INFO [main] YourStorePage:59 - User clicks on the currency button. 
+2022-10-21 14:35:20,904  INFO [main] YourStorePage:65 - User selects a currency from drop down menu. 
+2022-10-21 14:35:22,124  WARN [main] SearchPage:112 -  =====>  Custom Waiter <===== 
+2022-10-21 14:35:22,419  INFO [main] SearchPage:114 - User clicks on the cart. 
+2022-10-21 14:35:22,446  WARN [main] SearchPage:116 -  =====>  Custom Waiter <===== 
+2022-10-21 14:35:22,733  INFO [main] SearchPage:118 - User clicks on the checkout button. 
+2022-10-21 14:35:23,808  INFO [main] ShoppingCartPage:151 - User types the first name. 
+2022-10-21 14:35:23,842  INFO [main] ShoppingCartPage:153 - User types the last name. 
+2022-10-21 14:35:23,871  INFO [main] ShoppingCartPage:155 - User types the company's name. 
+2022-10-21 14:35:23,905  INFO [main] ShoppingCartPage:157 - User types the first lina address. 
+2022-10-21 14:35:23,934  INFO [main] ShoppingCartPage:159 - User types the second lina address. 
+2022-10-21 14:35:23,965  INFO [main] ShoppingCartPage:161 - User types the city name. 
+2022-10-21 14:35:23,996  INFO [main] ShoppingCartPage:163 -  =====> Scroll To Element <===== 
+2022-10-21 14:35:23,998  INFO [main] ShoppingCartPage:165 - User types the zip. 
+2022-10-21 14:35:24,028  INFO [main] ShoppingCartPage:167 - User types the country name. 
+2022-10-21 14:35:24,394  INFO [main] ShoppingCartPage:169 - User types the state name. 
+2022-10-21 14:35:24,764  INFO [main] ShoppingCartPage:171 - User clicks the the continue button. 
+2022-10-21 14:35:25,042  INFO [main] ShoppingCartPage:197 - User enters the comments. 
+2022-10-21 14:35:25,593  INFO [main] ShoppingCartPage:199 - User checks the terms and conditions. 
+2022-10-21 14:35:25,613  INFO [main] ShoppingCartPage:201 - User clicks on the continue button. 

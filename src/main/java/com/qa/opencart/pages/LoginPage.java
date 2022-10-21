@@ -94,7 +94,7 @@ public class LoginPage {
         submitBtn().click();
     }
     private WebElement getAlert() {
-        By alertLocator = By.xpath("//div[contains(text(),' Warning: No match for E-Mail Address and/or Password.')]");
+        By alertLocator = By.xpath("//div[contains(text(),' Warning')]");
         wait.until(ExpectedConditions.presenceOfElementLocated(alertLocator));
         return driver.findElement(alertLocator);
     }
@@ -107,6 +107,16 @@ public class LoginPage {
             log.warn("Please provide another locator. ");
             return false;
         }
+    }
+
+    private WebElement getLogo() {
+        By getLogoLocator = By.cssSelector("img[title='naveenopencart']");
+        wait.until(ExpectedConditions.presenceOfElementLocated(getLogoLocator));
+        return driver.findElement(getLogoLocator);
+    }
+    public YourStorePage returnToYourStorePage(){
+        getLogo().click();
+        return new YourStorePage(driver);
     }
 
 }

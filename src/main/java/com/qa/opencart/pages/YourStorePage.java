@@ -196,7 +196,7 @@ public class YourStorePage {
     }
 
     public int adsQuantity() {
-        By adsLocator = By.cssSelector("#carousel0 div img");
+        By adsLocator = By.cssSelector("div[class='carousel swiper-viewport'] div div img");
         wait.until(ExpectedConditions.presenceOfElementLocated(adsLocator));
         List<WebElement> listOfAds = driver.findElements(adsLocator);
         int quantity = listOfAds.size();
@@ -205,7 +205,7 @@ public class YourStorePage {
     }
 
     public boolean ads(String brand) {
-        By adsLocator = By.cssSelector("#carousel0 div img");
+        By adsLocator = By.cssSelector("div[class='carousel swiper-viewport'] div div img");
         wait.until(ExpectedConditions.presenceOfElementLocated(adsLocator));
         List<WebElement> listOfAds = driver.findElements(adsLocator);
         List<String> listOfAdsText = new ArrayList<>();

@@ -1,17 +1,13 @@
 package com.qa.opencart.pages;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class SearchPage {
 
@@ -37,6 +33,7 @@ public class SearchPage {
         return driver.getTitle();
     }
 
+    //    Product List:
     private List<String> getSearchedProductList() {
         By productLocator = By.cssSelector("div[class='row'] div div div div div h4 a");
         wait.until(ExpectedConditions.visibilityOfElementLocated(productLocator));
@@ -50,7 +47,6 @@ public class SearchPage {
         }
         return listOfProductsText;
     }
-
     public void addToCartProduct(String productName) {
         By cartButtonLocator = By.cssSelector("div[class='row'] div div div div div div:nth-child(2):nth-child(2) button:nth-of-type(1):first-of-type");
         wait.until(ExpectedConditions.presenceOfElementLocated(cartButtonLocator));
@@ -69,6 +65,7 @@ public class SearchPage {
         }
     }
 
+    //    Success Message:
     private WebElement getSuccessMessage() {
         By successMessageLocator = By.cssSelector("div[class='alert alert-success alert-dismissible']");
         wait.until(ExpectedConditions.presenceOfElementLocated(successMessageLocator));
@@ -86,71 +83,41 @@ public class SearchPage {
         }
     }
 
-
-
-
-
-
-
-
-
-    //    Contact Us:
-    private WebElement getYourName() {
-        By yourNameLocator = By.id("input-name");
-        wait.until(ExpectedConditions.presenceOfElementLocated(yourNameLocator));
-        return driver.findElement(yourNameLocator);
-    }
-
-    private WebElement getEmail() {
-        By emailLocator = By.id("input-email");
-        wait.until(ExpectedConditions.presenceOfElementLocated(emailLocator));
-        return driver.findElement(emailLocator);
-    }
-
-    private WebElement getEnquiry() {
-        By enquiryLocator = By.id("input-enquiry");
-        wait.until(ExpectedConditions.presenceOfElementLocated(enquiryLocator));
-        return driver.findElement(enquiryLocator);
-    }
-
-    private WebElement submitBtn() {
-        By submitLocator = By.cssSelector("input[type='submit']");
-        wait.until(ExpectedConditions.presenceOfElementLocated(submitLocator));
-        return driver.findElement(submitLocator);
-    }
-
-
-
-
-
-    //    Invalid Your Name:
-    public String getSaltString() {
-        String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-        StringBuilder str = new StringBuilder();
-        Random rnd = new Random();
-        while (str.length() < 5) { // length of the random string.
-            int index = (int) (rnd.nextFloat() * characters.length());
-            str.append(characters.charAt(index));
-        }
-        return str.toString();
-    }
-
-    private WebElement dangerAlert() {
-        By dangerLocator = By.cssSelector("div[class='text-danger']");
-        wait.until(ExpectedConditions.presenceOfElementLocated(dangerLocator));
-        return driver.findElement(dangerLocator);
-    }
-
-    public boolean getDangerInvalidMessage() {
-        try {
-            log.info("User receives an alert message. ");
-            System.out.println(" =====> " + dangerAlert().getText() + " <===== ");
-            return dangerAlert().isDisplayed();
-        } catch (TimeoutException y) {
-            log.warn("Please provide another locator. ");
-            return false;
+    //    Proceed To CheckOut:
+    private void customWait(By by) {;
+        for (int i = 0; i < 100; i++) {
+            try {
+                driver.findElement(by);
+            } catch (NoSuchElementException yy) {
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException ignored) {
+                }
+            }
         }
     }
 
+    private WebElement getCart() {
+        By cartLocator = By.id("cart");
+        return driver.findElement(cartLocator);
+    }
+
+    private WebElement getCheckOuBtn() {
+        By checkOuBtnLocator = By.cssSelector("p[class='text-right'] a:last-of-type");
+        wait.until(ExpectedConditions.presenceOfElementLocated(checkOuBtnLocator));
+        return driver.findElement(checkOuBtnLocator);
+    }
+
+    public ShoppingCartPage doClickOnTheCheckOut() {
+        log.warn(" =====>  Custom Waiter <===== ");
+        customWait(By.id("cart"));
+        log.info("User clicks on the cart. ");
+        getCart().click();
+        log.warn(" =====>  Custom Waiter <===== ");
+        customWait(By.cssSelector("p[class='text-right'] a:last-of-type"));
+        log.info("User clicks on the checkout button. ");
+        getCheckOuBtn().click();
+        return new ShoppingCartPage(driver);
+    }
 }
 
