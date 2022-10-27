@@ -94,6 +94,4 @@ public class BrowserFactory {
         System.out.println(" =====> Selenium Safari <===== ");
         return new SafariDriver();
     }
-
-
 }

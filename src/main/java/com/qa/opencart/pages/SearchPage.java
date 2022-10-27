@@ -89,7 +89,8 @@ public class SearchPage extends BasePage {
     }
 
     private WebElement getCart() {
-        By cartLocator = By.id("cart");
+        By cartLocator = By.cssSelector("#cart");
+        wait.until(ExpectedConditions.elementToBeClickable(cartLocator));
         return driver.findElement(cartLocator);
     }
 

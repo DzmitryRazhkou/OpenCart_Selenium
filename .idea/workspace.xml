@@ -5,16 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5fdcb2c-6753-4644-be07-793bb0423ed3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/basepage/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/config/Config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/utils/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/utils/Waiter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/CheckOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/CheckOutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/ContactUsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/MyAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/MyAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/OpenCart.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/OpenCart.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/browser/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/browser/BrowserFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/ShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/ShoppingCartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/YourStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/YourStorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/basetest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/basetest/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/ContactUsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/ContactUsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/SearchPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/SearchPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/YourStorePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/YourStorePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/CheckOutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/CheckOutPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/ContactUsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/ContactUsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/MyAccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/MyAccountPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/RegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/SearchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/ShoppingCartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/ShoppingCartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/YourStorePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/YourStorePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/basetest/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/basetest/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/test/SearchPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/test/SearchPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +68,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium"
+    "last_opened_file_path": "/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/config"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/qa/opencart/config" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qa.opencart.utils" />
       <recent name="com.qa.opencart.opencart.test" />
       <recent name="com.qa.opencart.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ShoppingCartPageTest.doCheckOutProductNewAddressTest (1)">
-    <configuration name="ShoppingCartPageTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginPageTest.doLoginInvalidCredentialsTest">
+    <configuration name="ContactUsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCart_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -74,7 +91,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.ShoppingCartPageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.ContactUsPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -82,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartPageTest.doCheckOutProductExistingAddressTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactUsPageTest.doContactUsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCart_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -91,8 +108,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.ShoppingCartPageTest" />
-      <option name="METHOD_NAME" value="doCheckOutProductExistingAddressTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.ContactUsPageTest" />
+      <option name="METHOD_NAME" value="doContactUsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartPageTest.doCheckOutProductNewAddressTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.doLoginInvalidCredentialsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCart_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +126,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.ShoppingCartPageTest" />
-      <option name="METHOD_NAME" value="doCheckOutProductNewAddressTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.LoginPageTest" />
+      <option name="METHOD_NAME" value="doLoginInvalidCredentialsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingCartPageTest.validateRegisterTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.doLoginValidCredentialsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCart_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.ShoppingCartPageTest" />
-      <option name="METHOD_NAME" value="validateRegisterTitleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.LoginPageTest" />
+      <option name="METHOD_NAME" value="doLoginValidCredentialsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,7 +153,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YourStorePageTest.validateYourPageLogoTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest.validateContactUsTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCart_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +162,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.YourStorePageTest" />
-      <option name="METHOD_NAME" value="validateYourPageLogoTest" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.LoginPageTest" />
+      <option name="METHOD_NAME" value="validateContactUsTitleTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ShoppingCartPageTest.doCheckOutProductNewAddressTest (1)" />
-        <item itemvalue="TestNG.ShoppingCartPageTest.doCheckOutProductExistingAddressTest" />
-        <item itemvalue="TestNG.ShoppingCartPageTest.validateRegisterTitleTest" />
-        <item itemvalue="TestNG.YourStorePageTest.validateYourPageLogoTest (1)" />
-        <item itemvalue="TestNG.ShoppingCartPageTest (1)" />
+        <item itemvalue="TestNG.LoginPageTest.doLoginInvalidCredentialsTest" />
+        <item itemvalue="TestNG.LoginPageTest.doLoginValidCredentialsTest" />
+        <item itemvalue="TestNG.LoginPageTest.validateContactUsTitleTest" />
+        <item itemvalue="TestNG.ContactUsPageTest" />
+        <item itemvalue="TestNG.ContactUsPageTest.doContactUsTest" />
       </list>
     </recent_temporary>
   </component>

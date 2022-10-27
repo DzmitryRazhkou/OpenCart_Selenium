@@ -42,7 +42,7 @@ public class YourStorePage extends BasePage {
     //    Currency:
     private WebElement getCurrencyBtn() {
         By currencyLocator = By.cssSelector("button[class='btn btn-link dropdown-toggle']");
-        wait.until(ExpectedConditions.presenceOfElementLocated(currencyLocator));
+        wait.until(ExpectedConditions.elementToBeClickable(currencyLocator));
         return driver.findElement(currencyLocator);
     }
 
