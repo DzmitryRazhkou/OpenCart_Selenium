@@ -51,4 +51,18 @@ public class LoginPageTest extends BaseTest {
         loginPage.loginIncorrectCredentials(email, password);
         Assert.assertTrue(loginPage.getAlertMessage());
     }
+
+    @Test(priority = 4)
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test Case Description: Validate Login Out Test")
+    @Story("Story Name: To Check Login Out")
+    public void doLogOutTest() {
+        YourStorePage yourStorePage = new YourStorePage(driver);
+        loginPage = yourStorePage.doNavigateLoginPage();
+        String email = prop.getProperty("email");
+        String password = prop.getProperty("password");
+        MyAccountPage myAccountPage = loginPage.loginCorrectCredentials(email, password);
+        myAccountPage.logOut();
+        Assert.assertTrue(myAccountPage.getAccountLogOutValidate());
+    }
 }

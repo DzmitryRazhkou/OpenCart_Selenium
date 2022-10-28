@@ -12,7 +12,7 @@ public class SearchPage extends BasePage {
         super(driver);
     }
 
-    //    Validate Title Page:
+//    Validate Title Page:
     public String getSearchPageTitle() {
         log.warn("User waits for loading search page. ");
 
@@ -33,9 +33,10 @@ public class SearchPage extends BasePage {
         List<String> listOfProductsText = new ArrayList<>();
 
         for (WebElement s : listProducts) {
-            System.out.println(s.getText());
             listOfProductsText.add(s.getText());
         }
+        log.info("User sees the list of the product. ");
+        System.out.println("\n =====> \nProduct List: " + listOfProductsText + "\n <===== \n");
         return listOfProductsText;
     }
     public void addToCartProduct(String productName) {
@@ -54,6 +55,38 @@ public class SearchPage extends BasePage {
                 }
             }
         }
+    }
+
+    //    Wish List:
+    public void addToWishList(String productName) {
+        By wishButtonLocator = By.cssSelector("div[class='row'] div div div div div button:nth-of-type(2)");
+        wait.until(ExpectedConditions.presenceOfElementLocated(wishButtonLocator));
+        List<WebElement> wishBtnList = driver.findElements(wishButtonLocator);
+
+        List<String> list = getSearchedProductList();
+        for (String set : list) {
+            for (WebElement s : wishBtnList) {
+                if (set.contains(productName)) {
+                    s.click();
+                    break;
+                } else {
+                    System.out.println("Provide another product");
+                }
+            }
+        }
+    }
+
+    private WebElement clickWishList() {
+        By wishListLocator = By.cssSelector("div[class='alert alert-success alert-dismissible'] a:last-of-type");
+        wait.until(ExpectedConditions.presenceOfElementLocated(wishListLocator));
+        return driver.findElement(wishListLocator);
+    }
+
+    public MyWishListPage doClickWishList() {
+        log.info("User clicks in the wish list into success message");
+        clickWishList().click();
+        log.info("User navigates on the my wish page. ");
+        return new MyWishListPage(driver);
     }
 
     //    Success Message:

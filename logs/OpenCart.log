@@ -1,7 +1,18 @@
-2022-10-26 23:51:23,098  INFO [main] CheckOutPage:136 - User clicks on the my account button. 
-2022-10-26 23:51:23,140  INFO [main] CheckOutPage:138 - User clicks on the login button. 
-2022-10-26 23:51:23,446  INFO [main] CheckOutPage:140 - User navigates on the login page. 
-2022-10-26 23:51:23,446  INFO [main] CheckOutPage:71 - User types an invalid email. 
-2022-10-26 23:51:23,568  INFO [main] CheckOutPage:75 - User types a invalid password. 
-2022-10-26 23:51:23,619  INFO [main] CheckOutPage:79 - User clicks on the submit button. 
-2022-10-26 23:51:24,062  INFO [main] CheckOutPage:89 - User receives an alert message. 
+2022-10-27 21:51:33,273  INFO [main] CheckOutPage:136 - User clicks on the my account button. 
+2022-10-27 21:51:33,311  INFO [main] CheckOutPage:138 - User clicks on the login button. 
+2022-10-27 21:51:33,621  INFO [main] CheckOutPage:140 - User navigates on the login page. 
+2022-10-27 21:51:33,622  INFO [main] CheckOutPage:58 - User types an email. 
+2022-10-27 21:51:33,736  INFO [main] CheckOutPage:62 - User types a password. 
+2022-10-27 21:51:33,787  INFO [main] CheckOutPage:66 - User clicks on the submit button. 
+2022-10-27 21:51:34,833  INFO [main] CheckOutPage:53 - User clicks on the currency button. 
+2022-10-27 21:51:34,925  INFO [main] CheckOutPage:59 - User selects a currency from drop down menu. 
+2022-10-27 21:51:35,457  INFO [main] CheckOutPage:236 - User enters the product name on the search field. 
+2022-10-27 21:51:35,504  INFO [main] CheckOutPage:238 - User clicks on the search icon. 
+2022-10-27 21:51:36,117  INFO [main] CheckOutPage:240 - User navigates on the search page. 
+2022-10-27 21:51:36,176  INFO [main] CheckOutPage:38 - User sees the list of the product. 
+2022-10-27 21:51:36,221  INFO [main] CheckOutPage:86 - User clicks in the wish list into success message
+2022-10-27 21:51:37,103  INFO [main] CheckOutPage:88 - User navigates on the my wish page. 
+2022-10-27 21:51:37,136  INFO [main] CheckOutPage:29 - User sees the wish list of the added product. 
+2022-10-27 21:51:37,136  INFO [main] CheckOutPage:90 - The Added Product into wish list is included. 
+2022-10-27 21:51:37,136  INFO [main] CheckOutPage:91 - User clicks on the product. 
+2022-10-27 21:51:37,701  INFO [main] CheckOutPage:109 -  =====> Success message has been displayed <===== 

@@ -19,11 +19,48 @@ public class MyAccountPage extends BasePage {
         wait.until(ExpectedConditions.presenceOfElementLocated(myAccountLinkLocator));
         return driver.findElement(myAccountLinkLocator);
     }
+
     public boolean getMyAccountValidate() {
         try {
             log.info(" =====> My Account Link has been displayed <===== ");
             System.out.println(" =====> " + getMyAccountLink().getText() + " <===== ");
             return getMyAccountLink().isDisplayed();
+        } catch (TimeoutException y) {
+            log.warn(" <=== !!! Please provide a right locator !!! ===> ");
+            return false;
+        }
+    }
+
+    private WebElement getMyAccount() {
+        By myAccountLocator = By.cssSelector("a[title='My Account']");
+        wait.until(ExpectedConditions.presenceOfElementLocated(myAccountLocator));
+        return driver.findElement(myAccountLocator);
+    }
+
+    private WebElement getLogOutButton() {
+        By registerButtonLocator = By.cssSelector("ul[class='dropdown-menu dropdown-menu-right'] li:last-of-type");
+        wait.until(ExpectedConditions.presenceOfElementLocated(registerButtonLocator));
+        return driver.findElement(registerButtonLocator);
+    }
+
+    public void logOut() {
+        log.info("User clicks on the my account button. ");
+        getMyAccount().click();
+        log.info("User clicks on the log out button. ");
+        getLogOutButton().click();
+    }
+
+    private WebElement getAccountLogOut() {
+        By accountLogOutLocator = By.cssSelector("#content h1");
+        wait.until(ExpectedConditions.presenceOfElementLocated(accountLogOutLocator));
+        return driver.findElement(accountLogOutLocator);
+    }
+
+    public boolean getAccountLogOutValidate() {
+        try {
+            log.info(" =====> Account Log Out Link has been displayed <===== ");
+            System.out.println(" =====> " + getAccountLogOut().getText() + " <===== ");
+            return getAccountLogOut().isDisplayed();
         } catch (TimeoutException y) {
             log.warn(" <=== !!! Please provide a right locator !!! ===> ");
             return false;

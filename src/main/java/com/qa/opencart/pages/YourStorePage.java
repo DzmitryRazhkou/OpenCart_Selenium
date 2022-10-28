@@ -233,8 +233,11 @@ public class YourStorePage extends BasePage {
     }
 
     public SearchPage doSearch(String productName) {
+        log.info("User enters the product name on the search field. ");
         getSearchField().sendKeys(productName);
+        log.info("User clicks on the search icon. ");
         getSearchBtn().click();
+        log.info("User navigates on the search page. ");
         return new SearchPage(driver);
 
     }

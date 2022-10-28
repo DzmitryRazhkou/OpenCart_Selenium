@@ -21,7 +21,7 @@ public class BaseTest {
     @BeforeMethod
     public void startUp() throws MalformedURLException {
         prop = ConfigReader.initProp();
-        driver = BrowserFactory.getBrowser(Browsers.CHROME_HEADLESS);
+        driver = BrowserFactory.getBrowser(Browsers.CHROME);
         driver.get(prop.getProperty("url"));
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
