@@ -1,18 +1,28 @@
-2022-10-27 21:51:33,273  INFO [main] CheckOutPage:136 - User clicks on the my account button. 
-2022-10-27 21:51:33,311  INFO [main] CheckOutPage:138 - User clicks on the login button. 
-2022-10-27 21:51:33,621  INFO [main] CheckOutPage:140 - User navigates on the login page. 
-2022-10-27 21:51:33,622  INFO [main] CheckOutPage:58 - User types an email. 
-2022-10-27 21:51:33,736  INFO [main] CheckOutPage:62 - User types a password. 
-2022-10-27 21:51:33,787  INFO [main] CheckOutPage:66 - User clicks on the submit button. 
-2022-10-27 21:51:34,833  INFO [main] CheckOutPage:53 - User clicks on the currency button. 
-2022-10-27 21:51:34,925  INFO [main] CheckOutPage:59 - User selects a currency from drop down menu. 
-2022-10-27 21:51:35,457  INFO [main] CheckOutPage:236 - User enters the product name on the search field. 
-2022-10-27 21:51:35,504  INFO [main] CheckOutPage:238 - User clicks on the search icon. 
-2022-10-27 21:51:36,117  INFO [main] CheckOutPage:240 - User navigates on the search page. 
-2022-10-27 21:51:36,176  INFO [main] CheckOutPage:38 - User sees the list of the product. 
-2022-10-27 21:51:36,221  INFO [main] CheckOutPage:86 - User clicks in the wish list into success message
-2022-10-27 21:51:37,103  INFO [main] CheckOutPage:88 - User navigates on the my wish page. 
-2022-10-27 21:51:37,136  INFO [main] CheckOutPage:29 - User sees the wish list of the added product. 
-2022-10-27 21:51:37,136  INFO [main] CheckOutPage:90 - The Added Product into wish list is included. 
-2022-10-27 21:51:37,136  INFO [main] CheckOutPage:91 - User clicks on the product. 
-2022-10-27 21:51:37,701  INFO [main] CheckOutPage:109 -  =====> Success message has been displayed <===== 
+2022-10-27 22:08:39,795  INFO [main] CheckOutPage:113 - User clicks on the my account button. 
+2022-10-27 22:08:39,831  INFO [main] CheckOutPage:115 - User clicks on the shopping cart button. 
+2022-10-27 22:08:40,352  INFO [main] CheckOutPage:117 - User navigates on the register page. 
+2022-10-27 22:08:40,352  INFO [main] CheckOutPage:32 - User validates the title page. 
+2022-10-27 22:08:43,873  INFO [main] CheckOutPage:113 - User clicks on the my account button. 
+2022-10-27 22:08:43,918  INFO [main] CheckOutPage:115 - User clicks on the shopping cart button. 
+2022-10-27 22:08:44,638  INFO [main] CheckOutPage:117 - User navigates on the register page. 
+2022-10-27 22:08:44,638  INFO [main] CheckOutPage:91 - User types the first name. 
+2022-10-27 22:08:44,766  INFO [main] CheckOutPage:95 - User types the last name. 
+2022-10-27 22:08:44,812  INFO [main] CheckOutPage:99 - User types the email. 
+2022-10-27 22:08:44,865  INFO [main] CheckOutPage:103 - User types the phone number. 
+2022-10-27 22:08:44,919  INFO [main] CheckOutPage:107 - User types a password. 
+2022-10-27 22:08:44,981  INFO [main] CheckOutPage:111 - User types a confirm password. 
+2022-10-27 22:08:45,035  INFO [main] CheckOutPage:115 - User checks agreement checkbox. 
+2022-10-27 22:08:45,076  INFO [main] CheckOutPage:118 - User clicks on the submit button. 
+2022-10-27 22:08:45,807  INFO [main] CheckOutPage:128 - User receives an success created message message. 
+2022-10-27 22:08:49,292  INFO [main] CheckOutPage:113 - User clicks on the my account button. 
+2022-10-27 22:08:49,319  INFO [main] CheckOutPage:115 - User clicks on the shopping cart button. 
+2022-10-27 22:08:49,859  INFO [main] CheckOutPage:117 - User navigates on the register page. 
+2022-10-27 22:08:49,860  INFO [main] CheckOutPage:91 - User types the first name. 
+2022-10-27 22:08:49,970  INFO [main] CheckOutPage:95 - User types the last name. 
+2022-10-27 22:08:50,019  INFO [main] CheckOutPage:99 - User types the email. 
+2022-10-27 22:08:50,070  INFO [main] CheckOutPage:103 - User types the phone number. 
+2022-10-27 22:08:50,118  INFO [main] CheckOutPage:107 - User types a password. 
+2022-10-27 22:08:50,170  INFO [main] CheckOutPage:111 - User types a confirm password. 
+2022-10-27 22:08:50,217  INFO [main] CheckOutPage:115 - User checks agreement checkbox. 
+2022-10-27 22:08:50,250  INFO [main] CheckOutPage:118 - User clicks on the submit button. 
+2022-10-27 22:08:50,557  INFO [main] CheckOutPage:144 - User receives an alert message. 
