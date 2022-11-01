@@ -42,24 +42,95 @@ public class ContactUsPageTest extends BaseTest {
         ContactUsPage contactUsPage = yourStorePage.clickContactUsBtn();
         contactUsPage.doContactUs(yourName, email, enquiry);
 
-        String expectedSuccessMessage = prop.getProperty("expectedSuccessMessage");
+        String expectedSuccessMessage = prop.getProperty("successMessage");
         String actualSuccessMessage = contactUsPage.getSuccessMessage();
         Assert.assertEquals(actualSuccessMessage, expectedSuccessMessage);
     }
 
     @Test(priority = 3)
-    @Severity(SeverityLevel.CRITICAL)
-    @Description("Test Case Description: Do ContactUs Invalid Data Test")
-    @Story("Story Name: To Check ContactUs Invalid Data Test")
-    public void doContactUsInvalidDataTest() {
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test Case Description: Do ContactUs Invalid Your Name Minimum Value Test")
+    @Story("Story Name: To Check ContactUs Your Name Minimum Value Test")
+    public void doContactUsInvalidYourNameMinimumValueTest() {
         yourStorePage = new YourStorePage(driver);
         faker = new Faker();
 
+        String email = faker.internet().emailAddress();
+        String enquiry = faker.address().fullAddress();
+
+        ContactUsPage contactUsPage = yourStorePage.clickContactUsBtn();
+        String yourName = contactUsPage.createYourNameThreeDigits();
+
+        contactUsPage.doContactUs(yourName, email, enquiry);
+        Assert.assertTrue(contactUsPage.getDangerInvalidMessage());
+    }
+
+    @Test(priority = 4)
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test Case Description: Do ContactUs Invalid Your Name Maximum Value Test")
+    @Story("Story Name: To Check ContactUs Your Name Maximum Value Test")
+    public void doContactUsInvalidYourNameMaximumValueTest() {
+        yourStorePage = new YourStorePage(driver);
+        faker = new Faker();
+
+        String email = faker.internet().emailAddress();
+        String enquiry = faker.address().fullAddress();
+
+        ContactUsPage contactUsPage = yourStorePage.clickContactUsBtn();
+        String yourName = contactUsPage.createYourNameThirstyIshDigits();
+
+        contactUsPage.doContactUs(yourName, email, enquiry);
+        Assert.assertTrue(contactUsPage.getDangerInvalidMessage());
+    }
+
+    @Test(priority = 5)
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Test Case Description: Do ContactUs Invalid Email Address Test")
+    @Story("Story Name: To Check ContactUs Invalid Email Address Test")
+    public void doContactUsInvalidEmailAddressTest() {
+        yourStorePage = new YourStorePage(driver);
+        faker = new Faker();
+        String yourName = faker.name().fullName();
         String email = faker.internet().emailAddress().replace("@", "");
         String enquiry = faker.address().fullAddress();
 
         ContactUsPage contactUsPage = yourStorePage.clickContactUsBtn();
-        String yourName = contactUsPage.getSaltString();
+        contactUsPage.doContactUs(yourName, email, enquiry);
+        Assert.assertTrue(contactUsPage.getDangerInvalidMessage());
+    }
+
+    @Test(priority = 6)
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test Case Description: Do ContactUs Invalid Enquiry Minimum Value Test")
+    @Story("Story Name: To Check ContactUs Your Name Minimum Value Test")
+    public void doContactUsInvalidEnquiryMinimumValueTest() {
+        yourStorePage = new YourStorePage(driver);
+        faker = new Faker();
+
+        String yourName = faker.name().fullName();
+        String email = faker.internet().emailAddress();
+
+        ContactUsPage contactUsPage = yourStorePage.clickContactUsBtn();
+        String enquiry = contactUsPage.createEnquiryNineDigits();
+
+        contactUsPage.doContactUs(yourName, email, enquiry);
+        Assert.assertTrue(contactUsPage.getDangerInvalidMessage());
+    }
+
+    @Test(priority = 7)
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test Case Description: Do ContactUs Invalid Enquiry Minimum Value Test")
+    @Story("Story Name: To Check ContactUs Your Name Minimum Value Test")
+    public void doContactUsInvalidEnquiryMaximumValueTest() {
+        yourStorePage = new YourStorePage(driver);
+        faker = new Faker();
+
+        String yourName = faker.name().fullName();
+        String email = faker.internet().emailAddress();
+
+        ContactUsPage contactUsPage = yourStorePage.clickContactUsBtn();
+        String enquiry = contactUsPage.createEnquiryThreeThousandIshDigits();
+
         contactUsPage.doContactUs(yourName, email, enquiry);
         Assert.assertTrue(contactUsPage.getDangerInvalidMessage());
     }
