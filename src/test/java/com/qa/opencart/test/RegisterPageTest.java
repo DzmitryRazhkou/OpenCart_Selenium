@@ -47,6 +47,25 @@ public class RegisterPageTest extends BaseTest {
     }
 
     @Test(priority = 3)
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test Case Description: Do Register Existing Customer Test")
+    @Story("Story Name: To Check Register Existing Customer")
+    public void doRegisterExistingCustomerTest() {
+        YourStorePage yourStorePage = new YourStorePage(driver);
+        faker = new Faker();
+
+        String firstName = prop.getProperty("firstName");
+        String lastName = prop.getProperty("lastName");
+        String email = prop.getProperty("email");
+        String phone = prop.getProperty("phone");
+        String psw = prop.getProperty("password");
+
+        registerPage = yourStorePage.doNavigateRegisterPage();
+        registerPage.doRegister(firstName, lastName, email, phone, psw);
+        Assert.assertTrue(registerPage.getWarningAlertMessage());
+    }
+
+    @Test(priority = 4)
     @Severity(SeverityLevel.CRITICAL)
     @Description("Test Case Description: Do Register New Customer Boundary Two Digits Test")
     @Story("Story Name: To Check Register New Customer Boundary Two Digits")

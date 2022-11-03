@@ -83,41 +83,11 @@ public class ContactUsPage extends BasePage {
     }
 
     //    Invalid Your Name:
-    public String createYourNameThreeDigits() {
+    public String createString(int lengthOfString) {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
         StringBuilder str = new StringBuilder();
         Random rnd = new Random();
-        while (str.length() < 2) { // length of the random string.
-            int index = (int) (rnd.nextFloat() * characters.length());
-            str.append(characters.charAt(index));
-        }
-        return str.toString();
-    }
-    public String createYourNameThirstyIshDigits() {
-        String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-        StringBuilder str = new StringBuilder();
-        Random rnd = new Random();
-        while (str.length() < 33) { // length of the random string.
-            int index = (int) (rnd.nextFloat() * characters.length());
-            str.append(characters.charAt(index));
-        }
-        return str.toString();
-    }
-    public String createEnquiryNineDigits() {
-        String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-        StringBuilder str = new StringBuilder();
-        Random rnd = new Random();
-        while (str.length() < 9) { // length of the random string.
-            int index = (int) (rnd.nextFloat() * characters.length());
-            str.append(characters.charAt(index));
-        }
-        return str.toString();
-    }
-    public String createEnquiryThreeThousandIshDigits() {
-        String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-        StringBuilder str = new StringBuilder();
-        Random rnd = new Random();
-        while (str.length() < 3001) { // length of the random string.
+        while (str.length() < lengthOfString) { // length of the random string.
             int index = (int) (rnd.nextFloat() * characters.length());
             str.append(characters.charAt(index));
         }

@@ -8,7 +8,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/OpenCart.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/OpenCart.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/config/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/config/Config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/ContactUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/ContactUsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/ContactUsPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/RegisterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/RegisterPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/testRunner/regressionSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/testRunner/regressionSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/ContactUsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/ContactUsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/basetest/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/basetest/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/test/ContactUsPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/test/ContactUsPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +51,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/config"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/test/java/com/qa/opencart/testRunner&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/qa/opencart/testRunner" />
       <recent name="$PROJECT_DIR$/src/main/java/com/qa/opencart/config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -63,6 +71,23 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.RegisterPageTest">
+    <configuration name="ContactUsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCart_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.opencart.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.ContactUsPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegisterPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCart_Selenium" />
       <extension name="coverage">
@@ -80,6 +105,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegisterPageTest.doRegisterExistingCustomerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCart_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.opencart.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.RegisterPageTest" />
+      <option name="METHOD_NAME" value="doRegisterExistingCustomerTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegisterPageTest.doRegisterNewCustomerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCart_Selenium" />
       <extension name="coverage">
@@ -91,24 +134,6 @@
       <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
       <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.RegisterPageTest" />
       <option name="METHOD_NAME" value="doRegisterNewCustomerTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterPageTest.doRegisterNewCustomerTwoDigitsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OpenCart_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qa.opencart.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.RegisterPageTest" />
-      <option name="METHOD_NAME" value="doRegisterNewCustomerTwoDigitsTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,31 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchPageTest.removeFromCartThruWishListProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OpenCart_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qa.opencart.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.SearchPageTest" />
-      <option name="METHOD_NAME" value="removeFromCartThruWishListProductTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RegisterPageTest" />
         <item itemvalue="TestNG.RegisterPageTest.validateRegisterTitleTest" />
-        <item itemvalue="TestNG.RegisterPageTest.doRegisterNewCustomerTwoDigitsTest" />
+        <item itemvalue="TestNG.RegisterPageTest.doRegisterExistingCustomerTest" />
         <item itemvalue="TestNG.RegisterPageTest.doRegisterNewCustomerTest" />
-        <item itemvalue="TestNG.SearchPageTest.removeFromCartThruWishListProductTest" />
+        <item itemvalue="TestNG.ContactUsPageTest" />
       </list>
     </recent_temporary>
   </component>

@@ -1,28 +1,40 @@
-2022-10-27 22:08:39,795  INFO [main] CheckOutPage:113 - User clicks on the my account button. 
-2022-10-27 22:08:39,831  INFO [main] CheckOutPage:115 - User clicks on the shopping cart button. 
-2022-10-27 22:08:40,352  INFO [main] CheckOutPage:117 - User navigates on the register page. 
-2022-10-27 22:08:40,352  INFO [main] CheckOutPage:32 - User validates the title page. 
-2022-10-27 22:08:43,873  INFO [main] CheckOutPage:113 - User clicks on the my account button. 
-2022-10-27 22:08:43,918  INFO [main] CheckOutPage:115 - User clicks on the shopping cart button. 
-2022-10-27 22:08:44,638  INFO [main] CheckOutPage:117 - User navigates on the register page. 
-2022-10-27 22:08:44,638  INFO [main] CheckOutPage:91 - User types the first name. 
-2022-10-27 22:08:44,766  INFO [main] CheckOutPage:95 - User types the last name. 
-2022-10-27 22:08:44,812  INFO [main] CheckOutPage:99 - User types the email. 
-2022-10-27 22:08:44,865  INFO [main] CheckOutPage:103 - User types the phone number. 
-2022-10-27 22:08:44,919  INFO [main] CheckOutPage:107 - User types a password. 
-2022-10-27 22:08:44,981  INFO [main] CheckOutPage:111 - User types a confirm password. 
-2022-10-27 22:08:45,035  INFO [main] CheckOutPage:115 - User checks agreement checkbox. 
-2022-10-27 22:08:45,076  INFO [main] CheckOutPage:118 - User clicks on the submit button. 
-2022-10-27 22:08:45,807  INFO [main] CheckOutPage:128 - User receives an success created message message. 
-2022-10-27 22:08:49,292  INFO [main] CheckOutPage:113 - User clicks on the my account button. 
-2022-10-27 22:08:49,319  INFO [main] CheckOutPage:115 - User clicks on the shopping cart button. 
-2022-10-27 22:08:49,859  INFO [main] CheckOutPage:117 - User navigates on the register page. 
-2022-10-27 22:08:49,860  INFO [main] CheckOutPage:91 - User types the first name. 
-2022-10-27 22:08:49,970  INFO [main] CheckOutPage:95 - User types the last name. 
-2022-10-27 22:08:50,019  INFO [main] CheckOutPage:99 - User types the email. 
-2022-10-27 22:08:50,070  INFO [main] CheckOutPage:103 - User types the phone number. 
-2022-10-27 22:08:50,118  INFO [main] CheckOutPage:107 - User types a password. 
-2022-10-27 22:08:50,170  INFO [main] CheckOutPage:111 - User types a confirm password. 
-2022-10-27 22:08:50,217  INFO [main] CheckOutPage:115 - User checks agreement checkbox. 
-2022-10-27 22:08:50,250  INFO [main] CheckOutPage:118 - User clicks on the submit button. 
-2022-10-27 22:08:50,557  INFO [main] CheckOutPage:144 - User receives an alert message. 
+2022-11-02 00:11:24,537  INFO [main] CheckOutPage:113 - User clicks on the my account button. 
+2022-11-02 00:11:24,575  INFO [main] CheckOutPage:115 - User clicks on the shopping cart button. 
+2022-11-02 00:11:25,103  INFO [main] CheckOutPage:117 - User navigates on the register page. 
+2022-11-02 00:11:25,104  INFO [main] CheckOutPage:32 - User validates the title page. 
+2022-11-02 00:11:28,134  INFO [main] CheckOutPage:113 - User clicks on the my account button. 
+2022-11-02 00:11:28,167  INFO [main] CheckOutPage:115 - User clicks on the shopping cart button. 
+2022-11-02 00:11:28,682  INFO [main] CheckOutPage:117 - User navigates on the register page. 
+2022-11-02 00:11:28,683  INFO [main] CheckOutPage:91 - User types the first name. 
+2022-11-02 00:11:28,801  INFO [main] CheckOutPage:95 - User types the last name. 
+2022-11-02 00:11:28,848  INFO [main] CheckOutPage:99 - User types the email. 
+2022-11-02 00:11:28,896  INFO [main] CheckOutPage:103 - User types the phone number. 
+2022-11-02 00:11:28,941  INFO [main] CheckOutPage:107 - User types a password. 
+2022-11-02 00:11:28,988  INFO [main] CheckOutPage:111 - User types a confirm password. 
+2022-11-02 00:11:29,033  INFO [main] CheckOutPage:115 - User checks agreement checkbox. 
+2022-11-02 00:11:29,060  INFO [main] CheckOutPage:118 - User clicks on the submit button. 
+2022-11-02 00:11:30,004  INFO [main] CheckOutPage:128 - User receives an success created message message. 
+2022-11-02 00:11:32,803  INFO [main] CheckOutPage:113 - User clicks on the my account button. 
+2022-11-02 00:11:32,844  INFO [main] CheckOutPage:115 - User clicks on the shopping cart button. 
+2022-11-02 00:11:33,425  INFO [main] CheckOutPage:117 - User navigates on the register page. 
+2022-11-02 00:11:33,426  INFO [main] CheckOutPage:91 - User types the first name. 
+2022-11-02 00:11:33,532  INFO [main] CheckOutPage:95 - User types the last name. 
+2022-11-02 00:11:33,577  INFO [main] CheckOutPage:99 - User types the email. 
+2022-11-02 00:11:33,623  INFO [main] CheckOutPage:103 - User types the phone number. 
+2022-11-02 00:11:33,666  INFO [main] CheckOutPage:107 - User types a password. 
+2022-11-02 00:11:33,711  INFO [main] CheckOutPage:111 - User types a confirm password. 
+2022-11-02 00:11:33,754  INFO [main] CheckOutPage:115 - User checks agreement checkbox. 
+2022-11-02 00:11:33,781  INFO [main] CheckOutPage:118 - User clicks on the submit button. 
+2022-11-02 00:11:34,114  INFO [main] CheckOutPage:160 - User receives an warning message. 
+2022-11-02 00:11:37,100  INFO [main] CheckOutPage:113 - User clicks on the my account button. 
+2022-11-02 00:11:37,137  INFO [main] CheckOutPage:115 - User clicks on the shopping cart button. 
+2022-11-02 00:11:37,658  INFO [main] CheckOutPage:117 - User navigates on the register page. 
+2022-11-02 00:11:37,659  INFO [main] CheckOutPage:91 - User types the first name. 
+2022-11-02 00:11:37,761  INFO [main] CheckOutPage:95 - User types the last name. 
+2022-11-02 00:11:37,804  INFO [main] CheckOutPage:99 - User types the email. 
+2022-11-02 00:11:37,849  INFO [main] CheckOutPage:103 - User types the phone number. 
+2022-11-02 00:11:37,894  INFO [main] CheckOutPage:107 - User types a password. 
+2022-11-02 00:11:37,936  INFO [main] CheckOutPage:111 - User types a confirm password. 
+2022-11-02 00:11:37,977  INFO [main] CheckOutPage:115 - User checks agreement checkbox. 
+2022-11-02 00:11:38,004  INFO [main] CheckOutPage:118 - User clicks on the submit button. 
+2022-11-02 00:11:38,336  INFO [main] CheckOutPage:144 - User receives an alert message. 

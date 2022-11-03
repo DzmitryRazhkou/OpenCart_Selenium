@@ -150,5 +150,21 @@ public class RegisterPage extends BasePage {
         }
     }
 
+    private WebElement getWarningAlert() {
+        By warningAlertLocator = By.cssSelector("div[class='alert alert-danger alert-dismissible']");
+        wait.until(ExpectedConditions.presenceOfElementLocated(warningAlertLocator));
+        return driver.findElement(warningAlertLocator);
+    }
+    public boolean getWarningAlertMessage() {
+        try {
+            log.info("User receives an warning message. ");
+            System.out.println(" =====> " +getWarningAlert().getText()+ " <===== ");
+            return getWarningAlert().isDisplayed();
+        } catch (TimeoutException y) {
+            log.warn("Please provide another locator. ");
+            return false;
+        }
+    }
+
 }
 

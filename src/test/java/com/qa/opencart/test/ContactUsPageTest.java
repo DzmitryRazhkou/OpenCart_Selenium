@@ -57,9 +57,10 @@ public class ContactUsPageTest extends BaseTest {
 
         String email = faker.internet().emailAddress();
         String enquiry = faker.address().fullAddress();
+        int lengthOgString = Integer.parseInt(prop.getProperty("lengthYourNameMinimumValue"));
 
         ContactUsPage contactUsPage = yourStorePage.clickContactUsBtn();
-        String yourName = contactUsPage.createYourNameThreeDigits();
+        String yourName = contactUsPage.createString(lengthOgString);
 
         contactUsPage.doContactUs(yourName, email, enquiry);
         Assert.assertTrue(contactUsPage.getDangerInvalidMessage());
@@ -75,9 +76,10 @@ public class ContactUsPageTest extends BaseTest {
 
         String email = faker.internet().emailAddress();
         String enquiry = faker.address().fullAddress();
+        int lengthOfString = Integer.parseInt(prop.getProperty("lengthYourNameMaximumValue"));
 
         ContactUsPage contactUsPage = yourStorePage.clickContactUsBtn();
-        String yourName = contactUsPage.createYourNameThirstyIshDigits();
+        String yourName = contactUsPage.createString(lengthOfString);
 
         contactUsPage.doContactUs(yourName, email, enquiry);
         Assert.assertTrue(contactUsPage.getDangerInvalidMessage());
@@ -109,9 +111,10 @@ public class ContactUsPageTest extends BaseTest {
 
         String yourName = faker.name().fullName();
         String email = faker.internet().emailAddress();
+        int lengthOfString = Integer.parseInt(prop.getProperty("lengthEnquiryMinimumValue"));
 
         ContactUsPage contactUsPage = yourStorePage.clickContactUsBtn();
-        String enquiry = contactUsPage.createEnquiryNineDigits();
+        String enquiry = contactUsPage.createString(lengthOfString);
 
         contactUsPage.doContactUs(yourName, email, enquiry);
         Assert.assertTrue(contactUsPage.getDangerInvalidMessage());
@@ -127,9 +130,10 @@ public class ContactUsPageTest extends BaseTest {
 
         String yourName = faker.name().fullName();
         String email = faker.internet().emailAddress();
+        int lengthOfString = Integer.parseInt(prop.getProperty("lengthEnquiryMaximumValue"));
 
         ContactUsPage contactUsPage = yourStorePage.clickContactUsBtn();
-        String enquiry = contactUsPage.createEnquiryThreeThousandIshDigits();
+        String enquiry = contactUsPage.createString(lengthOfString);
 
         contactUsPage.doContactUs(yourName, email, enquiry);
         Assert.assertTrue(contactUsPage.getDangerInvalidMessage());
