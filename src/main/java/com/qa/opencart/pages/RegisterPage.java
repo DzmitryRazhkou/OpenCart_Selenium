@@ -80,11 +80,11 @@ public class RegisterPage extends BasePage {
         return driver.findElement(submitLocator);
     }
 
-    public String generatePasswordTwoDigits(){
+    public String generateString(int lengthOfString){
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789~`!@#$%^&*()-_=+[{]}\\|;:'\",<.>/?";
-        String pwd = RandomStringUtils.random( 2, characters );
-        System.out.println( pwd );
-        return pwd;
+        String psd = RandomStringUtils.random( lengthOfString, characters );
+        System.out.println( psd );
+        return psd;
     }
 
     public void doRegister(String first, String last, String email, String password, String phone) {
@@ -118,6 +118,65 @@ public class RegisterPage extends BasePage {
         log.info("User clicks on the submit button. ");
         submitBtn().click();
     }
+    public void doRegisterUnmatchedPsw(String first, String last, String email, String password, String passwordConfirm, String phone) {
+        log.info("User types the first name. ");
+        getFirstName().clear();
+        getFirstName().sendKeys(first);
+
+        log.info("User types the last name. ");
+        getLastName().clear();
+        getLastName().sendKeys(last);
+
+        log.info("User types the email. ");
+        getEmail().clear();
+        getEmail().sendKeys(email);
+
+        log.info("User types the phone number. ");
+        getPhone().clear();
+        getPhone().sendKeys(phone);
+
+        log.info("User types a password. ");
+        getPassword().clear();
+        getPassword().sendKeys(password);
+
+        log.info("User types a confirm password. ");
+        getConfirmPassword().clear();
+        getConfirmPassword().sendKeys(passwordConfirm);
+
+        log.info("User checks agreement checkbox. ");
+        agreeCheckBox().click();
+
+        log.info("User clicks on the submit button. ");
+        submitBtn().click();
+    }
+    public void doRegisterWithoutAgreementPolicy(String first, String last, String email, String password, String phone) {
+        log.info("User types the first name. ");
+        getFirstName().clear();
+        getFirstName().sendKeys(first);
+
+        log.info("User types the last name. ");
+        getLastName().clear();
+        getLastName().sendKeys(last);
+
+        log.info("User types the email. ");
+        getEmail().clear();
+        getEmail().sendKeys(email);
+
+        log.info("User types the phone number. ");
+        getPhone().clear();
+        getPhone().sendKeys(phone);
+
+        log.info("User types a password. ");
+        getPassword().clear();
+        getPassword().sendKeys(password);
+
+        log.info("User types a confirm password. ");
+        getConfirmPassword().clear();
+        getConfirmPassword().sendKeys(password);
+
+        log.info("User clicks on the submit button. ");
+        submitBtn().click();
+    }
     private WebElement getSuccessCreatedMessage() {
         By successCreatedMessageLocator = By.cssSelector("#content h1");
         wait.until(ExpectedConditions.presenceOfElementLocated(successCreatedMessageLocator));
@@ -135,7 +194,7 @@ public class RegisterPage extends BasePage {
     }
 
     private WebElement getAlert() {
-        By alertLocator = By.xpath("//div[contains(text(),'Password must be between 4 and 20 characters!')]");
+        By alertLocator = By.cssSelector("div[class='text-danger']");
         wait.until(ExpectedConditions.presenceOfElementLocated(alertLocator));
         return driver.findElement(alertLocator);
     }

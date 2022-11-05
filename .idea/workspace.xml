@@ -8,14 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/OpenCart.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/OpenCart.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/config/Config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/config/Config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/ContactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/ContactUsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qa/opencart/pages/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/ContactUsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/ContactUsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/basetest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/basetest/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/RegisterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/test/RegisterPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qa/opencart/testRunner/regressionSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qa/opencart/testRunner/regressionSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/ContactUsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qa/opencart/pages/ContactUsPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/basetest/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/basetest/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/test/ContactUsPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qa/opencart/test/ContactUsPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,23 +67,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.RegisterPageTest">
-    <configuration name="ContactUsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OpenCart_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qa.opencart.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
-      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.ContactUsPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RegisterPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCart_Selenium" />
       <extension name="coverage">
@@ -105,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterPageTest.doRegisterExistingCustomerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterPageTest.doRegisterNewCustomerMaximumPhoneNumberValueTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCart_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -115,7 +94,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
       <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.RegisterPageTest" />
-      <option name="METHOD_NAME" value="doRegisterExistingCustomerTest" />
+      <option name="METHOD_NAME" value="doRegisterNewCustomerMaximumPhoneNumberValueTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterPageTest.doRegisterNewCustomerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterPageTest.doRegisterNewCustomerMinimumPasswordValueUnmatchedTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCart_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +112,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
       <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.RegisterPageTest" />
-      <option name="METHOD_NAME" value="doRegisterNewCustomerTest" />
+      <option name="METHOD_NAME" value="doRegisterNewCustomerMinimumPasswordValueUnmatchedTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterPageTest.validateRegisterTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterPageTest.doRegisterNewCustomerUnmatchedPasswordValueTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCart_Selenium" />
       <extension name="coverage">
         <pattern>
@@ -151,7 +130,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
       <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.RegisterPageTest" />
-      <option name="METHOD_NAME" value="validateRegisterTitleTest" />
+      <option name="METHOD_NAME" value="doRegisterNewCustomerUnmatchedPasswordValueTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterPageTest.doRegisterNewCustomerWithoutAgreementPolicyTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCart_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.opencart.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.opencart.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.opencart.test.RegisterPageTest" />
+      <option name="METHOD_NAME" value="doRegisterNewCustomerWithoutAgreementPolicyTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,10 +159,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RegisterPageTest" />
-        <item itemvalue="TestNG.RegisterPageTest.validateRegisterTitleTest" />
-        <item itemvalue="TestNG.RegisterPageTest.doRegisterExistingCustomerTest" />
-        <item itemvalue="TestNG.RegisterPageTest.doRegisterNewCustomerTest" />
-        <item itemvalue="TestNG.ContactUsPageTest" />
+        <item itemvalue="TestNG.RegisterPageTest.doRegisterNewCustomerWithoutAgreementPolicyTest" />
+        <item itemvalue="TestNG.RegisterPageTest.doRegisterNewCustomerMinimumPasswordValueUnmatchedTest" />
+        <item itemvalue="TestNG.RegisterPageTest.doRegisterNewCustomerUnmatchedPasswordValueTest" />
+        <item itemvalue="TestNG.RegisterPageTest.doRegisterNewCustomerMaximumPhoneNumberValueTest" />
       </list>
     </recent_temporary>
   </component>
