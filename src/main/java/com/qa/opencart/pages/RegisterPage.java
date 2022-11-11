@@ -225,5 +225,62 @@ public class RegisterPage extends BasePage {
         }
     }
 
+//    Forgotten Password:
+    private WebElement getForgottenPassword() {
+        By forgottenPasswordLocator = By.cssSelector("div[class='list-group'] a:nth-of-type(3)");
+        wait.until(ExpectedConditions.presenceOfElementLocated(forgottenPasswordLocator));
+        return driver.findElement(forgottenPasswordLocator);
+    }
+    public void clickOnTheForgottenPassword(){
+        log.info("User clicks on the forgotten password section.");
+        getForgottenPassword().click();
+    }
+    private WebElement getForgottenPasswordLink() {
+        By forgottenPasswordLocator = By.cssSelector("#content h1");
+        wait.until(ExpectedConditions.presenceOfElementLocated(forgottenPasswordLocator));
+        return driver.findElement(forgottenPasswordLocator);
+    }
+    public boolean getForgottenPasswordLinkValidate() {
+        try {
+            log.info(" =====> Forgotten Password Link has been displayed <===== ");
+            System.out.println(" =====> " + getForgottenPasswordLink().getText() + " <===== ");
+            return getForgottenPasswordLink().isDisplayed();
+        } catch (TimeoutException y) {
+            log.warn(" <=== !!! Please provide a right locator !!! ===> ");
+            return false;
+        }
+    }
+    private WebElement getEmailAddressForgottenField() {
+        By emailAddressForgottenFieldLocator = By.id("input-email");
+        wait.until(ExpectedConditions.presenceOfElementLocated(emailAddressForgottenFieldLocator));
+        return driver.findElement(emailAddressForgottenFieldLocator);
+    }
+    private WebElement getContinueBtn() {
+        By continueBtnLocator = By.cssSelector("input[type='submit']");
+        wait.until(ExpectedConditions.presenceOfElementLocated(continueBtnLocator));
+        return driver.findElement(continueBtnLocator);
+    }
+    public void sendEmailForPassword(String email){
+        log.warn("User types email for sending a new password. ");
+        getEmailAddressForgottenField().sendKeys(email);
+        log.info("User clicks on the 'Continue' button. ");
+        getContinueBtn().click();
+    }
+    private WebElement getSuccessAlert() {
+        By successAlertLocator = By.cssSelector("div[class='alert alert-success alert-dismissible']");
+        wait.until(ExpectedConditions.presenceOfElementLocated(successAlertLocator));
+        return driver.findElement(successAlertLocator);
+    }
+    public boolean getSuccessAlertMessage() {
+        try {
+            log.info("User receives an success message. ");
+            System.out.println(" =====> " +getSuccessAlert().getText()+ " <===== ");
+            return getSuccessAlert().isDisplayed();
+        } catch (TimeoutException y) {
+            log.warn("Please provide another locator. ");
+            return false;
+        }
+    }
+
 }
 

@@ -207,4 +207,42 @@ public class RegisterPageTest extends BaseTest {
         registerPage.doRegisterWithoutAgreementPolicy(firstName, lastName, email, psw, phone);
         Assert.assertTrue(registerPage.getWarningAlertMessage());
     }
+
+    @Test(priority = 11)
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test Case Description: Do Forgot Password Validate Page Test")
+    @Story("Story Name: To Forgot Password Validate Page")
+    public void doForgotPasswordValidatePageTest() {
+        YourStorePage yourStorePage = new YourStorePage(driver);
+        registerPage = yourStorePage.doNavigateRegisterPage();
+        registerPage.clickOnTheForgottenPassword();
+        Assert.assertTrue(registerPage.getForgottenPasswordLinkValidate());
+    }
+
+    @Test(priority = 12)
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test Case Description: Send Email Forgot Password Existing Customer Test")
+    @Story("Story Name: To Send Email Forgot Password Existing Customer")
+    public void doSendEmailForgotPasswordExistingCustomerTest() {
+        YourStorePage yourStorePage = new YourStorePage(driver);
+        String email = prop.getProperty("email");
+        registerPage = yourStorePage.doNavigateRegisterPage();
+        registerPage.clickOnTheForgottenPassword();
+        registerPage.sendEmailForPassword(email);
+        Assert.assertTrue(registerPage.getSuccessAlertMessage());
+    }
+
+    @Test(priority = 13)
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test Case Description: Send Email Forgot Password New Customer Test")
+    @Story("Story Name: To Send Email Forgot Password New Customer Test")
+    public void doSendEmailForgotPasswordNewCustomerTest() {
+        YourStorePage yourStorePage = new YourStorePage(driver);
+        faker = new Faker();
+        String email = faker.internet().emailAddress();
+        registerPage = yourStorePage.doNavigateRegisterPage();
+        registerPage.clickOnTheForgottenPassword();
+        registerPage.sendEmailForPassword(email);
+        Assert.assertTrue(registerPage.getWarningAlertMessage());
+    }
 }
