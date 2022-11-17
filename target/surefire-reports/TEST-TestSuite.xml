@@ -1,0 +1,1729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="223.303" tests="72" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="webdriver.chrome.driver" value="/Users/dzmitryrazhkou/.cache/selenium/chromedriver/mac64/106.0.5249.61/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/target/test-classes:/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/target/classes:/Users/dzmitryrazhkou/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/dzmitryrazhkou/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-java/4.6.0/selenium-java-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-api/4.6.0/selenium-api-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.6.0/selenium-chrome-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dzmitryrazhkou/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.6.0/selenium-chromium-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-json/4.6.0/selenium-json-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v105/4.6.0/selenium-devtools-v105-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v106/4.6.0/selenium-devtools-v106-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v107/4.6.0/selenium-devtools-v107-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.6.0/selenium-devtools-v85-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.6.0/selenium-edge-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.6.0/selenium-firefox-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.6.0/selenium-ie-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.6.0/selenium-remote-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-buffer/4.1.84.Final/netty-buffer-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-codec-http/4.1.84.Final/netty-codec-http-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-codec/4.1.84.Final/netty-codec-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-handler/4.1.84.Final/netty-handler-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-common/4.1.84.Final/netty-common-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.84.Final/netty-transport-classes-epoll-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.84.Final/netty-transport-classes-kqueue-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-native-epoll/4.1.84.Final/netty-transport-native-epoll-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.84.Final/netty-transport-native-kqueue-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.84.Final/netty-transport-native-unix-common-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport/4.1.84.Final/netty-transport-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-resolver/4.1.84.Final/netty-resolver-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-api/1.19.0/opentelemetry-api-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-context/1.19.0/opentelemetry-context-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.19.0/opentelemetry-exporter-logging-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.19.0/opentelemetry-sdk-metrics-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.19.0-alpha/opentelemetry-sdk-logs-1.19.0-alpha.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.19.0-alpha/opentelemetry-api-logs-1.19.0-alpha.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.19.0/opentelemetry-sdk-common-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.19.0/opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.19.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.19.0/opentelemetry-exporter-common-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.19.0/opentelemetry-sdk-trace-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.19.0/opentelemetry-sdk-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.19.0-alpha/opentelemetry-semconv-1.19.0-alpha.jar:/Users/dzmitryrazhkou/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/dzmitryrazhkou/.m2/repository/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/dzmitryrazhkou/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/dzmitryrazhkou/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/dzmitryrazhkou/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-http/4.6.0/selenium-http-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.6.0/selenium-manager-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.6.0/selenium-safari-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-support/4.6.0/selenium-support-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.1/webdrivermanager-5.3.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/code/gson/gson/2.10/gson-2.10.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/dzmitryrazhkou/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/dzmitryrazhkou/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/dzmitryrazhkou/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/dzmitryrazhkou/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-testng/2.20.1/allure-testng-2.20.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-java-commons/2.20.1/allure-java-commons-2.20.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-model/2.20.1/allure-model-2.20.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-test-filter/2.20.1/allure-test-filter-2.20.1.jar:/Users/dzmitryrazhkou/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/poi/poi-ooxml/5.2.2/poi-ooxml-5.2.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.2/poi-ooxml-lite-5.2.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.3/xmlbeans-5.0.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/dzmitryrazhkou/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dzmitryrazhkou/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dzmitryrazhkou/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/slf4j/slf4j-api/2.0.3/slf4j-api-2.0.3.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/dzmitryrazhkou/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/dzmitryrazhkou/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/dzmitryrazhkou/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/target/surefire/surefirebooter16816034117234093999.jar /Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/target/surefire 2022-11-16T22-24-27_041-jvmRun1 surefire3839846228225654767tmp surefire_017714767345588338098tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/target/test-classes:/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/target/classes:/Users/dzmitryrazhkou/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/dzmitryrazhkou/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-java/4.6.0/selenium-java-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-api/4.6.0/selenium-api-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.6.0/selenium-chrome-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dzmitryrazhkou/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.6.0/selenium-chromium-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-json/4.6.0/selenium-json-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v105/4.6.0/selenium-devtools-v105-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v106/4.6.0/selenium-devtools-v106-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v107/4.6.0/selenium-devtools-v107-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.6.0/selenium-devtools-v85-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.6.0/selenium-edge-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.6.0/selenium-firefox-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.6.0/selenium-ie-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.6.0/selenium-remote-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-buffer/4.1.84.Final/netty-buffer-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-codec-http/4.1.84.Final/netty-codec-http-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-codec/4.1.84.Final/netty-codec-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-handler/4.1.84.Final/netty-handler-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-common/4.1.84.Final/netty-common-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.84.Final/netty-transport-classes-epoll-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.84.Final/netty-transport-classes-kqueue-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-native-epoll/4.1.84.Final/netty-transport-native-epoll-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.84.Final/netty-transport-native-kqueue-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.84.Final/netty-transport-native-unix-common-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport/4.1.84.Final/netty-transport-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-resolver/4.1.84.Final/netty-resolver-4.1.84.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-api/1.19.0/opentelemetry-api-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-context/1.19.0/opentelemetry-context-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.19.0/opentelemetry-exporter-logging-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.19.0/opentelemetry-sdk-metrics-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.19.0-alpha/opentelemetry-sdk-logs-1.19.0-alpha.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.19.0-alpha/opentelemetry-api-logs-1.19.0-alpha.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.19.0/opentelemetry-sdk-common-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.19.0/opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.19.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.19.0/opentelemetry-exporter-common-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.19.0/opentelemetry-sdk-trace-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.19.0/opentelemetry-sdk-1.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.19.0-alpha/opentelemetry-semconv-1.19.0-alpha.jar:/Users/dzmitryrazhkou/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/dzmitryrazhkou/.m2/repository/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/dzmitryrazhkou/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/dzmitryrazhkou/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/dzmitryrazhkou/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/dzmitryrazhkou/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-http/4.6.0/selenium-http-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.6.0/selenium-manager-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.6.0/selenium-safari-driver-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/seleniumhq/selenium/selenium-support/4.6.0/selenium-support-4.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.1/webdrivermanager-5.3.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/code/gson/gson/2.10/gson-2.10.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/dzmitryrazhkou/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/dzmitryrazhkou/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/dzmitryrazhkou/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/dzmitryrazhkou/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-testng/2.20.1/allure-testng-2.20.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-java-commons/2.20.1/allure-java-commons-2.20.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-model/2.20.1/allure-model-2.20.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-test-filter/2.20.1/allure-test-filter-2.20.1.jar:/Users/dzmitryrazhkou/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/poi/poi-ooxml/5.2.2/poi-ooxml-5.2.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/poi/poi/5.2.2/poi-5.2.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.2/poi-ooxml-lite-5.2.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.3/xmlbeans-5.0.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/dzmitryrazhkou/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dzmitryrazhkou/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dzmitryrazhkou/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/slf4j/slf4j-api/2.0.3/slf4j-api-2.0.3.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/dzmitryrazhkou/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/dzmitryrazhkou/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/dzmitryrazhkou/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/dzmitryrazhkou/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/dzmitryrazhkou/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/dzmitryrazhkou"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/target/surefire/surefirebooter16816034117234093999.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="16.0.1+0"/>
+    <property name="user.name" value="dzmitryrazhkou"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/dzmitryrazhkou/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="webdriver.gecko.driver" value="/Users/dzmitryrazhkou/.cache/selenium/geckodriver/mac64/0.32.0/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/dzmitryrazhkou/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="16.0.1+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="validateYourPageLogoTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.199">
+    <system-out><![CDATA[=====> Selenium OPEN_CART (Marionette Firefox) Test has started <===== 
+ =====> Selenium Firefox Headless <===== 
+ =====> Selenium Firefox Headless <===== 
+ =====> Selenium Firefox Headless <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> validateYourPageLogoTest Test started <===== 
+=====> validateRegisterTitleTest Test started <===== 
+=====> validateContactUsTitleTest Test started <===== 
+=====> validateContactUsTitleTest Test started <===== 
+11-16-2022 22:24:36 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 27 -  =====> Naveen Automation Labs Logo has been displayed <===== 
+11-16-2022 22:24:36 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:24:36 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 136 - User clicks on the my account button. 
+11-16-2022 22:24:36 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+11116666866666828766061666262297	7600g811ec62k69o6	d2gr7ei0v1cer2k	I9N	FgO	Listenineckodriver	INFO	List2eg9n 	oignne g1c oon 127.0.d0.r1:i4ve43r	6I6N
+FO	Listenikno2gdri7v .er0.0.1:4591
+	INFO	Listenoinng  1o2n7 .120.07..01.:1607.611:
+10166
+1116686166686662667866062566886862	67m60o25z78r08u5	n8mn8oe	zrr:u:nrnuenr7n:e0:r5r	IN8F8O	m	mRoouzznrnruiunnnnegnr e:c:ormrum:an:nnreunrn	IeNFrO		IRNuuFnOnn	idnRe:unr n	ng"Ii /NAnFpcpligOo c	cmaoRmtmuaimnonannidnd: :"/ A"p/Aspl/iFcpiaptiloirncsea/fox.app/ContenFtisr/eftnogx. commaapnd: "/pA/Copnptenlications/Firefox.app/Contents/MacOS/firefox-bin" "--marioiMacOS/firefoxn-ette" "on-s-/htFirefox.absea/ipdManlp"c e/Oss" "window-size=1400,1000" "--remote-dCebounggtienngt-ps/MoarctO"S /"f4i4r48S9/e"ff"io x"---brinr"-e-fmoaerxmi o-ob"tn-ei-maretn-i"toae ln""l -o"--m-ahrweei-adhtlosotessn"se" t" t"lewo"ic na"dl--hoheadolwe-ssstsi"z" e "="1-4w-ri0em0not,de1o-0wa0-l0sli"o zw"e=-14--00r,e1mo0or0ti0ge"-i d"nesb-" -u"rghegtmitonptg:e-/-p/do1ertb2"7u g".g305i.n02g.3-1p:5o4"r 4t"" "88248" 8"--remote-allow-hosts" "localhost" "--remote-t9/,http://localhost:44489/,http://[::1]:44489/-remote-allow-h-oae"" "sl lot-f"-s"-h w-ooreground" "-no-remote"eradle"slisg" "windoiw- si"ocalhzn-profile" "/vas" "http://1o27s.t0".0.r1: 88/e2f"olders/4y/z4--rqemo=18/t,http://localhost:48828/,http://[::1]:8828/" "-foe-regroa6ullnodw"- "o-rnigins" "http:0/0/,127.0.0.1:q315p235/,http://lockalhost:35235/,http://[::1o]-d:r13epm5ote" "-p1fj9z0n0b0k"p v"j-z-l40remor2t35ofile" e/-"0/d"0var ebu/"folders/4y/z4q6qpkd1p1-fgging-port" "17469" "--re0motgn/T/rust_moezpf-jora9rlozelfnigborwkolupendAvZ"j Dz"S-lp-hndo4"0so0
+t-0sr0e"gm no"/teTl" /"ro-cpaurofilelhsots_tm"o z"p-r-orfemotile5EMLaQ"
+e"- a"l/vlaorw/-foorilgdeirnss"/ 4"yh/tzt4pq:6/q/p12k7d.10p.10fj.91z:n1b7k4p6v9j/z,lh4t0t0p0:0/g/nl/ocT/arluhsots_tm:o1zp7r469o/,http://[::1fileUa]7:71n7B4"6
+9/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofilebAUt5y"
+********* You are running in headless mode.
+* You are running i*n  Yhoeua dalreess  mordue.n
+ning in headless mode.
+* You are running in headless mode.
+1166668866666271396	Marion6e2t711369668	16M6a6r66i82o67n61e632t97t61e	3	Ma9Ir6Ni	FoOMn	aeMrtaitroein	eoItnNteFetO		IMaNrFiOo	Marnieotntteeet  teene anebanlbaelbdeledd
+
+
+te	INFO	Marionette enabled
+1668666271502	Marionette	INFO	Listeni16686662ng on port 59991
+71502	Marionette	I1N6F6O86	6L6i2s7t1e5n02i	nMga ro1ni 6pon6eotte	8rI6Nt F5O9	L69i93st
+6eni2ng 7on1 5p03	Marionette	INFO	Listening on port 59994
+ort 59992
+RReeaad port: d5 99p9o1r
+t: 59993
+Read port: 59992
+Read port: 59994
+WebDriver BiDi listening on ws://127.0.0.1:44489
+WebDriver BiDi listening on ws://127.0.0.1:17469
+WebDriver BiDi listening on ws://127.0.0.1:35235
+WebDriver BiDi listening on ws://127.0.0.1:8828
+1116666668886666666622767121667818161	8	R1Re	emRometoemoAttgeeAAgegeennnttt			WWWAAARRN	NT	RLTNLS	TS L cSecretritfiificate errors wilcl abtee   iegcrnerororrset di wffiiocrlal tt e bheeis sers rsioigrsonn o
+wrieldl  forbe t hiignos resde sfsoiron
+ this session
+1668666271688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[[[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no GFdXt
+1-]: RenderCompositorSWGL failed mapping default frameGbu[GfFX1f-Fe]rX:1 -Re]n: dReerCno,d neompo sridtt
+CoomrpSosWiGtL ofraSiWlGeLd  fmaaiplpeindg  mdaepfpaiunlgt  dferfaamuebuffelr,t  nfor admebuffer, no dt
+t
+console.warn: SearchSettings: "get: Noconsole.wacrno:n sSoelaerc.hwSaer nts: eStettaicrinonngcsolgesh .fwSs: ialrenet e"xgitesti:n gNso::  s" egStetetia:nr gcNshSoe tst eiftintgliesn e:xt is"gtest,:  ngNesos w, s eptfrti ilnoenfwegi spl re of?fi"elixeil s ee?(t"sn ex(win seNtowstF ,o uNnnode,Ewtr Fporuronofdril(e"?C"E ou ldr( rnnooentr( w" CeNouolowdptFoe unn d tEnhprorre ofroi(t"lf eCio opualeltend   /?vnao"rtt /h(f enoolp deenef wirtls /N4hoyete F aoftu i/nz/ld4ve qaE6arr/tq frpold/kd1p1fj9znbkpvjvar/folders/4y/z4q6qpzkd1pl14f0j9z0nb0kpvjzl40000gn/T/rust0_mogzprnofile5EMLaQ/search.json.mozlz4", (void 0)))
+or("Could /noT/tr uospten the_ fmiloe azt /pvar/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_morzprofioleAZDSpd/search.json.mozlz4f", i(lveoibAd 0)))
+Ut5y/search.json.mozlz4", (void 0)))
+ers/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileUa77nB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44489/devtools/browser/ff6b5748-7625-4d2e-a0a3-8528d8a51dbd
+DevTools listening on ws://127.0.0.1:35235/devtools/browser/07315ff7-69eb-4b5e-a48c-f85ba69b212f
+DevTools listening on ws://127.0.0.1:8828/devtools/browser/34e91fb7-c10e-40b1-bf1a-9b3f4e17cfe9
+DevTools listening on ws://127.0.0.1:17469/devtools/browser/98658895-b153-4f96-b8c8-9545e076a65a
+]]></system-err>
+  </testcase>
+  <testcase name="validateYourPageLogoTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.147">
+    <system-out><![CDATA[=====> doSendEmailForgotPasswordNewCustomerTest Test is successful <===== 
+=====> Selenium OPEN_CART (Google Chrome) Test has started <===== 
+ =====> Selenium Chrome Headless <===== 
+ =====> Selenium Chrome Headless <===== 
+ =====> Selenium Chrome Headless <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> validateContactUsTitleTest Test started <===== 
+11-16-2022 22:25:59 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+=====> validateRegisterTitleTest Test started <===== 
+11-16-2022 22:25:59 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+=====> validateYourPageLogoTest Test started <===== 
+11-16-2022 22:25:59 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 27 -  =====> Naveen Automation Labs Logo has been displayed <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666353897	Marionette	INFO	Stopped listening on port 49893
+Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/brSanch-tarting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refStarting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/brSanctharting hChreoamdesD/r5iv2e4r9 @1s0{6#./506b9.r}5a)2 n4oc9n.h 6-ph1oe a(rd5s1t/1- 735525243h74e53a9
+5dOs8n@/4l5{42y#9 5546l59o9cc}@d3)a{e l2o6n 4 c7poon7rn9tecb t#a8i5f3o60n39ds8}d
+ ) 3Oao8nnr 2lpoe1ry2t  a l4aod1lc0al-2lor7 we9cef2dos.
+n
+/POnbnercly alnlocechaa-hlsea decso /ns5n2ee4ce9t t@hitt{ip#o5sn6o9s:n }/a/s)rc e ha rrooaenml eldo aplloortrw ie3dv2e.r7
+.1cPh7rlo
+emOiansuel yms .eloeor cgha/tlst eccpuorsin:tny/-e/cccothnirsooiwnmesde ded.rr
+aPtilvieoanersr ea.f oarlc lshsoewur oegsmiedu.meg
+. oPerhlsgt/tetiasposesecn :ssu/ reoeni  t/ykc-hceheortpnoistidmpnergas teiCodnrsh:i /rv/foecomrehr.rD croshimuveerdrgr oigsvemsaetiifornuse mo.n..o 
+chkrregeo/mpsiienucurgmi. toCyhr-gr/osmceeoDcnursriividteeyr -rscaoations ffeno.sr
+ide rsautgigesotniso ns on kfeoerp isnuggg eCsthrioomneDrsi voenr  kseaefpei.n
+g ChromeDriver safe.
+ChromeDriver was starteCdh CrhsruoocmemcDerieDvesrrs ifwvCueahlsrlr oy smtwe.aa
+s started successfully.
+rteDd rsiuvcecers swfas started succueslslfyu.
+lly.
+]]></system-err>
+  </testcase>
+  <testcase name="validateYourPageTitleTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.039">
+    <system-out><![CDATA[=====> validateRegisterTitleTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doLoginValidCredentialsTest Test started <===== 
+11-16-2022 22:24:41 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 136 - User clicks on the my account button. 
+=====> doContactUsTest Test started <===== 
+11-16-2022 22:24:42 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 138 - User clicks on the login button. 
+=====> doRegisterNewCustomerTest Test started <===== 
+=====> validateYourPageTitleTest Test started <===== 
+11-16-2022 22:24:42 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 37 - User validates the title page. 
+ =====> My Your Page Title Is: Your Store <===== 
+]]></system-out>
+    <system-err><![CDATA[*** You are running in headless mode.
+1668666277898	Marionette	INFO	Stopped listening on port 59994
+1668666277967	Marionette	INFO	Marionette enabled
+1668666277988	Marionette	INFO	Listening on port 60256
+Read port: 60256
+WebDriver BiDi listening on ws://127.0.0.1:23161
+1668666278106	geckodriver	INFO	Listening on 127.0.0.1:15997
+1668666278144	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "17395" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:17395/,http://localhost:17395/,http://[::1]:17395/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofiletsFmH5"
+*** You are running in headless mode.
+1668666278258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1668666278283	Marionette	INFO	Marionette enabled
+1668666278300	Marionette	INFO	Listening on port 60321
+WebDriver BiDi listening on ws://127.0.0.1:13006
+Read port: 60321
+1668666278428	geckodriver	INFO	Listening on 127.0.0.1:13969
+1668666278473	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "25619" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:25619/,http://localhost:25619/,http://[::1]:25619/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileQc4Neg"
+*** You are running in headless mode.
+1668666278576	Marionette	INFO	Marionette enabled
+1668666278585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1668666278598	Marionette	INFO	Listening on port 60417
+WebDriver BiDi listening on ws://127.0.0.1:17395
+Read port: 60417
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofile5BqHJv/search.json.mozlz4", (void 0)))
+1668666278871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1668666278900	Marionette	INFO	Marionette enabled
+1668666278922	Marionette	INFO	Listening on port 60424
+WebDriver BiDi listening on ws://127.0.0.1:25619
+Read port: 60424
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileR4JbVq/search.json.mozlz4", (void 0)))
+1668666279208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofiletsFmH5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23161/devtools/browser/1cb1df63-1b8d-4ccf-aa9a-341cb5754fc2
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:13006/devtools/browser/10cad8af-52f0-41f7-b9ac-d43f36320077
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileQc4Neg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:17395/devtools/browser/d9c3e8b1-1f73-408c-b754-30dc562a66e5
+DevTools listening on ws://127.0.0.1:25619/devtools/browser/2e5ccde6-36db-4c4f-a474-e885d9df84bf
+]]></system-err>
+  </testcase>
+  <testcase name="validateYourPageTitleTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.011">
+    <system-out><![CDATA[=====> validateRegisterTitleTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> validateYourPageTitleTest Test started <===== 
+11-16-2022 22:26:03 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 37 - User validates the title page. 
+ =====> My Your Page Title Is: Your Store <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 16115
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+]]></system-err>
+  </testcase>
+  <testcase name="getCurrencyTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.976">
+    <system-out><![CDATA[=====> doRegisterNewCustomerTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> getCurrencyTest Test started <===== 
+11-16-2022 22:24:46 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 53 - User clicks on the currency button. 
+11-16-2022 22:24:47 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 59 - User selects a currency from drop down menu. 
+]]></system-out>
+    <system-err><![CDATA[1668666285633	Marionette	INFO	Stopped listening on port 60424
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofiledXtUSO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35385/devtools/browser/2ed95220-4612-4b88-a9cf-d493818fe42c
+1668666286166	geckodriver	INFO	Listening on 127.0.0.1:40908
+1668666286185	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "29443" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:29443/,http://localhost:29443/,http://[::1]:29443/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileSDh8JB"
+*** You are running in headless mode.
+DevTools listening on ws://127.0.0.1:4456/devtools/browser/337c9243-4f7e-4e5c-9d8c-31db200de0b6
+1668666286614	Marionette	INFO	Marionette enabled
+1668666286669	Marionette	INFO	Listening on port 61203
+Read port: 61203
+WebDriver BiDi listening on ws://127.0.0.1:29443
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+1668666286887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileSDh8JB/search.json.mozlz4", (void 0)))
+]]></system-err>
+  </testcase>
+  <testcase name="getCurrencyTest" classname="com.qa.opencart.test.YourStorePageTest" time="1.252">
+    <system-out><![CDATA[=====> doLoginValidCredentialsTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:26:07 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:26:07 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 59 - User selects a currency from drop down menu. 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 39449
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doClickOnTheContactUsIconTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.448">
+    <system-out><![CDATA[=====> doRegisterExistingCustomerTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doClickOnTheContactUsIconTest Test started <===== 
+11-16-2022 22:24:52 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+11-16-2022 22:24:52 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:24:52 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 25 -  =====> Contact Us Link has been displayed <===== 
+ =====> Contact Us <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666291965	Marionette	INFO	Stopped listening on port 61203
+DevTools listening on ws://127.0.0.1:48172/devtools/browser/ca6a668a-2a4d-4bc7-9145-4836ac1308e2
+1668666292444	geckodriver	INFO	Listening on 127.0.0.1:2498
+1668666292563	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "40122" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:40122/,http://localhost:40122/,http://[::1]:40122/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofilePkFIrq"
+*** You are running in headless mode.
+]]></system-err>
+  </testcase>
+  <testcase name="doClickOnTheContactUsIconTest" classname="com.qa.opencart.test.YourStorePageTest" time="1.168">
+    <system-out><![CDATA[=====> getCurrencyTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doContactUsInvalidYourNameMinimumValueTest Test started <===== 
+11-16-2022 22:26:10 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+11-16-2022 22:26:11 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:26:11 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 91 - User types the first name. 
+=====> doLoginInvalidCredentialsTest Test started <===== 
+11-16-2022 22:26:11 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 136 - User clicks on the my account button. 
+11-16-2022 22:26:11 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 95 - User types the last name. 
+11-16-2022 22:26:11 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:26:11 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 69 - User types the full names. 
+11-16-2022 22:26:11 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 99 - User types the email. 
+11-16-2022 22:26:11 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 138 - User clicks on the login button. 
+11-16-2022 22:26:12 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 103 - User types the phone number. 
+11-16-2022 22:26:12 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 73 - User types an email. 
+11-16-2022 22:26:12 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 107 - User types a password. 
+11-16-2022 22:26:12 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 111 - User types a confirm password. 
+11-16-2022 22:26:12 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 77 - User types an enquiry. 
+=====> doClickOnTheContactUsIconTest Test started <===== 
+11-16-2022 22:26:12 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+11-16-2022 22:26:12 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 140 - User navigates on the login page. 
+11-16-2022 22:26:12 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 71 - User types an invalid email. 
+11-16-2022 22:26:12 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User checks agreement checkbox. 
+11-16-2022 22:26:12 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 75 - User types a invalid password. 
+11-16-2022 22:26:13 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 81 - User clicks on the submit button. 
+11-16-2022 22:26:13 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 79 - User clicks on the submit button. 
+11-16-2022 22:26:13 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:26:13 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 118 - User clicks on the submit button. 
+11-16-2022 22:26:13 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 25 -  =====> Contact Us Link has been displayed <===== 
+ =====> Contact Us <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 26095
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doClickOnTheRegisterPage" classname="com.qa.opencart.test.YourStorePageTest" time="1.143">
+    <system-out><![CDATA[=====> doRegisterNewCustomerMinimumPhoneNumberValueTest Test is successful <===== 
+11-16-2022 22:24:58 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:24:58 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 21 -  =====> Register New Customer Link has been displayed <===== 
+ =====> Register <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666298213	Marionette	INFO	Stopped listening on port 62072
+]]></system-err>
+  </testcase>
+  <testcase name="doClickOnTheRegisterPage" classname="com.qa.opencart.test.YourStorePageTest" time="2.28">
+    <system-out><![CDATA[=====> doLogOutTest Test is successful <===== 
+11-16-2022 22:26:21 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:26:21 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 21 -  =====> Register New Customer Link has been displayed <===== 
+ =====> Register <===== 
+]]></system-out>
+  </testcase>
+  <testcase name="doClickOnTheLoginPage" classname="com.qa.opencart.test.YourStorePageTest" time="0.628">
+    <system-out><![CDATA[=====> doContactUsInvalidEmailAddressTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doRegisterNewCustomerMaximumPhoneNumberValueTest Test started <===== 
+11-16-2022 22:25:02 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+=====> doClickOnTheLoginPage Test started <===== 
+11-16-2022 22:25:02 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 136 - User clicks on the my account button. 
+11-16-2022 22:25:02 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:25:02 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 138 - User clicks on the login button. 
+11-16-2022 22:25:03 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 140 - User navigates on the login page. 
+11-16-2022 22:25:03 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 24 -  =====> Login Link has been displayed <===== 
+ =====> Login <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666300833	Marionette	INFO	Stopped listening on port 62497
+1668666301296	geckodriver	INFO	Listening on 127.0.0.1:47252
+1668666301309	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "31929" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:31929/,http://localhost:31929/,http://[::1]:31929/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileHBSHEa"
+*** You are running in headless mode.
+1668666301707	Marionette	INFO	Marionette enabled
+1668666301738	Marionette	INFO	Listening on port 63110
+WebDriver BiDi listening on ws://127.0.0.1:31929
+Read port: 63110
+1668666301997	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileHBSHEa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:31929/devtools/browser/00c30b74-c179-48e2-baaa-0c0c1dc7d65e
+]]></system-err>
+  </testcase>
+  <testcase name="doClickOnTheLoginPage" classname="com.qa.opencart.test.YourStorePageTest" time="1.117">
+    <system-out><![CDATA[=====> doContactUsInvalidYourNameMaximumValueTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:26:23 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:26:23 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 91 - User types the first name. 
+11-16-2022 22:26:23 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 95 - User types the last name. 
+11-16-2022 22:26:23 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 99 - User types the email. 
+11-16-2022 22:26:24 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 103 - User types the phone number. 
+11-16-2022 22:26:24 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 107 - User types a password. 
+11-16-2022 22:26:24 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 111 - User types a confirm password. 
+11-16-2022 22:26:24 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User checks agreement checkbox. 
+11-16-2022 22:26:25 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 118 - User clicks on the submit button. 
+=====> doClickOnTheLoginPage Test started <===== 
+11-16-2022 22:26:25 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 136 - User clicks on the my account button. 
+11-16-2022 22:26:25 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 138 - User clicks on the login button. 
+11-16-2022 22:26:25 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 219 - User receives an warning message. 
+11-16-2022 22:26:26 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 140 - User navigates on the login page. 
+11-16-2022 22:26:26 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 24 -  =====> Login Link has been displayed <===== 
+ =====> Login <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 47032
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doClickOnTheShoppingCartPage" classname="com.qa.opencart.test.YourStorePageTest" time="0.427">
+    <system-out><![CDATA[=====> doContactUsInvalidEnquiryMinimumValueTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doClickOnTheShoppingCartPage Test started <===== 
+11-16-2022 22:25:07 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 145 - User clicks on the my account button. 
+11-16-2022 22:25:07 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 147 - User navigates on the login page. 
+11-16-2022 22:25:07 ShoppingCartPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 21 -  =====> Shopping Cart Link has been displayed <===== 
+ =====> Shopping Cart <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666306441	Marionette	INFO	Stopped listening on port 63110
+1668666306919	geckodriver	INFO	Listening on 127.0.0.1:41635
+1668666306948	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "15695" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:15695/,http://localhost:15695/,http://[::1]:15695/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofiletyPvx8"
+*** You are running in headless mode.
+1668666307341	Marionette	INFO	Marionette enabled
+1668666307366	Marionette	INFO	Listening on port 63754
+WebDriver BiDi listening on ws://127.0.0.1:15695
+Read port: 63754
+1668666307674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+]]></system-err>
+  </testcase>
+  <testcase name="doClickOnTheShoppingCartPage" classname="com.qa.opencart.test.YourStorePageTest" time="0.063">
+    <system-out><![CDATA[=====> doContactUsInvalidEmailAddressTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doClickOnTheShoppingCartPage Test started <===== 
+11-16-2022 22:26:30 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 145 - User clicks on the my account button. 
+11-16-2022 22:26:30 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 147 - User navigates on the login page. 
+11-16-2022 22:26:30 ShoppingCartPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 21 -  =====> Shopping Cart Link has been displayed <===== 
+=====> doRegisterNewCustomerMinimumPhoneNumberValueTest Test started <===== 
+11-16-2022 22:26:30 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+ =====> Shopping Cart <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 16036
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doClickOnTheCheckOutPage" classname="com.qa.opencart.test.YourStorePageTest" time="0.585">
+    <system-out><![CDATA[=====> doRegisterNewCustomerMinimumPasswordValueTest Test is successful <===== 
+=====> doContactUsInvalidEnquiryMaximumValueTest Test started <===== 
+11-16-2022 22:25:11 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:25:11 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:25:11 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 69 - User types the full names. 
+11-16-2022 22:25:11 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 73 - User types an email. 
+11-16-2022 22:25:11 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 77 - User types an enquiry. 
+=====> doClickOnTheCheckOutPage Test started <===== 
+11-16-2022 22:25:12 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 129 - User clicks on the my account button. 
+11-16-2022 22:25:12 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 131 - User navigates on the check out page. 
+11-16-2022 22:25:12 CheckOutPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 24 -  =====> Check Out Link has been displayed <===== 
+ =====> Shopping Cart <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666310661	Marionette	INFO	Stopped listening on port 63513
+1668666311117	geckodriver	INFO	Listening on 127.0.0.1:4937
+1668666311128	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "41735" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:41735/,http://localhost:41735/,http://[::1]:41735/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofile1z9ZhX"
+*** You are running in headless mode.
+1668666311552	Marionette	INFO	Marionette enabled
+1668666311574	Marionette	INFO	Listening on port 64195
+Read port: 64195
+WebDriver BiDi listening on ws://127.0.0.1:41735
+1668666311816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofile1z9ZhX/search.json.mozlz4", (void 0)))
+]]></system-err>
+  </testcase>
+  <testcase name="doClickOnTheCheckOutPage" classname="com.qa.opencart.test.YourStorePageTest" time="1.099">
+    <system-out><![CDATA[=====> doContactUsInvalidEnquiryMinimumValueTest Test is successful <===== 
+11-16-2022 22:26:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User checks agreement checkbox. 
+ =====> Selenium Chrome Headless <===== 
+=====> doClickOnTheCheckOutPage Test started <===== 
+11-16-2022 22:26:35 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 129 - User clicks on the my account button. 
+11-16-2022 22:26:36 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 118 - User clicks on the submit button. 
+11-16-2022 22:26:36 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 131 - User navigates on the check out page. 
+11-16-2022 22:26:36 CheckOutPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 24 -  =====> Check Out Link has been displayed <===== 
+ =====> Shopping Cart <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 23244
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="validateNavigationBarsTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.189">
+    <system-out><![CDATA[=====> doRegisterNewCustomerMaximumPasswordValueTest Test is successful <===== 
+=====> validateNavigationBarsTest Test started <===== 
+11-16-2022 22:25:17 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 163 - Navigation bars contains a type of the product
+ =====> Software <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666316847	Marionette	INFO	Stopped listening on port 64195
+]]></system-err>
+  </testcase>
+  <testcase name="validateNavigationBarsTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.401">
+    <system-out><![CDATA[=====> doRegisterNewCustomerMinimumPhoneNumberValueTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doContactUsInvalidEnquiryMaximumValueTest Test started <===== 
+11-16-2022 22:26:39 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+11-16-2022 22:26:40 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:26:40 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 69 - User types the full names. 
+11-16-2022 22:26:40 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 73 - User types an email. 
+11-16-2022 22:26:40 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 77 - User types an enquiry. 
+=====> validateNavigationBarsTest Test started <===== 
+11-16-2022 22:26:41 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 163 - Navigation bars contains a type of the product
+ =====> Software <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 19321
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="featuredTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.06">
+    <system-out><![CDATA[=====> validateNavigationBarsTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doRegisterNewCustomerUnmatchedPasswordValueTest Test started <===== 
+11-16-2022 22:25:21 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:25:21 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+=====> featuredTest Test started <===== 
+11-16-2022 22:25:21 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 183 - Navigation bars contains a type of the product
+ =====> iPhone <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666317294	Marionette	INFO	Stopped listening on port 64418
+1668666317316	geckodriver	INFO	Listening on 127.0.0.1:5872
+1668666317338	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "13157" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:13157/,http://localhost:13157/,http://[::1]:13157/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileKknCIW"
+*** You are running in headless mode.
+1668666317732	Marionette	INFO	Marionette enabled
+1668666317749	Marionette	INFO	Listening on port 64608
+Read port: 64608
+1668666317767	geckodriver	INFO	Listening on 127.0.0.1:31274
+1668666317793	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "25101" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:25101/,http://localhost:25101/,http://[::1]:25101/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofilemI8VO0"
+*** You are running in headless mode.
+WebDriver BiDi listening on ws://127.0.0.1:13157
+1668666317981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1668666318191	Marionette	INFO	Marionette enabled
+1668666318211	Marionette	INFO	Listening on port 64776
+Read port: 64776
+WebDriver BiDi listening on ws://127.0.0.1:25101
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1668666318445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileKknCIW/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofilemI8VO0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13157/devtools/browser/5f1a29e3-e07d-40bb-b999-667da2029b0c
+DevTools listening on ws://127.0.0.1:25101/devtools/browser/87026a38-e46b-46fc-878a-04c171b2ab27
+]]></system-err>
+  </testcase>
+  <testcase name="featuredTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.264">
+    <system-out><![CDATA[=====> validateNavigationBarsTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doRegisterNewCustomerMaximumPhoneNumberValueTest Test started <===== 
+11-16-2022 22:26:42 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:26:42 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+=====> featuredTest Test started <===== 
+11-16-2022 22:26:45 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 183 - Navigation bars contains a type of the product
+ =====> iPhone <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 16616
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="adsQuantityTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.023">
+    <system-out><![CDATA[=====> doRegisterNewCustomerUnmatchedPasswordValueTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> adsQuantityTest Test started <===== 
+ =====> The Quantity of Advertise is 21 Companies. <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666323520	Marionette	INFO	Stopped listening on port 64608
+DevTools listening on ws://127.0.0.1:31614/devtools/browser/dafec400-2684-4a16-88bc-5ce22bb43d49
+1668666323979	geckodriver	INFO	Listening on 127.0.0.1:48302
+1668666323990	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "20852" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:20852/,http://localhost:20852/,http://[::1]:20852/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileYY32XQ"
+*** You are running in headless mode.
+1668666324384	Marionette	INFO	Marionette enabled
+1668666324404	Marionette	INFO	Listening on port 65222
+Read port: 65222
+WebDriver BiDi listening on ws://127.0.0.1:20852
+1668666324622	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileYY32XQ/search.json.mozlz4", (void 0)))
+]]></system-err>
+  </testcase>
+  <testcase name="adsQuantityTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.059">
+    <system-out><![CDATA[=====> featuredTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:26:46 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+gGu/*T;P@H-w[f3y-y9'5\qT766/W8h|B
+11-16-2022 22:26:46 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 91 - User types the first name. 
+11-16-2022 22:26:46 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 95 - User types the last name. 
+11-16-2022 22:26:46 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 99 - User types the email. 
+11-16-2022 22:26:47 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 103 - User types the phone number. 
+11-16-2022 22:26:47 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 107 - User types a password. 
+11-16-2022 22:26:47 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 111 - User types a confirm password. 
+11-16-2022 22:26:48 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User checks agreement checkbox. 
+11-16-2022 22:26:48 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 118 - User clicks on the submit button. 
+11-16-2022 22:26:49 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 81 - User clicks on the submit button. 
+11-16-2022 22:26:49 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 203 - User receives an alert message. 
+=====> adsQuantityTest Test started <===== 
+ =====> The Quantity of Advertise is 21 Companies. <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 25795
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="adsTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.178">
+    <system-out><![CDATA[=====> adsQuantityTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doRegisterNewCustomerMinimumPasswordValueUnmatchedTest Test started <===== 
+11-16-2022 22:25:28 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:25:28 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:25:29 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+}R
+!aX
+11-16-2022 22:25:29 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 122 - User types the first name. 
+11-16-2022 22:25:29 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 126 - User types the last name. 
+11-16-2022 22:25:29 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 130 - User types the email. 
+11-16-2022 22:25:29 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 134 - User types the phone number. 
+11-16-2022 22:25:29 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 138 - User types a password. 
+11-16-2022 22:25:29 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 142 - User types a confirm password. 
+11-16-2022 22:25:29 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 146 - User checks agreement checkbox. 
+11-16-2022 22:25:29 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 149 - User clicks on the submit button. 
+=====> adsTest Test started <===== 
+11-16-2022 22:25:29 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 211 - Footer contains the certain brand
+ =====> Burger King <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666325621	Marionette	INFO	Stopped listening on port 65008
+DevTools listening on ws://127.0.0.1:20852/devtools/browser/18f6f54e-b1e4-48be-90ec-6fbc8d132992
+1668666326076	geckodriver	INFO	Listening on 127.0.0.1:36489
+1668666326086	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "46569" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:46569/,http://localhost:46569/,http://[::1]:46569/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileBrJbif"
+*** You are running in headless mode.
+1668666326478	Marionette	INFO	Marionette enabled
+1668666326498	Marionette	INFO	Listening on port 65444
+Read port: 65444
+WebDriver BiDi listening on ws://127.0.0.1:46569
+1668666326712	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileBrJbif/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46569/devtools/browser/1260912d-146f-4857-b79c-a6d36930a822
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+]]></system-err>
+  </testcase>
+  <testcase name="adsTest" classname="com.qa.opencart.test.YourStorePageTest" time="0.276">
+    <system-out><![CDATA[=====> doRegisterNewCustomerMaximumPhoneNumberValueTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> adsTest Test started <===== 
+11-16-2022 22:26:54 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 211 - Footer contains the certain brand
+ =====> Burger King <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 28004
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="validateContactUsTitleTest" classname="com.qa.opencart.test.ContactUsPageTest" time="0.577">
+    <system-out><![CDATA[=====> validateYourPageLogoTest Test is successful <===== 
+11-16-2022 22:24:37 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:24:37 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 138 - User clicks on the login button. 
+11-16-2022 22:24:37 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:24:37 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 36 - User validates the title page. 
+ =====> My Your Page Title Is: Contact Us <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666276927	Marionette	INFO	Stopped listening on port 59991
+]]></system-err>
+  </testcase>
+  <testcase name="validateContactUsTitleTest" classname="com.qa.opencart.test.ContactUsPageTest" time="0.551">
+    <system-out><![CDATA[=====> validateYourPageLogoTest Test is successful <===== 
+=====> validateContactUsTitleTest Test started <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:25:59 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 136 - User clicks on the my account button. 
+11-16-2022 22:25:59 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:25:59 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 138 - User clicks on the login button. 
+11-16-2022 22:26:00 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:26:00 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 36 - User validates the title page. 
+ =====> My Your Page Title Is: Contact Us <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 33952
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doContactUsTest" classname="com.qa.opencart.test.ContactUsPageTest" time="1.721">
+    <system-out><![CDATA[=====> doLoginValidCredentialsTest Test is successful <===== 
+11-16-2022 22:24:43 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 63 - User receives a success message. 
+]]></system-out>
+    <system-err><![CDATA[1668666283656	Marionette	INFO	Stopped listening on port 60417
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+]]></system-err>
+  </testcase>
+  <testcase name="doContactUsTest" classname="com.qa.opencart.test.ContactUsPageTest" time="2.625">
+    <system-out><![CDATA[=====> validateYourPageTitleTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doContactUsTest Test started <===== 
+11-16-2022 22:26:03 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+=====> doLoginValidCredentialsTest Test started <===== 
+11-16-2022 22:26:04 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 136 - User clicks on the my account button. 
+11-16-2022 22:26:04 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 138 - User clicks on the login button. 
+11-16-2022 22:26:04 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:26:04 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 69 - User types the full names. 
+11-16-2022 22:26:04 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 73 - User types an email. 
+11-16-2022 22:26:05 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 77 - User types an enquiry. 
+11-16-2022 22:26:05 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 140 - User navigates on the login page. 
+11-16-2022 22:26:05 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 58 - User types an email. 
+11-16-2022 22:26:05 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 81 - User clicks on the submit button. 
+11-16-2022 22:26:05 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 62 - User types a password. 
+11-16-2022 22:26:05 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 66 - User clicks on the submit button. 
+11-16-2022 22:26:06 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 63 - User receives a success message. 
+]]></system-out>
+    <system-err><![CDATA[ChromeDriver was started successfully.
+Nov 16, 2022 10:26:03 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 14116
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doContactUsInvalidYourNameMinimumValueTest" classname="com.qa.opencart.test.ContactUsPageTest" time="1.195">
+    <system-out><![CDATA[=====> doLoginInvalidCredentialsTest Test is successful <===== 
+11-16-2022 22:24:49 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:24:49 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 69 - User types the full names. 
+11-16-2022 22:24:49 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 73 - User types an email. 
+11-16-2022 22:24:49 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 77 - User types an enquiry. 
+11-16-2022 22:24:49 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 81 - User clicks on the submit button. 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:24:49 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 103 - User receives an alert message. 
+ =====> Name must be between 3 and 32 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666289113	Marionette	INFO	Stopped listening on port 60937
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofile9M5rqv/search.json.mozlz4", (void 0)))
+1668666289603	geckodriver	INFO	Listening on 127.0.0.1:34772
+1668666289638	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "20555" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:20555/,http://localhost:20555/,http://[::1]:20555/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofiletVqPWu"
+*** You are running in headless mode.
+]]></system-err>
+  </testcase>
+  <testcase name="doContactUsInvalidYourNameMinimumValueTest" classname="com.qa.opencart.test.ContactUsPageTest" time="2.059">
+    <system-out><![CDATA[=====> doLoginInvalidCredentialsTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:26:14 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 103 - User receives an alert message. 
+ =====> Name must be between 3 and 32 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 48821
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doContactUsInvalidYourNameMaximumValueTest" classname="com.qa.opencart.test.ContactUsPageTest" time="1.171">
+    <system-out><![CDATA[=====> doClickOnTheContactUsIconTest Test is successful <===== 
+=====> doLogOutTest Test started <===== 
+11-16-2022 22:24:53 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 136 - User clicks on the my account button. 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:24:53 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 138 - User clicks on the login button. 
+11-16-2022 22:24:53 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 140 - User navigates on the login page. 
+11-16-2022 22:24:53 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 58 - User types an email. 
+11-16-2022 22:24:54 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 62 - User types a password. 
+11-16-2022 22:24:54 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 66 - User clicks on the submit button. 
+=====> doContactUsInvalidYourNameMaximumValueTest Test started <===== 
+11-16-2022 22:24:54 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+11-16-2022 22:24:54 MyAccountPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 47 - User clicks on the my account button. 
+11-16-2022 22:24:54 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:24:54 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 69 - User types the full names. 
+11-16-2022 22:24:54 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 73 - User types an email. 
+11-16-2022 22:24:54 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 77 - User types an enquiry. 
+11-16-2022 22:24:54 MyAccountPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 49 - User clicks on the log out button. 
+11-16-2022 22:24:54 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 81 - User clicks on the submit button. 
+11-16-2022 22:24:55 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 103 - User receives an alert message. 
+ =====> Name must be between 3 and 32 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666292990	Marionette	INFO	Stopped listening on port 61419
+1668666292997	Marionette	INFO	Marionette enabled
+1668666293018	Marionette	INFO	Listening on port 62072
+Read port: 62072
+WebDriver BiDi listening on ws://127.0.0.1:40122
+1668666293271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1668666293465	geckodriver	INFO	Listening on 127.0.0.1:37150
+1668666293476	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "2434" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:2434/,http://localhost:2434/,http://[::1]:2434/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofiletr7Qz6"
+*** You are running in headless mode.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofilePkFIrq/search.json.mozlz4", (void 0)))
+1668666293897	Marionette	INFO	Marionette enabled
+1668666293935	Marionette	INFO	Listening on port 62254
+Read port: 62254
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+WebDriver BiDi listening on ws://127.0.0.1:2434
+1668666294221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:40122/devtools/browser/74ace283-e925-4b54-a4db-f05dcfef1a34
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofiletr7Qz6/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+DevTools listening on ws://127.0.0.1:2434/devtools/browser/3ff1ac6f-e2ef-4d21-94c0-bf94645d95ae
+]]></system-err>
+  </testcase>
+  <testcase name="doContactUsInvalidYourNameMaximumValueTest" classname="com.qa.opencart.test.ContactUsPageTest" time="3.561">
+    <system-out><![CDATA[=====> doClickOnTheRegisterPage Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:26:22 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 103 - User receives an alert message. 
+ =====> Name must be between 3 and 32 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 30383
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doContactUsInvalidEmailAddressTest" classname="com.qa.opencart.test.ContactUsPageTest" time="1.004">
+    <system-out><![CDATA[=====> doClickOnTheRegisterPage Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doContactUsInvalidEmailAddressTest Test started <===== 
+11-16-2022 22:24:59 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+11-16-2022 22:25:00 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:25:00 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 69 - User types the full names. 
+11-16-2022 22:25:00 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 73 - User types an email. 
+11-16-2022 22:25:00 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 77 - User types an enquiry. 
+11-16-2022 22:25:00 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 81 - User clicks on the submit button. 
+11-16-2022 22:25:00 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 103 - User receives an alert message. 
+ =====> E-Mail Address does not appear to be valid! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666298275	Marionette	INFO	Stopped listening on port 62254
+1668666298684	geckodriver	INFO	Listening on 127.0.0.1:21386
+1668666298697	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "22437" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:22437/,http://localhost:22437/,http://[::1]:22437/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofile3lcZQ7"
+1668666298735	geckodriver	INFO	Listening on 127.0.0.1:29988
+*** You are running in headless mode.
+1668666298749	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "2043" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:2043/,http://localhost:2043/,http://[::1]:2043/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileJqn2S3"
+*** You are running in headless mode.
+1668666299097	Marionette	INFO	Marionette enabled
+1668666299122	Marionette	INFO	Listening on port 62841
+1668666299150	Marionette	INFO	Marionette enabled
+1668666299169	Marionette	INFO	Listening on port 62842
+Read port: 62842
+WebDriver BiDi listening on ws://127.0.0.1:22437
+Read port: 62841
+WebDriver BiDi listening on ws://127.0.0.1:2043
+1668666299399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1668666299432	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileJqn2S3/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofile3lcZQ7/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+DevTools listening on ws://127.0.0.1:2043/devtools/browser/1ba23c0e-2acd-41cc-830e-046daeef2a49
+DevTools listening on ws://127.0.0.1:22437/devtools/browser/86752f40-202f-4f3d-acc9-adbc4e289680
+]]></system-err>
+  </testcase>
+  <testcase name="doContactUsInvalidEmailAddressTest" classname="com.qa.opencart.test.ContactUsPageTest" time="2.784">
+    <system-out><![CDATA[=====> doRegisterExistingCustomerTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:26:27 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:26:27 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 69 - User types the full names. 
+11-16-2022 22:26:27 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 73 - User types an email. 
+11-16-2022 22:26:27 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 77 - User types an enquiry. 
+11-16-2022 22:26:28 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 81 - User clicks on the submit button. 
+11-16-2022 22:26:28 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 103 - User receives an alert message. 
+ =====> E-Mail Address does not appear to be valid! <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 23756
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doContactUsInvalidEnquiryMinimumValueTest" classname="com.qa.opencart.test.ContactUsPageTest" time="1.246">
+    <system-out><![CDATA[=====> doRegisterNewCustomerMaximumPhoneNumberValueTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doContactUsInvalidEnquiryMinimumValueTest Test started <===== 
+11-16-2022 22:25:05 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+11-16-2022 22:25:05 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:25:05 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 69 - User types the full names. 
+11-16-2022 22:25:05 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 73 - User types an email. 
+11-16-2022 22:25:05 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 77 - User types an enquiry. 
+11-16-2022 22:25:05 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 81 - User clicks on the submit button. 
+11-16-2022 22:25:06 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 103 - User receives an alert message. 
+ =====> Enquiry must be between 10 and 3000 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666304167	Marionette	INFO	Stopped listening on port 62841
+Read port: 63329
+WebDriver BiDi listening on ws://127.0.0.1:7650
+1668666304357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1668666304619	geckodriver	INFO	Listening on 127.0.0.1:13934
+1668666304631	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "4277" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:4277/,http://localhost:4277/,http://[::1]:4277/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileXRI7DQ"
+*** You are running in headless mode.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofilewxfxEY/search.json.mozlz4", (void 0)))
+1668666305037	Marionette	INFO	Marionette enabled
+1668666305055	Marionette	INFO	Listening on port 63513
+Read port: 63513
+WebDriver BiDi listening on ws://127.0.0.1:4277
+1668666305311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:7650/devtools/browser/a7ae3fcf-3400-4c1b-9f03-9cf2eee31639
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileXRI7DQ/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+DevTools listening on ws://127.0.0.1:4277/devtools/browser/0061685b-7d4d-4f49-8ff3-3e2b3c36f4ce
+]]></system-err>
+  </testcase>
+  <testcase name="doContactUsInvalidEnquiryMinimumValueTest" classname="com.qa.opencart.test.ContactUsPageTest" time="2.822">
+    <system-out><![CDATA[=====> doClickOnTheShoppingCartPage Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:26:31 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+=====> doContactUsInvalidEnquiryMinimumValueTest Test started <===== 
+11-16-2022 22:26:32 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+11-16-2022 22:26:33 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:26:33 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 69 - User types the full names. 
+11-16-2022 22:26:34 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 73 - User types an email. 
+11-16-2022 22:26:34 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 77 - User types an enquiry. 
+11-16-2022 22:26:34 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+^K
+11-16-2022 22:26:34 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 91 - User types the first name. 
+11-16-2022 22:26:34 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 81 - User clicks on the submit button. 
+11-16-2022 22:26:34 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 95 - User types the last name. 
+11-16-2022 22:26:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 99 - User types the email. 
+11-16-2022 22:26:35 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 103 - User receives an alert message. 
+11-16-2022 22:26:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 103 - User types the phone number. 
+11-16-2022 22:26:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 107 - User types a password. 
+ =====> Enquiry must be between 10 and 3000 characters! <===== 
+11-16-2022 22:26:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 111 - User types a confirm password. 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 3579
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doContactUsInvalidEnquiryMaximumValueTest" classname="com.qa.opencart.test.ContactUsPageTest" time="1.188">
+    <system-out><![CDATA[=====> doClickOnTheCheckOutPage Test is successful <===== 
+11-16-2022 22:25:12 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 81 - User clicks on the submit button. 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:25:13 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 103 - User receives an alert message. 
+ =====> Enquiry must be between 10 and 3000 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666312797	Marionette	INFO	Stopped listening on port 63935
+DevTools listening on ws://127.0.0.1:41735/devtools/browser/4173fbb5-3b79-425b-86df-bef76b748a23
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+1668666313260	geckodriver	INFO	Listening on 127.0.0.1:17861
+1668666313288	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "19889" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:19889/,http://localhost:19889/,http://[::1]:19889/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofilePQi9JT"
+*** You are running in headless mode.
+]]></system-err>
+  </testcase>
+  <testcase name="doContactUsInvalidEnquiryMaximumValueTest" classname="com.qa.opencart.test.ContactUsPageTest" time="0.274">
+    <system-out><![CDATA[=====> adsQuantityTest Test is successful <===== 
+11-16-2022 22:26:50 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 103 - User receives an alert message. 
+ =====> Selenium Chrome Headless <===== 
+ =====> Enquiry must be between 10 and 3000 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 11115
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="validateContactUsTitleTest" classname="com.qa.opencart.test.LoginPageTest" time="0.839">
+    <system-out><![CDATA[=====> validateContactUsTitleTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:24:37 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 140 - User navigates on the login page. 
+11-16-2022 22:24:37 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 35 - User validates the title page. 
+ =====> My Your Page Title Is: Account Login <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666277301	Marionette	INFO	Stopped listening on port 59993
+1668666277432	geckodriver	INFO	Listening on 127.0.0.1:49131
+1668666277481	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "23161" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:23161/,http://localhost:23161/,http://[::1]:23161/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofile5BqHJv"
+]]></system-err>
+  </testcase>
+  <testcase name="validateContactUsTitleTest" classname="com.qa.opencart.test.LoginPageTest" time="0.981">
+    <system-out><![CDATA[=====> validateContactUsTitleTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:26:00 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 140 - User navigates on the login page. 
+11-16-2022 22:26:00 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 35 - User validates the title page. 
+ =====> My Your Page Title Is: Account Login <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 27588
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doLoginValidCredentialsTest" classname="com.qa.opencart.test.LoginPageTest" time="1.377">
+    <system-out><![CDATA[=====> validateYourPageTitleTest Test is successful <===== 
+11-16-2022 22:24:42 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+11-16-2022 22:24:42 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:24:42 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 140 - User navigates on the login page. 
+11-16-2022 22:24:42 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 58 - User types an email. 
+11-16-2022 22:24:42 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 62 - User types a password. 
+11-16-2022 22:24:42 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:24:42 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 66 - User clicks on the submit button. 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:24:42 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:24:42 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 69 - User types the full names. 
+11-16-2022 22:24:42 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 73 - User types an email. 
+11-16-2022 22:24:43 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 77 - User types an enquiry. 
+11-16-2022 22:24:43 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 81 - User clicks on the submit button. 
+11-16-2022 22:24:43 MyAccountPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 25 -  =====> My Account Link has been displayed <===== 
+ =====> My Account <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666282327	Marionette	INFO	Stopped listening on port 60256
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+1668666282826	geckodriver	INFO	Listening on 127.0.0.1:46555
+1668666282865	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "6172" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:6172/,http://localhost:6172/,http://[::1]:6172/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileCUEvHE"
+*** You are running in headless mode.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+1668666283279	Marionette	INFO	Marionette enabled
+1668666283300	Marionette	INFO	Listening on port 60697
+WebDriver BiDi listening on ws://127.0.0.1:6172
+Read port: 60697
+1668666283525	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+]]></system-err>
+  </testcase>
+  <testcase name="doLoginValidCredentialsTest" classname="com.qa.opencart.test.LoginPageTest" time="0.14">
+    <system-out><![CDATA[=====> doContactUsTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> getCurrencyTest Test started <===== 
+11-16-2022 22:26:07 MyAccountPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 25 -  =====> My Account Link has been displayed <===== 
+11-16-2022 22:26:07 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 53 - User clicks on the currency button. 
+=====> doRegisterNewCustomerTest Test started <===== 
+ =====> My Account <===== 
+11-16-2022 22:26:07 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 21625
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doLoginInvalidCredentialsTest" classname="com.qa.opencart.test.LoginPageTest" time="0.375">
+    <system-out><![CDATA[=====> getCurrencyTest Test is successful <===== 
+=====> doLoginInvalidCredentialsTest Test started <===== 
+11-16-2022 22:24:47 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 136 - User clicks on the my account button. 
+11-16-2022 22:24:48 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 138 - User clicks on the login button. 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:24:48 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 140 - User navigates on the login page. 
+11-16-2022 22:24:48 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 71 - User types an invalid email. 
+11-16-2022 22:24:48 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 75 - User types a invalid password. 
+11-16-2022 22:24:48 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 79 - User clicks on the submit button. 
+=====> doContactUsInvalidYourNameMinimumValueTest Test started <===== 
+11-16-2022 22:24:48 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+11-16-2022 22:24:49 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 89 - User receives an alert message. 
+ =====> Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour. <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666287772	Marionette	INFO	Stopped listening on port 60697
+DevTools listening on ws://127.0.0.1:29443/devtools/browser/b9fd3dd2-6816-41bf-aa7c-1b29da2ff3d0
+1668666288258	geckodriver	INFO	Listening on 127.0.0.1:12457
+1668666288291	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "28205" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:28205/,http://localhost:28205/,http://[::1]:28205/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofile9M5rqv"
+*** You are running in headless mode.
+1668666288702	Marionette	INFO	Marionette enabled
+1668666288721	Marionette	INFO	Listening on port 61419
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+Read port: 61419
+WebDriver BiDi listening on ws://127.0.0.1:28205
+1668666288974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+]]></system-err>
+  </testcase>
+  <testcase name="doLoginInvalidCredentialsTest" classname="com.qa.opencart.test.LoginPageTest" time="1.511">
+    <system-out><![CDATA[=====> doClickOnTheContactUsIconTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:26:13 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 89 - User receives an alert message. 
+ =====> Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour. <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 31978
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doLogOutTest" classname="com.qa.opencart.test.LoginPageTest" time="1.266">
+    <system-out><![CDATA[=====> doContactUsInvalidYourNameMaximumValueTest Test is successful <===== 
+11-16-2022 22:24:55 MyAccountPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-4] pages.CheckOutPage 61 -  =====> Account Log Out Link has been displayed <===== 
+ =====> Account Logout <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666295414	Marionette	INFO	Stopped listening on port 61788
+]]></system-err>
+  </testcase>
+  <testcase name="doLogOutTest" classname="com.qa.opencart.test.LoginPageTest" time="1.891">
+    <system-out><![CDATA[=====> doRegisterNewCustomerTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doClickOnTheRegisterPage Test started <===== 
+11-16-2022 22:26:17 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 113 - User clicks on the my account button. 
+=====> doLogOutTest Test started <===== 
+11-16-2022 22:26:17 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 136 - User clicks on the my account button. 
+11-16-2022 22:26:17 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-1] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:26:17 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 138 - User clicks on the login button. 
+=====> doContactUsInvalidYourNameMaximumValueTest Test started <===== 
+11-16-2022 22:26:18 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+11-16-2022 22:26:18 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 140 - User navigates on the login page. 
+11-16-2022 22:26:18 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 58 - User types an email. 
+11-16-2022 22:26:18 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 62 - User types a password. 
+11-16-2022 22:26:18 LoginPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 66 - User clicks on the submit button. 
+11-16-2022 22:26:19 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 82 - User navigates on the contact us page. 
+11-16-2022 22:26:19 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 69 - User types the full names. 
+=====> doRegisterExistingCustomerTest Test started <===== 
+11-16-2022 22:26:19 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:26:19 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 73 - User types an email. 
+11-16-2022 22:26:19 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:26:20 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 77 - User types an enquiry. 
+11-16-2022 22:26:20 MyAccountPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 47 - User clicks on the my account button. 
+11-16-2022 22:26:20 MyAccountPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 49 - User clicks on the log out button. 
+11-16-2022 22:26:20 ContactUsPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 81 - User clicks on the submit button. 
+11-16-2022 22:26:21 MyAccountPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-4] pages.CheckOutPage 61 -  =====> Account Log Out Link has been displayed <===== 
+ =====> Account Logout <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 46869
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="validateRegisterTitleTest" classname="com.qa.opencart.test.RegisterPageTest" time="1.16">
+    <system-out><![CDATA[=====> validateContactUsTitleTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:24:37 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:24:37 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 32 - User validates the title page. 
+ =====> Register Page Title Is: Register Account <===== 
+]]></system-out>
+    <system-err><![CDATA[*** You are running in headless mode.
+1668666277566	Marionette	INFO	Stopped listening on port 59992
+1668666277802	geckodriver	INFO	Listening on 127.0.0.1:14820
+1668666277839	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "13006" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:13006/,http://localhost:13006/,http://[::1]:13006/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileR4JbVq"
+]]></system-err>
+  </testcase>
+  <testcase name="validateRegisterTitleTest" classname="com.qa.opencart.test.RegisterPageTest" time="3.463">
+    <system-out><![CDATA[=====> validateContactUsTitleTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:26:02 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:26:02 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 32 - User validates the title page. 
+ =====> Register Page Title Is: Register Account <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 20332
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerTest" classname="com.qa.opencart.test.RegisterPageTest" time="3.352">
+    <system-out><![CDATA[=====> doContactUsTest Test is successful <===== 
+11-16-2022 22:24:44 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:24:44 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 91 - User types the first name. 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:24:44 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 95 - User types the last name. 
+11-16-2022 22:24:44 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 99 - User types the email. 
+11-16-2022 22:24:44 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 103 - User types the phone number. 
+11-16-2022 22:24:44 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 107 - User types a password. 
+11-16-2022 22:24:44 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 111 - User types a confirm password. 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:24:44 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User checks agreement checkbox. 
+11-16-2022 22:24:44 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 118 - User clicks on the submit button. 
+11-16-2022 22:24:45 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 187 - User receives an success created message message. 
+ =====> Your Account Has Been Created! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666283998	Marionette	INFO	Stopped listening on port 60321
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileCUEvHE/search.json.mozlz4", (void 0)))
+1668666284161	geckodriver	INFO	Listening on 127.0.0.1:5422
+1668666284196	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "35385" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:35385/,http://localhost:35385/,http://[::1]:35385/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileBXkk05"
+*** You are running in headless mode.
+1668666284520	geckodriver	INFO	Listening on 127.0.0.1:31441
+1668666284555	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "4456" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:4456/,http://localhost:4456/,http://[::1]:4456/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofiledXtUSO"
+*** You are running in headless mode.
+1668666284638	Marionette	INFO	Marionette enabled
+DevTools listening on ws://127.0.0.1:6172/devtools/browser/fba98e65-d2f3-468b-96f6-f77053186790
+1668666284656	Marionette	INFO	Listening on port 60937
+Read port: 60937
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+WebDriver BiDi listening on ws://127.0.0.1:35385
+1668666284900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1668666284981	Marionette	INFO	Marionette enabled
+1668666285001	Marionette	INFO	Listening on port 60953
+WebDriver BiDi listening on ws://127.0.0.1:4456
+Read port: 60953
+1668666285246	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileBXkk05/search.json.mozlz4", (void 0)))
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerTest" classname="com.qa.opencart.test.RegisterPageTest" time="3.254">
+    <system-out><![CDATA[=====> doContactUsInvalidYourNameMinimumValueTest Test is successful <===== 
+11-16-2022 22:26:14 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 187 - User receives an success created message message. 
+ =====> Selenium Chrome Headless <===== 
+ =====> Your Account Has Been Created! <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 28673
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterExistingCustomerTest" classname="com.qa.opencart.test.RegisterPageTest" time="1.988">
+    <system-out><![CDATA[=====> doContactUsInvalidYourNameMinimumValueTest Test is successful <===== 
+=====> doRegisterExistingCustomerTest Test started <===== 
+11-16-2022 22:24:49 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:24:50 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:24:50 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:24:50 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 91 - User types the first name. 
+11-16-2022 22:24:51 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 95 - User types the last name. 
+11-16-2022 22:24:51 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 99 - User types the email. 
+11-16-2022 22:24:51 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 103 - User types the phone number. 
+11-16-2022 22:24:51 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 107 - User types a password. 
+11-16-2022 22:24:51 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 111 - User types a confirm password. 
+11-16-2022 22:24:51 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User checks agreement checkbox. 
+11-16-2022 22:24:51 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 118 - User clicks on the submit button. 
+11-16-2022 22:24:51 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 219 - User receives an warning message. 
+ =====> Warning: E-Mail Address is already registered! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666289930	Marionette	INFO	Stopped listening on port 60953
+1668666290072	Marionette	INFO	Marionette enabled
+1668666290089	Marionette	INFO	Listening on port 61600
+Read port: 61600
+DevTools listening on ws://127.0.0.1:28205/devtools/browser/25a681ca-eddb-41d0-8384-fd66a38e0516
+WebDriver BiDi listening on ws://127.0.0.1:20555
+1668666290352	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1668666290411	geckodriver	INFO	Listening on 127.0.0.1:2154
+1668666290432	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "48172" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:48172/,http://localhost:48172/,http://[::1]:48172/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileTL7NDk"
+*** You are running in headless mode.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1668666290836	Marionette	INFO	Marionette enabled
+1668666290853	Marionette	INFO	Listening on port 61788
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofiletVqPWu/search.json.mozlz4", (void 0)))
+Read port: 61788
+WebDriver BiDi listening on ws://127.0.0.1:48172
+1668666291126	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:20555/devtools/browser/65a039c0-c1ec-4b10-ad07-5835d9c37d32
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileTL7NDk/search.json.mozlz4", (void 0)))
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterExistingCustomerTest" classname="com.qa.opencart.test.RegisterPageTest" time="0.795">
+    <system-out><![CDATA[=====> doClickOnTheLoginPage Test is successful <===== 
+=====> doContactUsInvalidEmailAddressTest Test started <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:26:26 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-2] pages.CheckOutPage 80 - User clicks on teh contact us icon. 
+ =====> Warning: E-Mail Address is already registered! <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 10046
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerMinimumPhoneNumberValueTest" classname="com.qa.opencart.test.RegisterPageTest" time="1.078">
+    <system-out><![CDATA[=====> doLogOutTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doRegisterNewCustomerMinimumPhoneNumberValueTest Test started <===== 
+11-16-2022 22:24:56 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:24:56 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+=====> doClickOnTheRegisterPage Test started <===== 
+11-16-2022 22:24:57 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:24:57 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+~m
+11-16-2022 22:24:57 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 91 - User types the first name. 
+11-16-2022 22:24:57 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-1] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:24:57 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 95 - User types the last name. 
+11-16-2022 22:24:57 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 99 - User types the email. 
+11-16-2022 22:24:57 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 103 - User types the phone number. 
+11-16-2022 22:24:57 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 107 - User types a password. 
+11-16-2022 22:24:57 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 111 - User types a confirm password. 
+11-16-2022 22:24:57 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User checks agreement checkbox. 
+11-16-2022 22:24:57 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 118 - User clicks on the submit button. 
+11-16-2022 22:24:58 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 203 - User receives an alert message. 
+ =====> Telephone must be between 3 and 32 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666295508	Marionette	INFO	Stopped listening on port 61600
+1668666295895	geckodriver	INFO	Listening on 127.0.0.1:27878
+1668666295925	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "33510" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:33510/,http://localhost:33510/,http://[::1]:33510/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofile7lmVrG"
+*** You are running in headless mode.
+1668666296330	Marionette	INFO	Marionette enabled
+1668666296350	Marionette	INFO	Listening on port 62497
+WebDriver BiDi listening on ws://127.0.0.1:33510
+Read port: 62497
+1668666296591	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofile7lmVrG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33510/devtools/browser/3f1b4469-737c-4f6b-80e7-9caf61785b11
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerMinimumPhoneNumberValueTest" classname="com.qa.opencart.test.RegisterPageTest" time="2.614">
+    <system-out><![CDATA[=====> doClickOnTheCheckOutPage Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+11-16-2022 22:26:37 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 203 - User receives an alert message. 
+ =====> Telephone must be between 3 and 32 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 39245
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerMaximumPhoneNumberValueTest" classname="com.qa.opencart.test.RegisterPageTest" time="1.591">
+    <system-out><![CDATA[=====> doClickOnTheLoginPage Test is successful <===== 
+11-16-2022 22:25:03 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+Zg*\CS-,V'Jt"s->(`z%"X/x\|[yg#ws$
+11-16-2022 22:25:03 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 91 - User types the first name. 
+11-16-2022 22:25:03 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 95 - User types the last name. 
+11-16-2022 22:25:03 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 99 - User types the email. 
+11-16-2022 22:25:03 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 103 - User types the phone number. 
+11-16-2022 22:25:03 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 107 - User types a password. 
+11-16-2022 22:25:03 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 111 - User types a confirm password. 
+11-16-2022 22:25:03 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User checks agreement checkbox. 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:25:03 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 118 - User clicks on the submit button. 
+11-16-2022 22:25:04 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 203 - User receives an alert message. 
+ =====> Telephone must be between 3 and 32 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666303210	Marionette	INFO	Stopped listening on port 62842
+1668666303660	geckodriver	INFO	Listening on 127.0.0.1:28588
+1668666303673	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "7650" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:7650/,http://localhost:7650/,http://[::1]:7650/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofilewxfxEY"
+*** You are running in headless mode.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+1668666304067	Marionette	INFO	Marionette enabled
+1668666304102	Marionette	INFO	Listening on port 63329
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerMaximumPhoneNumberValueTest" classname="com.qa.opencart.test.RegisterPageTest" time="0.838">
+    <system-out><![CDATA[=====> doContactUsInvalidEnquiryMaximumValueTest Test is successful <===== 
+ =====> Telephone must be between 3 and 32 characters! <===== 
+]]></system-out>
+  </testcase>
+  <testcase name="doRegisterNewCustomerMinimumPasswordValueTest" classname="com.qa.opencart.test.RegisterPageTest" time="2.285">
+    <system-out><![CDATA[=====> doClickOnTheShoppingCartPage Test is successful <===== 
+=====> doRegisterNewCustomerMinimumPasswordValueTest Test started <===== 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:25:08 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:25:08 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:25:09 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+@6
+11-16-2022 22:25:09 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 91 - User types the first name. 
+11-16-2022 22:25:09 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 95 - User types the last name. 
+11-16-2022 22:25:09 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 99 - User types the email. 
+11-16-2022 22:25:09 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 103 - User types the phone number. 
+11-16-2022 22:25:09 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 107 - User types a password. 
+11-16-2022 22:25:09 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 111 - User types a confirm password. 
+11-16-2022 22:25:09 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User checks agreement checkbox. 
+11-16-2022 22:25:09 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 118 - User clicks on the submit button. 
+11-16-2022 22:25:10 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 203 - User receives an alert message. 
+ =====> Password must be between 4 and 20 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666307936	Marionette	INFO	Stopped listening on port 63329
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofiletyPvx8/search.json.mozlz4", (void 0)))
+1668666308428	geckodriver	INFO	Listening on 127.0.0.1:38312
+1668666308447	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "32558" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:32558/,http://localhost:32558/,http://[::1]:32558/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileT274Tx"
+*** You are running in headless mode.
+DevTools listening on ws://127.0.0.1:15695/devtools/browser/63fadcce-3247-4810-8e24-e836d14be7bd
+1668666308864	Marionette	INFO	Marionette enabled
+1668666308884	Marionette	INFO	Listening on port 63935
+WebDriver BiDi listening on ws://127.0.0.1:32558
+Read port: 63935
+1668666309121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileT274Tx/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+DevTools listening on ws://127.0.0.1:32558/devtools/browser/1d1f7187-39cd-4e79-b245-13ba01d6b389
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerMinimumPasswordValueTest" classname="com.qa.opencart.test.RegisterPageTest" time="5.911">
+    <system-out><![CDATA[=====> adsTest Test is successful <===== 
+=====> doRegisterNewCustomerMinimumPasswordValueTest Test started <===== 
+11-16-2022 22:26:55 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:26:55 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:26:57 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+=-
+11-16-2022 22:26:57 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 91 - User types the first name. 
+11-16-2022 22:26:58 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 95 - User types the last name. 
+11-16-2022 22:26:58 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 99 - User types the email. 
+11-16-2022 22:26:58 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 103 - User types the phone number. 
+11-16-2022 22:26:58 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 107 - User types a password. 
+11-16-2022 22:26:58 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 111 - User types a confirm password. 
+11-16-2022 22:26:58 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User checks agreement checkbox. 
+11-16-2022 22:26:59 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 118 - User clicks on the submit button. 
+11-16-2022 22:27:00 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 203 - User receives an alert message. 
+ =====> Password must be between 4 and 20 characters! <===== 
+]]></system-out>
+  </testcase>
+  <testcase name="doRegisterNewCustomerMaximumPasswordValueTest" classname="com.qa.opencart.test.RegisterPageTest" time="1.764">
+    <system-out><![CDATA[=====> doContactUsInvalidEnquiryMaximumValueTest Test is successful <===== 
+=====> doRegisterNewCustomerMaximumPasswordValueTest Test started <===== 
+11-16-2022 22:25:15 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:25:15 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:25:16 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+QG4.{92]l0B\G7~j1:B5U9sgh`KuiQWbj]R=@D-ka
+11-16-2022 22:25:16 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 91 - User types the first name. 
+11-16-2022 22:25:16 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 95 - User types the last name. 
+11-16-2022 22:25:16 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 99 - User types the email. 
+11-16-2022 22:25:16 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 103 - User types the phone number. 
+11-16-2022 22:25:16 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 107 - User types a password. 
+11-16-2022 22:25:16 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 111 - User types a confirm password. 
+11-16-2022 22:25:16 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User checks agreement checkbox. 
+11-16-2022 22:25:16 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 118 - User clicks on the submit button. 
+11-16-2022 22:25:16 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 203 - User receives an alert message. 
+ =====> Password must be between 4 and 20 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666313408	Marionette	INFO	Stopped listening on port 63754
+1668666313700	Marionette	INFO	Marionette enabled
+1668666313734	Marionette	INFO	Listening on port 64418
+WebDriver BiDi listening on ws://127.0.0.1:19889
+Read port: 64418
+1668666313995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofilePQi9JT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:19889/devtools/browser/ee0f4172-edc4-4c9f-8ca2-305e371c220e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerMaximumPasswordValueTest" classname="com.qa.opencart.test.RegisterPageTest" time="7.739">
+    <system-out><![CDATA[=====> doRegisterNewCustomerMinimumPasswordValueTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doRegisterNewCustomerMaximumPasswordValueTest Test started <===== 
+11-16-2022 22:27:05 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:27:05 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:27:08 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+G?mpKBgMF}Z8=B%KV$#dyNK,hwz)>Z1pDW8GS3F.4
+11-16-2022 22:27:08 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 91 - User types the first name. 
+11-16-2022 22:27:08 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 95 - User types the last name. 
+11-16-2022 22:27:08 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 99 - User types the email. 
+11-16-2022 22:27:08 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 103 - User types the phone number. 
+11-16-2022 22:27:09 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 107 - User types a password. 
+11-16-2022 22:27:09 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 111 - User types a confirm password. 
+11-16-2022 22:27:09 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User checks agreement checkbox. 
+11-16-2022 22:27:11 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 118 - User clicks on the submit button. 
+11-16-2022 22:27:12 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 203 - User receives an alert message. 
+ =====> Password must be between 4 and 20 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 32380
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerUnmatchedPasswordValueTest" classname="com.qa.opencart.test.RegisterPageTest" time="1.971">
+    <system-out><![CDATA[=====> featuredTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+11-16-2022 22:25:22 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:25:22 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 122 - User types the first name. 
+11-16-2022 22:25:22 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 126 - User types the last name. 
+11-16-2022 22:25:22 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 130 - User types the email. 
+11-16-2022 22:25:22 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 134 - User types the phone number. 
+11-16-2022 22:25:22 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 138 - User types a password. 
+11-16-2022 22:25:22 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 142 - User types a confirm password. 
+11-16-2022 22:25:22 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 146 - User checks agreement checkbox. 
+11-16-2022 22:25:23 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 149 - User clicks on the submit button. 
+11-16-2022 22:25:23 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 203 - User receives an alert message. 
+ =====> Password confirmation does not match password! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666321612	Marionette	INFO	Stopped listening on port 64776
+1668666322089	geckodriver	INFO	Listening on 127.0.0.1:34066
+1668666322102	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "31614" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:31614/,http://localhost:31614/,http://[::1]:31614/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileA2zhMY"
+*** You are running in headless mode.
+1668666322483	Marionette	INFO	Marionette enabled
+1668666322500	Marionette	INFO	Listening on port 65008
+Read port: 65008
+WebDriver BiDi listening on ws://127.0.0.1:31614
+1668666322723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileA2zhMY/search.json.mozlz4", (void 0)))
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerUnmatchedPasswordValueTest" classname="com.qa.opencart.test.RegisterPageTest" time="6.309">
+    <system-out><![CDATA[=====> doRegisterNewCustomerMaximumPasswordValueTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doRegisterNewCustomerUnmatchedPasswordValueTest Test started <===== 
+11-16-2022 22:27:16 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:27:17 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:27:19 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:27:19 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 122 - User types the first name. 
+11-16-2022 22:27:19 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 126 - User types the last name. 
+11-16-2022 22:27:20 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 130 - User types the email. 
+11-16-2022 22:27:20 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 134 - User types the phone number. 
+11-16-2022 22:27:20 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 138 - User types a password. 
+11-16-2022 22:27:20 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 142 - User types a confirm password. 
+11-16-2022 22:27:20 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 146 - User checks agreement checkbox. 
+11-16-2022 22:27:21 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 149 - User clicks on the submit button. 
+11-16-2022 22:27:22 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 203 - User receives an alert message. 
+ =====> Password confirmation does not match password! <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 16365
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerMinimumPasswordValueUnmatchedTest" classname="com.qa.opencart.test.RegisterPageTest" time="0.375">
+    <system-out><![CDATA[=====> adsTest Test is successful <===== 
+11-16-2022 22:25:29 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 203 - User receives an alert message. 
+ =====> Password must be between 4 and 20 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666329725	Marionette	INFO	Stopped listening on port 65444
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerMinimumPasswordValueUnmatchedTest" classname="com.qa.opencart.test.RegisterPageTest" time="6.097">
+    <system-out><![CDATA[=====> doRegisterNewCustomerUnmatchedPasswordValueTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doRegisterNewCustomerMinimumPasswordValueUnmatchedTest Test started <===== 
+11-16-2022 22:27:30 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:27:30 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:27:33 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+Y"
+`|>
+11-16-2022 22:27:33 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 122 - User types the first name. 
+11-16-2022 22:27:33 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 126 - User types the last name. 
+11-16-2022 22:27:33 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 130 - User types the email. 
+11-16-2022 22:27:34 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 134 - User types the phone number. 
+11-16-2022 22:27:34 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 138 - User types a password. 
+11-16-2022 22:27:34 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 142 - User types a confirm password. 
+11-16-2022 22:27:34 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 146 - User checks agreement checkbox. 
+11-16-2022 22:27:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 149 - User clicks on the submit button. 
+11-16-2022 22:27:36 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 203 - User receives an alert message. 
+ =====> Password must be between 4 and 20 characters! <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 35574
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerWithoutAgreementPolicyTest" classname="com.qa.opencart.test.RegisterPageTest" time="1.897">
+    <system-out><![CDATA[=====> doRegisterNewCustomerMinimumPasswordValueUnmatchedTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doRegisterNewCustomerWithoutAgreementPolicyTest Test started <===== 
+11-16-2022 22:25:34 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:25:34 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:25:35 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:25:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 153 - User types the first name. 
+11-16-2022 22:25:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 157 - User types the last name. 
+11-16-2022 22:25:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 161 - User types the email. 
+11-16-2022 22:25:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 165 - User types the phone number. 
+11-16-2022 22:25:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 169 - User types a password. 
+11-16-2022 22:25:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 173 - User types a confirm password. 
+11-16-2022 22:25:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 177 - User clicks on the submit button. 
+11-16-2022 22:25:35 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 219 - User receives an warning message. 
+ =====> Warning: You must agree to the Privacy Policy! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666329919	Marionette	INFO	Stopped listening on port 65222
+1668666330382	geckodriver	INFO	Listening on 127.0.0.1:32951
+1668666330398	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "29358" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:29358/,http://localhost:29358/,http://[::1]:29358/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofilei91MYC"
+*** You are running in headless mode.
+1668666330781	Marionette	INFO	Marionette enabled
+1668666330800	Marionette	INFO	Listening on port 49289
+Read port: 49289
+WebDriver BiDi listening on ws://127.0.0.1:29358
+1668666330998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofilei91MYC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:29358/devtools/browser/f75c2898-c23c-4035-911c-d8f19f7d69b7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisterNewCustomerWithoutAgreementPolicyTest" classname="com.qa.opencart.test.RegisterPageTest" time="5.916">
+    <system-out><![CDATA[=====> doRegisterNewCustomerMinimumPasswordValueUnmatchedTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doRegisterNewCustomerWithoutAgreementPolicyTest Test started <===== 
+11-16-2022 22:27:40 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:27:40 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:27:42 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:27:42 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 153 - User types the first name. 
+11-16-2022 22:27:43 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 157 - User types the last name. 
+11-16-2022 22:27:43 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 161 - User types the email. 
+11-16-2022 22:27:43 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 165 - User types the phone number. 
+11-16-2022 22:27:43 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 169 - User types a password. 
+11-16-2022 22:27:43 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 173 - User types a confirm password. 
+11-16-2022 22:27:43 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 177 - User clicks on the submit button. 
+11-16-2022 22:27:45 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 219 - User receives an warning message. 
+ =====> Warning: You must agree to the Privacy Policy! <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 17942
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doForgotPasswordValidatePageTest" classname="com.qa.opencart.test.RegisterPageTest" time="1.337">
+    <system-out><![CDATA[=====> doRegisterNewCustomerWithoutAgreementPolicyTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doForgotPasswordValidatePageTest Test started <===== 
+11-16-2022 22:25:40 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:25:40 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:25:41 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:25:41 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 235 - User clicks on the forgotten password section.
+11-16-2022 22:25:41 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 245 -  =====> Forgotten Password Link has been displayed <===== 
+ =====> Forgot Your Password? <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666335939	Marionette	INFO	Stopped listening on port 49289
+1668666336418	geckodriver	INFO	Listening on 127.0.0.1:36134
+1668666336439	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "47345" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:47345/,http://localhost:47345/,http://[::1]:47345/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileqiJmiY"
+*** You are running in headless mode.
+1668666336822	Marionette	INFO	Marionette enabled
+1668666336838	Marionette	INFO	Listening on port 49469
+Read port: 49469
+WebDriver BiDi listening on ws://127.0.0.1:47345
+1668666337037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileqiJmiY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47345/devtools/browser/40497d20-8dc2-4271-8f39-2a2a122f333e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+]]></system-err>
+  </testcase>
+  <testcase name="doForgotPasswordValidatePageTest" classname="com.qa.opencart.test.RegisterPageTest" time="3.341">
+    <system-out><![CDATA[=====> doRegisterNewCustomerWithoutAgreementPolicyTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doForgotPasswordValidatePageTest Test started <===== 
+11-16-2022 22:27:50 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:27:50 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:27:53 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:27:53 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 235 - User clicks on the forgotten password section.
+11-16-2022 22:27:53 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 245 -  =====> Forgotten Password Link has been displayed <===== 
+ =====> Forgot Your Password? <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 5142
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doSendEmailForgotPasswordExistingCustomerTest" classname="com.qa.opencart.test.RegisterPageTest" time="2.352">
+    <system-out><![CDATA[=====> doForgotPasswordValidatePageTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doSendEmailForgotPasswordExistingCustomerTest Test started <===== 
+11-16-2022 22:25:45 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:25:45 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:25:46 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:25:46 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 235 - User clicks on the forgotten password section.
+11-16-2022 22:25:46 RegisterPage.java WARN  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 264 - User types email for sending a new password. 
+11-16-2022 22:25:47 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 266 - User clicks on the 'Continue' button. 
+11-16-2022 22:25:47 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 276 - User receives an success message. 
+ =====> An email with a confirmation link has been sent your email address. <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666341652	Marionette	INFO	Stopped listening on port 49469
+1668666342111	geckodriver	INFO	Listening on 127.0.0.1:17237
+1668666342119	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "1457" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:1457/,http://localhost:1457/,http://[::1]:1457/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofile290dVw"
+*** You are running in headless mode.
+1668666342497	Marionette	INFO	Marionette enabled
+1668666342515	Marionette	INFO	Listening on port 49683
+Read port: 49683
+WebDriver BiDi listening on ws://127.0.0.1:1457
+1668666342709	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofile290dVw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1457/devtools/browser/8cc0021b-ab8c-4b93-bbe0-b5a1b4cb8678
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 183: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+]]></system-err>
+  </testcase>
+  <testcase name="doSendEmailForgotPasswordExistingCustomerTest" classname="com.qa.opencart.test.RegisterPageTest" time="4.715">
+    <system-out><![CDATA[=====> doForgotPasswordValidatePageTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doSendEmailForgotPasswordExistingCustomerTest Test started <===== 
+11-16-2022 22:27:57 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:27:57 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:28:00 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:28:00 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 235 - User clicks on the forgotten password section.
+11-16-2022 22:28:00 RegisterPage.java WARN  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 264 - User types email for sending a new password. 
+11-16-2022 22:28:01 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 266 - User clicks on the 'Continue' button. 
+11-16-2022 22:28:02 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 276 - User receives an success message. 
+ =====> An email with a confirmation link has been sent your email address. <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 25666
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="doSendEmailForgotPasswordNewCustomerTest" classname="com.qa.opencart.test.RegisterPageTest" time="1.938">
+    <system-out><![CDATA[=====> doSendEmailForgotPasswordExistingCustomerTest Test is successful <===== 
+ =====> Selenium Firefox Headless <===== 
+=====> doSendEmailForgotPasswordNewCustomerTest Test started <===== 
+11-16-2022 22:25:51 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:25:52 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:25:53 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:25:53 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 235 - User clicks on the forgotten password section.
+11-16-2022 22:25:53 RegisterPage.java WARN  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 264 - User types email for sending a new password. 
+11-16-2022 22:25:53 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 266 - User clicks on the 'Continue' button. 
+11-16-2022 22:25:53 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Marionette Firefox)-3] pages.CheckOutPage 219 - User receives an warning message. 
+ =====> Warning: The E-Mail Address was not found in our records, please try again! <===== 
+]]></system-out>
+    <system-err><![CDATA[1668666347872	Marionette	INFO	Stopped listening on port 49683
+1668666348330	geckodriver	INFO	Listening on 127.0.0.1:32647
+1668666348342	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--headless" "window-size=1400,1000" "--remote-debugging-port" "26819" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:26819/,http://localhost:26819/,http://[::1]:26819/" "-foreground" "-no-remote" "-profile" "/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileX1lcJa"
+*** You are running in headless mode.
+1668666348716	Marionette	INFO	Marionette enabled
+1668666348732	Marionette	INFO	Listening on port 49893
+Read port: 49893
+WebDriver BiDi listening on ws://127.0.0.1:26819
+1668666348930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/rust_mozprofileX1lcJa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:26819/devtools/browser/c3c5a661-f9a4-402d-b7a8-6627f94b1cdd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://naveenautomationlabs.com."
+]]></system-err>
+  </testcase>
+  <testcase name="doSendEmailForgotPasswordNewCustomerTest" classname="com.qa.opencart.test.RegisterPageTest" time="4.178">
+    <system-out><![CDATA[=====> doSendEmailForgotPasswordExistingCustomerTest Test is successful <===== 
+ =====> Selenium Chrome Headless <===== 
+=====> doSendEmailForgotPasswordNewCustomerTest Test started <===== 
+11-16-2022 22:28:06 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 113 - User clicks on the my account button. 
+11-16-2022 22:28:06 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 115 - User clicks on the shopping cart button. 
+11-16-2022 22:28:09 YourStorePage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 117 - User navigates on the register page. 
+11-16-2022 22:28:09 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 235 - User clicks on the forgotten password section.
+11-16-2022 22:28:09 RegisterPage.java WARN  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 264 - User types email for sending a new password. 
+11-16-2022 22:28:10 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 266 - User clicks on the 'Continue' button. 
+11-16-2022 22:28:10 RegisterPage.java INFO  [TestNG-test=Selenium OPEN_CART (Google Chrome)-3] pages.CheckOutPage 219 - User receives an warning message. 
+ =====> Warning: The E-Mail Address was not found in our records, please try again! <===== 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 46029
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+</testsuite>

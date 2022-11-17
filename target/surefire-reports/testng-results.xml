@@ -1,0 +1,1901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="72" passed="72" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-16T22:24:28 PST" name="Smoke Test Suite TestNG OPEN_CART" finished-at="2022-11-16T22:28:10 PST" duration-ms="222146">
+    <groups>
+    </groups>
+    <test started-at="2022-11-16T22:24:28 PST" name="Selenium OPEN_CART (Marionette Firefox)" finished-at="2022-11-16T22:25:54 PST" duration-ms="85547">
+      <class name="com.qa.opencart.test.RegisterPageTest">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:28 PST" name="startUp" finished-at="2022-11-16T22:24:36 PST" duration-ms="7867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateRegisterTitleTest()[pri:1, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:36 PST" name="validateRegisterTitleTest" finished-at="2022-11-16T22:24:37 PST" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:37 PST" name="tearDown" finished-at="2022-11-16T22:24:38 PST" duration-ms="473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterTitleTest status=SUCCESS method=RegisterPageTest.validateRegisterTitleTest()[pri:1, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:38 PST" name="startUp" finished-at="2022-11-16T22:24:42 PST" duration-ms="3898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerTest()[pri:2, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:42 PST" name="doRegisterNewCustomerTest" finished-at="2022-11-16T22:24:45 PST" duration-ms="3359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:45 PST" name="tearDown" finished-at="2022-11-16T22:24:46 PST" duration-ms="486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerTest()[pri:2, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:46 PST" name="startUp" finished-at="2022-11-16T22:24:49 PST" duration-ms="3854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterExistingCustomerTest()[pri:3, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:49 PST" name="doRegisterExistingCustomerTest" finished-at="2022-11-16T22:24:51 PST" duration-ms="1980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterExistingCustomerTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:51 PST" name="tearDown" finished-at="2022-11-16T22:24:52 PST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterExistingCustomerTest status=SUCCESS method=RegisterPageTest.doRegisterExistingCustomerTest()[pri:3, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:52 PST" name="startUp" finished-at="2022-11-16T22:24:56 PST" duration-ms="3913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerMinimumPhoneNumberValueTest()[pri:4, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:56 PST" name="doRegisterNewCustomerMinimumPhoneNumberValueTest" finished-at="2022-11-16T22:24:58 PST" duration-ms="1883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerMinimumPhoneNumberValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:58 PST" name="tearDown" finished-at="2022-11-16T22:24:58 PST" duration-ms="432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerMinimumPhoneNumberValueTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerMinimumPhoneNumberValueTest()[pri:4, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:24:58 PST" name="startUp" finished-at="2022-11-16T22:25:02 PST" duration-ms="3726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerMaximumPhoneNumberValueTest()[pri:5, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:02 PST" name="doRegisterNewCustomerMaximumPhoneNumberValueTest" finished-at="2022-11-16T22:25:04 PST" duration-ms="1795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerMaximumPhoneNumberValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:04 PST" name="tearDown" finished-at="2022-11-16T22:25:04 PST" duration-ms="425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerMaximumPhoneNumberValueTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerMaximumPhoneNumberValueTest()[pri:5, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:04 PST" name="startUp" finished-at="2022-11-16T22:25:08 PST" duration-ms="3783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerMinimumPasswordValueTest()[pri:6, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:08 PST" name="doRegisterNewCustomerMinimumPasswordValueTest" finished-at="2022-11-16T22:25:10 PST" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerMinimumPasswordValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:10 PST" name="tearDown" finished-at="2022-11-16T22:25:11 PST" duration-ms="430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerMinimumPasswordValueTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerMinimumPasswordValueTest()[pri:6, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:11 PST" name="startUp" finished-at="2022-11-16T22:25:15 PST" duration-ms="3991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerMaximumPasswordValueTest()[pri:7, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:15 PST" name="doRegisterNewCustomerMaximumPasswordValueTest" finished-at="2022-11-16T22:25:16 PST" duration-ms="1762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerMaximumPasswordValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:16 PST" name="tearDown" finished-at="2022-11-16T22:25:17 PST" duration-ms="425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerMaximumPasswordValueTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerMaximumPasswordValueTest()[pri:7, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:17 PST" name="startUp" finished-at="2022-11-16T22:25:21 PST" duration-ms="3730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerUnmatchedPasswordValueTest()[pri:8, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:21 PST" name="doRegisterNewCustomerUnmatchedPasswordValueTest" finished-at="2022-11-16T22:25:23 PST" duration-ms="2512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerUnmatchedPasswordValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:23 PST" name="tearDown" finished-at="2022-11-16T22:25:23 PST" duration-ms="432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerUnmatchedPasswordValueTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerUnmatchedPasswordValueTest()[pri:8, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:23 PST" name="startUp" finished-at="2022-11-16T22:25:28 PST" duration-ms="4065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerMinimumPasswordValueUnmatchedTest()[pri:9, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:28 PST" name="doRegisterNewCustomerMinimumPasswordValueUnmatchedTest" finished-at="2022-11-16T22:25:29 PST" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerMinimumPasswordValueUnmatchedTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:29 PST" name="tearDown" finished-at="2022-11-16T22:25:30 PST" duration-ms="429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerMinimumPasswordValueUnmatchedTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerMinimumPasswordValueUnmatchedTest()[pri:9, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:30 PST" name="startUp" finished-at="2022-11-16T22:25:34 PST" duration-ms="3685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerWithoutAgreementPolicyTest()[pri:10, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:34 PST" name="doRegisterNewCustomerWithoutAgreementPolicyTest" finished-at="2022-11-16T22:25:35 PST" duration-ms="1890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerWithoutAgreementPolicyTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:35 PST" name="tearDown" finished-at="2022-11-16T22:25:36 PST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerWithoutAgreementPolicyTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerWithoutAgreementPolicyTest()[pri:10, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:36 PST" name="startUp" finished-at="2022-11-16T22:25:40 PST" duration-ms="3940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doForgotPasswordValidatePageTest()[pri:11, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:40 PST" name="doForgotPasswordValidatePageTest" finished-at="2022-11-16T22:25:41 PST" duration-ms="1337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doForgotPasswordValidatePageTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:41 PST" name="tearDown" finished-at="2022-11-16T22:25:42 PST" duration-ms="433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doForgotPasswordValidatePageTest status=SUCCESS method=RegisterPageTest.doForgotPasswordValidatePageTest()[pri:11, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:42 PST" name="startUp" finished-at="2022-11-16T22:25:45 PST" duration-ms="3433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doSendEmailForgotPasswordExistingCustomerTest()[pri:12, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:45 PST" name="doSendEmailForgotPasswordExistingCustomerTest" finished-at="2022-11-16T22:25:47 PST" duration-ms="2351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSendEmailForgotPasswordExistingCustomerTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:47 PST" name="tearDown" finished-at="2022-11-16T22:25:48 PST" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doSendEmailForgotPasswordExistingCustomerTest status=SUCCESS method=RegisterPageTest.doSendEmailForgotPasswordExistingCustomerTest()[pri:12, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:48 PST" name="startUp" finished-at="2022-11-16T22:25:51 PST" duration-ms="3654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doSendEmailForgotPasswordNewCustomerTest()[pri:13, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:51 PST" name="doSendEmailForgotPasswordNewCustomerTest" finished-at="2022-11-16T22:25:53 PST" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSendEmailForgotPasswordNewCustomerTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@2e385cce]" started-at="2022-11-16T22:25:53 PST" name="tearDown" finished-at="2022-11-16T22:25:54 PST" duration-ms="430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doSendEmailForgotPasswordNewCustomerTest status=SUCCESS method=RegisterPageTest.doSendEmailForgotPasswordNewCustomerTest()[pri:13, instance:com.qa.opencart.test.RegisterPageTest@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.RegisterPageTest -->
+      <class name="com.qa.opencart.test.LoginPageTest">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f]" started-at="2022-11-16T22:24:28 PST" name="startUp" finished-at="2022-11-16T22:24:36 PST" duration-ms="7867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateContactUsTitleTest()[pri:1, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f]" started-at="2022-11-16T22:24:36 PST" name="validateContactUsTitleTest" finished-at="2022-11-16T22:24:37 PST" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactUsTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f]" started-at="2022-11-16T22:24:37 PST" name="tearDown" finished-at="2022-11-16T22:24:38 PST" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateContactUsTitleTest status=SUCCESS method=LoginPageTest.validateContactUsTitleTest()[pri:1, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f]" started-at="2022-11-16T22:24:38 PST" name="startUp" finished-at="2022-11-16T22:24:41 PST" duration-ms="3842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doLoginValidCredentialsTest()[pri:2, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f]" started-at="2022-11-16T22:24:41 PST" name="doLoginValidCredentialsTest" finished-at="2022-11-16T22:24:43 PST" duration-ms="1762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginValidCredentialsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f]" started-at="2022-11-16T22:24:43 PST" name="tearDown" finished-at="2022-11-16T22:24:44 PST" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doLoginValidCredentialsTest status=SUCCESS method=LoginPageTest.doLoginValidCredentialsTest()[pri:2, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f]" started-at="2022-11-16T22:24:44 PST" name="startUp" finished-at="2022-11-16T22:24:47 PST" duration-ms="3830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doLoginInvalidCredentialsTest()[pri:3, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f]" started-at="2022-11-16T22:24:47 PST" name="doLoginInvalidCredentialsTest" finished-at="2022-11-16T22:24:49 PST" duration-ms="1186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginInvalidCredentialsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f]" started-at="2022-11-16T22:24:49 PST" name="tearDown" finished-at="2022-11-16T22:24:49 PST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doLoginInvalidCredentialsTest status=SUCCESS method=LoginPageTest.doLoginInvalidCredentialsTest()[pri:3, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f]" started-at="2022-11-16T22:24:49 PST" name="startUp" finished-at="2022-11-16T22:24:53 PST" duration-ms="3806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doLogOutTest()[pri:4, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f]" started-at="2022-11-16T22:24:53 PST" name="doLogOutTest" finished-at="2022-11-16T22:24:55 PST" duration-ms="2141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogOutTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f]" started-at="2022-11-16T22:24:55 PST" name="tearDown" finished-at="2022-11-16T22:24:55 PST" duration-ms="452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doLogOutTest status=SUCCESS method=LoginPageTest.doLogOutTest()[pri:4, instance:com.qa.opencart.test.LoginPageTest@2ddc9a9f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.LoginPageTest -->
+      <class name="com.qa.opencart.test.ContactUsPageTest">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:28 PST" name="startUp" finished-at="2022-11-16T22:24:36 PST" duration-ms="7867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateContactUsTitleTest()[pri:1, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:36 PST" name="validateContactUsTitleTest" finished-at="2022-11-16T22:24:37 PST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactUsTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:37 PST" name="tearDown" finished-at="2022-11-16T22:24:37 PST" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateContactUsTitleTest status=SUCCESS method=ContactUsPageTest.validateContactUsTitleTest()[pri:1, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:37 PST" name="startUp" finished-at="2022-11-16T22:24:41 PST" duration-ms="4225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doContactUsTest()[pri:2, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:41 PST" name="doContactUsTest" finished-at="2022-11-16T22:24:43 PST" duration-ms="2035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doContactUsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:43 PST" name="tearDown" finished-at="2022-11-16T22:24:44 PST" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doContactUsTest status=SUCCESS method=ContactUsPageTest.doContactUsTest()[pri:2, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:44 PST" name="startUp" finished-at="2022-11-16T22:24:48 PST" duration-ms="4285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doContactUsInvalidYourNameMinimumValueTest()[pri:3, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:48 PST" name="doContactUsInvalidYourNameMinimumValueTest" finished-at="2022-11-16T22:24:49 PST" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doContactUsInvalidYourNameMinimumValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:49 PST" name="tearDown" finished-at="2022-11-16T22:24:50 PST" duration-ms="443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doContactUsInvalidYourNameMinimumValueTest status=SUCCESS method=ContactUsPageTest.doContactUsInvalidYourNameMinimumValueTest()[pri:3, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:50 PST" name="startUp" finished-at="2022-11-16T22:24:54 PST" duration-ms="3867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doContactUsInvalidYourNameMaximumValueTest()[pri:4, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:54 PST" name="doContactUsInvalidYourNameMaximumValueTest" finished-at="2022-11-16T22:24:55 PST" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doContactUsInvalidYourNameMaximumValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:55 PST" name="tearDown" finished-at="2022-11-16T22:24:55 PST" duration-ms="451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doContactUsInvalidYourNameMaximumValueTest status=SUCCESS method=ContactUsPageTest.doContactUsInvalidYourNameMaximumValueTest()[pri:4, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:55 PST" name="startUp" finished-at="2022-11-16T22:24:59 PST" duration-ms="3968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doContactUsInvalidEmailAddressTest()[pri:5, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:24:59 PST" name="doContactUsInvalidEmailAddressTest" finished-at="2022-11-16T22:25:00 PST" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doContactUsInvalidEmailAddressTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:25:00 PST" name="tearDown" finished-at="2022-11-16T22:25:01 PST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doContactUsInvalidEmailAddressTest status=SUCCESS method=ContactUsPageTest.doContactUsInvalidEmailAddressTest()[pri:5, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:25:01 PST" name="startUp" finished-at="2022-11-16T22:25:05 PST" duration-ms="3915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doContactUsInvalidEnquiryMinimumValueTest()[pri:6, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:25:05 PST" name="doContactUsInvalidEnquiryMinimumValueTest" finished-at="2022-11-16T22:25:06 PST" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doContactUsInvalidEnquiryMinimumValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:25:06 PST" name="tearDown" finished-at="2022-11-16T22:25:06 PST" duration-ms="436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doContactUsInvalidEnquiryMinimumValueTest status=SUCCESS method=ContactUsPageTest.doContactUsInvalidEnquiryMinimumValueTest()[pri:6, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:25:06 PST" name="startUp" finished-at="2022-11-16T22:25:10 PST" duration-ms="4102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doContactUsInvalidEnquiryMaximumValueTest()[pri:7, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:25:10 PST" name="doContactUsInvalidEnquiryMaximumValueTest" finished-at="2022-11-16T22:25:13 PST" duration-ms="2417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doContactUsInvalidEnquiryMaximumValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33]" started-at="2022-11-16T22:25:13 PST" name="tearDown" finished-at="2022-11-16T22:25:13 PST" duration-ms="445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doContactUsInvalidEnquiryMaximumValueTest status=SUCCESS method=ContactUsPageTest.doContactUsInvalidEnquiryMaximumValueTest()[pri:7, instance:com.qa.opencart.test.ContactUsPageTest@3e27aa33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.ContactUsPageTest -->
+      <class name="com.qa.opencart.test.YourStorePageTest">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:28 PST" name="startUp" finished-at="2022-11-16T22:24:36 PST" duration-ms="7592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateYourPageLogoTest()[pri:1, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:36 PST" name="validateYourPageLogoTest" finished-at="2022-11-16T22:24:36 PST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateYourPageLogoTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:36 PST" name="tearDown" finished-at="2022-11-16T22:24:37 PST" duration-ms="447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateYourPageLogoTest status=SUCCESS method=YourStorePageTest.validateYourPageLogoTest()[pri:1, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:37 PST" name="startUp" finished-at="2022-11-16T22:24:42 PST" duration-ms="4904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateYourPageTitleTest()[pri:2, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:42 PST" name="validateYourPageTitleTest" finished-at="2022-11-16T22:24:42 PST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateYourPageTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:42 PST" name="tearDown" finished-at="2022-11-16T22:24:42 PST" duration-ms="447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateYourPageTitleTest status=SUCCESS method=YourStorePageTest.validateYourPageTitleTest()[pri:2, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:42 PST" name="startUp" finished-at="2022-11-16T22:24:46 PST" duration-ms="4024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="getCurrencyTest()[pri:3, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:46 PST" name="getCurrencyTest" finished-at="2022-11-16T22:24:47 PST" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrencyTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:47 PST" name="tearDown" finished-at="2022-11-16T22:24:48 PST" duration-ms="449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getCurrencyTest status=SUCCESS method=YourStorePageTest.getCurrencyTest()[pri:3, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:48 PST" name="startUp" finished-at="2022-11-16T22:24:52 PST" duration-ms="4316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doClickOnTheContactUsIconTest()[pri:4, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:52 PST" name="doClickOnTheContactUsIconTest" finished-at="2022-11-16T22:24:52 PST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnTheContactUsIconTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:52 PST" name="tearDown" finished-at="2022-11-16T22:24:53 PST" duration-ms="442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doClickOnTheContactUsIconTest status=SUCCESS method=YourStorePageTest.doClickOnTheContactUsIconTest()[pri:4, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:53 PST" name="startUp" finished-at="2022-11-16T22:24:57 PST" duration-ms="3697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doClickOnTheRegisterPage()[pri:5, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:57 PST" name="doClickOnTheRegisterPage" finished-at="2022-11-16T22:24:58 PST" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnTheRegisterPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:58 PST" name="tearDown" finished-at="2022-11-16T22:24:58 PST" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doClickOnTheRegisterPage status=SUCCESS method=YourStorePageTest.doClickOnTheRegisterPage()[pri:5, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:24:58 PST" name="startUp" finished-at="2022-11-16T22:25:02 PST" duration-ms="3870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doClickOnTheLoginPage()[pri:6, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:02 PST" name="doClickOnTheLoginPage" finished-at="2022-11-16T22:25:03 PST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnTheLoginPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:03 PST" name="tearDown" finished-at="2022-11-16T22:25:03 PST" duration-ms="423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doClickOnTheLoginPage status=SUCCESS method=YourStorePageTest.doClickOnTheLoginPage()[pri:6, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:03 PST" name="startUp" finished-at="2022-11-16T22:25:07 PST" duration-ms="3859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doClickOnTheShoppingCartPage()[pri:7, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:07 PST" name="doClickOnTheShoppingCartPage" finished-at="2022-11-16T22:25:07 PST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnTheShoppingCartPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:07 PST" name="tearDown" finished-at="2022-11-16T22:25:08 PST" duration-ms="430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doClickOnTheShoppingCartPage status=SUCCESS method=YourStorePageTest.doClickOnTheShoppingCartPage()[pri:7, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:08 PST" name="startUp" finished-at="2022-11-16T22:25:12 PST" duration-ms="3841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doClickOnTheCheckOutPage()[pri:8, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:12 PST" name="doClickOnTheCheckOutPage" finished-at="2022-11-16T22:25:12 PST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnTheCheckOutPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:12 PST" name="tearDown" finished-at="2022-11-16T22:25:13 PST" duration-ms="430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doClickOnTheCheckOutPage status=SUCCESS method=YourStorePageTest.doClickOnTheCheckOutPage()[pri:8, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:13 PST" name="startUp" finished-at="2022-11-16T22:25:17 PST" duration-ms="3871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateNavigationBarsTest()[pri:9, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:17 PST" name="validateNavigationBarsTest" finished-at="2022-11-16T22:25:17 PST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigationBarsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:17 PST" name="tearDown" finished-at="2022-11-16T22:25:17 PST" duration-ms="447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateNavigationBarsTest status=SUCCESS method=YourStorePageTest.validateNavigationBarsTest()[pri:9, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:17 PST" name="startUp" finished-at="2022-11-16T22:25:21 PST" duration-ms="3806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="featuredTest()[pri:10, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:21 PST" name="featuredTest" finished-at="2022-11-16T22:25:21 PST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- featuredTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:21 PST" name="tearDown" finished-at="2022-11-16T22:25:22 PST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=featuredTest status=SUCCESS method=YourStorePageTest.featuredTest()[pri:10, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:22 PST" name="startUp" finished-at="2022-11-16T22:25:25 PST" duration-ms="3546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="adsQuantityTest()[pri:11, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:25 PST" name="adsQuantityTest" finished-at="2022-11-16T22:25:25 PST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adsQuantityTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:25 PST" name="tearDown" finished-at="2022-11-16T22:25:26 PST" duration-ms="423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adsQuantityTest status=SUCCESS method=YourStorePageTest.adsQuantityTest()[pri:11, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:26 PST" name="startUp" finished-at="2022-11-16T22:25:29 PST" duration-ms="3497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="adsTest()[pri:12, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:29 PST" name="adsTest" finished-at="2022-11-16T22:25:29 PST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe]" started-at="2022-11-16T22:25:29 PST" name="tearDown" finished-at="2022-11-16T22:25:30 PST" duration-ms="435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adsTest status=SUCCESS method=YourStorePageTest.adsTest()[pri:12, instance:com.qa.opencart.test.YourStorePageTest@a38c7fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.YourStorePageTest -->
+    </test> <!-- Selenium OPEN_CART (Marionette Firefox) -->
+    <test started-at="2022-11-16T22:25:54 PST" name="Selenium OPEN_CART (Google Chrome)" finished-at="2022-11-16T22:28:10 PST" duration-ms="136552">
+      <class name="com.qa.opencart.test.RegisterPageTest">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:25:54 PST" name="startUp" finished-at="2022-11-16T22:25:59 PST" duration-ms="4808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateRegisterTitleTest()[pri:1, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:25:59 PST" name="validateRegisterTitleTest" finished-at="2022-11-16T22:26:02 PST" duration-ms="3778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:02 PST" name="tearDown" finished-at="2022-11-16T22:26:03 PST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateRegisterTitleTest status=SUCCESS method=RegisterPageTest.validateRegisterTitleTest()[pri:1, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:03 PST" name="startUp" finished-at="2022-11-16T22:26:07 PST" duration-ms="4335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerTest()[pri:2, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:07 PST" name="doRegisterNewCustomerTest" finished-at="2022-11-16T22:26:15 PST" duration-ms="8124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:15 PST" name="tearDown" finished-at="2022-11-16T22:26:15 PST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerTest()[pri:2, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:15 PST" name="startUp" finished-at="2022-11-16T22:26:19 PST" duration-ms="3671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterExistingCustomerTest()[pri:3, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:19 PST" name="doRegisterExistingCustomerTest" finished-at="2022-11-16T22:26:27 PST" duration-ms="7879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterExistingCustomerTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:27 PST" name="tearDown" finished-at="2022-11-16T22:26:27 PST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterExistingCustomerTest status=SUCCESS method=RegisterPageTest.doRegisterExistingCustomerTest()[pri:3, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:27 PST" name="startUp" finished-at="2022-11-16T22:26:30 PST" duration-ms="3610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerMinimumPhoneNumberValueTest()[pri:4, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:30 PST" name="doRegisterNewCustomerMinimumPhoneNumberValueTest" finished-at="2022-11-16T22:26:38 PST" duration-ms="7628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerMinimumPhoneNumberValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:38 PST" name="tearDown" finished-at="2022-11-16T22:26:38 PST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerMinimumPhoneNumberValueTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerMinimumPhoneNumberValueTest()[pri:4, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:38 PST" name="startUp" finished-at="2022-11-16T22:26:42 PST" duration-ms="3582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerMaximumPhoneNumberValueTest()[pri:5, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:42 PST" name="doRegisterNewCustomerMaximumPhoneNumberValueTest" finished-at="2022-11-16T22:26:51 PST" duration-ms="8902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerMaximumPhoneNumberValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:51 PST" name="tearDown" finished-at="2022-11-16T22:26:51 PST" duration-ms="105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerMaximumPhoneNumberValueTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerMaximumPhoneNumberValueTest()[pri:5, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:51 PST" name="startUp" finished-at="2022-11-16T22:26:55 PST" duration-ms="3913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerMinimumPasswordValueTest()[pri:6, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:26:55 PST" name="doRegisterNewCustomerMinimumPasswordValueTest" finished-at="2022-11-16T22:27:01 PST" duration-ms="5908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerMinimumPasswordValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:01 PST" name="tearDown" finished-at="2022-11-16T22:27:01 PST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerMinimumPasswordValueTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerMinimumPasswordValueTest()[pri:6, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:01 PST" name="startUp" finished-at="2022-11-16T22:27:05 PST" duration-ms="4163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerMaximumPasswordValueTest()[pri:7, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:05 PST" name="doRegisterNewCustomerMaximumPasswordValueTest" finished-at="2022-11-16T22:27:13 PST" duration-ms="7739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerMaximumPasswordValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:13 PST" name="tearDown" finished-at="2022-11-16T22:27:13 PST" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerMaximumPasswordValueTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerMaximumPasswordValueTest()[pri:7, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:13 PST" name="startUp" finished-at="2022-11-16T22:27:16 PST" duration-ms="3595" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerUnmatchedPasswordValueTest()[pri:8, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:16 PST" name="doRegisterNewCustomerUnmatchedPasswordValueTest" finished-at="2022-11-16T22:27:23 PST" duration-ms="6309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerUnmatchedPasswordValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:23 PST" name="tearDown" finished-at="2022-11-16T22:27:23 PST" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerUnmatchedPasswordValueTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerUnmatchedPasswordValueTest()[pri:8, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:23 PST" name="startUp" finished-at="2022-11-16T22:27:30 PST" duration-ms="7112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerMinimumPasswordValueUnmatchedTest()[pri:9, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:30 PST" name="doRegisterNewCustomerMinimumPasswordValueUnmatchedTest" finished-at="2022-11-16T22:27:36 PST" duration-ms="6096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerMinimumPasswordValueUnmatchedTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:36 PST" name="tearDown" finished-at="2022-11-16T22:27:36 PST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerMinimumPasswordValueUnmatchedTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerMinimumPasswordValueUnmatchedTest()[pri:9, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:36 PST" name="startUp" finished-at="2022-11-16T22:27:40 PST" duration-ms="3552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doRegisterNewCustomerWithoutAgreementPolicyTest()[pri:10, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:40 PST" name="doRegisterNewCustomerWithoutAgreementPolicyTest" finished-at="2022-11-16T22:27:46 PST" duration-ms="5916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegisterNewCustomerWithoutAgreementPolicyTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:46 PST" name="tearDown" finished-at="2022-11-16T22:27:46 PST" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doRegisterNewCustomerWithoutAgreementPolicyTest status=SUCCESS method=RegisterPageTest.doRegisterNewCustomerWithoutAgreementPolicyTest()[pri:10, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:46 PST" name="startUp" finished-at="2022-11-16T22:27:50 PST" duration-ms="4045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doForgotPasswordValidatePageTest()[pri:11, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:50 PST" name="doForgotPasswordValidatePageTest" finished-at="2022-11-16T22:27:53 PST" duration-ms="3342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doForgotPasswordValidatePageTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:53 PST" name="tearDown" finished-at="2022-11-16T22:27:53 PST" duration-ms="120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doForgotPasswordValidatePageTest status=SUCCESS method=RegisterPageTest.doForgotPasswordValidatePageTest()[pri:11, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:53 PST" name="startUp" finished-at="2022-11-16T22:27:57 PST" duration-ms="3852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doSendEmailForgotPasswordExistingCustomerTest()[pri:12, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:27:57 PST" name="doSendEmailForgotPasswordExistingCustomerTest" finished-at="2022-11-16T22:28:02 PST" duration-ms="4715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSendEmailForgotPasswordExistingCustomerTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:28:02 PST" name="tearDown" finished-at="2022-11-16T22:28:02 PST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doSendEmailForgotPasswordExistingCustomerTest status=SUCCESS method=RegisterPageTest.doSendEmailForgotPasswordExistingCustomerTest()[pri:12, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:28:02 PST" name="startUp" finished-at="2022-11-16T22:28:06 PST" duration-ms="4296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doSendEmailForgotPasswordNewCustomerTest()[pri:13, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:28:06 PST" name="doSendEmailForgotPasswordNewCustomerTest" finished-at="2022-11-16T22:28:10 PST" duration-ms="4178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSendEmailForgotPasswordNewCustomerTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@19e4653c]" started-at="2022-11-16T22:28:10 PST" name="tearDown" finished-at="2022-11-16T22:28:10 PST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doSendEmailForgotPasswordNewCustomerTest status=SUCCESS method=RegisterPageTest.doSendEmailForgotPasswordNewCustomerTest()[pri:13, instance:com.qa.opencart.test.RegisterPageTest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.RegisterPageTest -->
+      <class name="com.qa.opencart.test.LoginPageTest">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@795509d9]" started-at="2022-11-16T22:25:54 PST" name="startUp" finished-at="2022-11-16T22:25:59 PST" duration-ms="5124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateContactUsTitleTest()[pri:1, instance:com.qa.opencart.test.LoginPageTest@795509d9]" started-at="2022-11-16T22:25:59 PST" name="validateContactUsTitleTest" finished-at="2022-11-16T22:26:00 PST" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactUsTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@795509d9]" started-at="2022-11-16T22:26:00 PST" name="tearDown" finished-at="2022-11-16T22:26:00 PST" duration-ms="104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateContactUsTitleTest status=SUCCESS method=LoginPageTest.validateContactUsTitleTest()[pri:1, instance:com.qa.opencart.test.LoginPageTest@795509d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@795509d9]" started-at="2022-11-16T22:26:00 PST" name="startUp" finished-at="2022-11-16T22:26:04 PST" duration-ms="3716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doLoginValidCredentialsTest()[pri:2, instance:com.qa.opencart.test.LoginPageTest@795509d9]" started-at="2022-11-16T22:26:04 PST" name="doLoginValidCredentialsTest" finished-at="2022-11-16T22:26:07 PST" duration-ms="3247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginValidCredentialsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@795509d9]" started-at="2022-11-16T22:26:07 PST" name="tearDown" finished-at="2022-11-16T22:26:07 PST" duration-ms="120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doLoginValidCredentialsTest status=SUCCESS method=LoginPageTest.doLoginValidCredentialsTest()[pri:2, instance:com.qa.opencart.test.LoginPageTest@795509d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@795509d9]" started-at="2022-11-16T22:26:07 PST" name="startUp" finished-at="2022-11-16T22:26:11 PST" duration-ms="3811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doLoginInvalidCredentialsTest()[pri:3, instance:com.qa.opencart.test.LoginPageTest@795509d9]" started-at="2022-11-16T22:26:11 PST" name="doLoginInvalidCredentialsTest" finished-at="2022-11-16T22:26:13 PST" duration-ms="2311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginInvalidCredentialsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@795509d9]" started-at="2022-11-16T22:26:13 PST" name="tearDown" finished-at="2022-11-16T22:26:13 PST" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doLoginInvalidCredentialsTest status=SUCCESS method=LoginPageTest.doLoginInvalidCredentialsTest()[pri:3, instance:com.qa.opencart.test.LoginPageTest@795509d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@795509d9]" started-at="2022-11-16T22:26:13 PST" name="startUp" finished-at="2022-11-16T22:26:17 PST" duration-ms="3474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doLogOutTest()[pri:4, instance:com.qa.opencart.test.LoginPageTest@795509d9]" started-at="2022-11-16T22:26:17 PST" name="doLogOutTest" finished-at="2022-11-16T22:26:21 PST" duration-ms="3821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogOutTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@795509d9]" started-at="2022-11-16T22:26:21 PST" name="tearDown" finished-at="2022-11-16T22:26:21 PST" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doLogOutTest status=SUCCESS method=LoginPageTest.doLogOutTest()[pri:4, instance:com.qa.opencart.test.LoginPageTest@795509d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.LoginPageTest -->
+      <class name="com.qa.opencart.test.ContactUsPageTest">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:25:54 PST" name="startUp" finished-at="2022-11-16T22:25:59 PST" duration-ms="4752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateContactUsTitleTest()[pri:1, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:25:59 PST" name="validateContactUsTitleTest" finished-at="2022-11-16T22:26:00 PST" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactUsTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:00 PST" name="tearDown" finished-at="2022-11-16T22:26:00 PST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateContactUsTitleTest status=SUCCESS method=ContactUsPageTest.validateContactUsTitleTest()[pri:1, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:00 PST" name="startUp" finished-at="2022-11-16T22:26:03 PST" duration-ms="3653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doContactUsTest()[pri:2, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:03 PST" name="doContactUsTest" finished-at="2022-11-16T22:26:06 PST" duration-ms="3112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doContactUsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:06 PST" name="tearDown" finished-at="2022-11-16T22:26:07 PST" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doContactUsTest status=SUCCESS method=ContactUsPageTest.doContactUsTest()[pri:2, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:07 PST" name="startUp" finished-at="2022-11-16T22:26:10 PST" duration-ms="3649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doContactUsInvalidYourNameMinimumValueTest()[pri:3, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:10 PST" name="doContactUsInvalidYourNameMinimumValueTest" finished-at="2022-11-16T22:26:14 PST" duration-ms="3651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doContactUsInvalidYourNameMinimumValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:14 PST" name="tearDown" finished-at="2022-11-16T22:26:14 PST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doContactUsInvalidYourNameMinimumValueTest status=SUCCESS method=ContactUsPageTest.doContactUsInvalidYourNameMinimumValueTest()[pri:3, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:14 PST" name="startUp" finished-at="2022-11-16T22:26:18 PST" duration-ms="3676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doContactUsInvalidYourNameMaximumValueTest()[pri:4, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:18 PST" name="doContactUsInvalidYourNameMaximumValueTest" finished-at="2022-11-16T22:26:22 PST" duration-ms="4736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doContactUsInvalidYourNameMaximumValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:22 PST" name="tearDown" finished-at="2022-11-16T22:26:22 PST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doContactUsInvalidYourNameMaximumValueTest status=SUCCESS method=ContactUsPageTest.doContactUsInvalidYourNameMaximumValueTest()[pri:4, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:23 PST" name="startUp" finished-at="2022-11-16T22:26:26 PST" duration-ms="3414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doContactUsInvalidEmailAddressTest()[pri:5, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:26 PST" name="doContactUsInvalidEmailAddressTest" finished-at="2022-11-16T22:26:29 PST" duration-ms="2783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doContactUsInvalidEmailAddressTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:29 PST" name="tearDown" finished-at="2022-11-16T22:26:29 PST" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doContactUsInvalidEmailAddressTest status=SUCCESS method=ContactUsPageTest.doContactUsInvalidEmailAddressTest()[pri:5, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:29 PST" name="startUp" finished-at="2022-11-16T22:26:32 PST" duration-ms="3484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doContactUsInvalidEnquiryMinimumValueTest()[pri:6, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:32 PST" name="doContactUsInvalidEnquiryMinimumValueTest" finished-at="2022-11-16T22:26:35 PST" duration-ms="2820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doContactUsInvalidEnquiryMinimumValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:35 PST" name="tearDown" finished-at="2022-11-16T22:26:35 PST" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doContactUsInvalidEnquiryMinimumValueTest status=SUCCESS method=ContactUsPageTest.doContactUsInvalidEnquiryMinimumValueTest()[pri:6, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:35 PST" name="startUp" finished-at="2022-11-16T22:26:39 PST" duration-ms="3777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doContactUsInvalidEnquiryMaximumValueTest()[pri:7, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:39 PST" name="doContactUsInvalidEnquiryMaximumValueTest" finished-at="2022-11-16T22:26:50 PST" duration-ms="11096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doContactUsInvalidEnquiryMaximumValueTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a]" started-at="2022-11-16T22:26:50 PST" name="tearDown" finished-at="2022-11-16T22:26:50 PST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doContactUsInvalidEnquiryMaximumValueTest status=SUCCESS method=ContactUsPageTest.doContactUsInvalidEnquiryMaximumValueTest()[pri:7, instance:com.qa.opencart.test.ContactUsPageTest@663c9e7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.ContactUsPageTest -->
+      <class name="com.qa.opencart.test.YourStorePageTest">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:25:54 PST" name="startUp" finished-at="2022-11-16T22:25:59 PST" duration-ms="4833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateYourPageLogoTest()[pri:1, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:25:59 PST" name="validateYourPageLogoTest" finished-at="2022-11-16T22:25:59 PST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateYourPageLogoTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:25:59 PST" name="tearDown" finished-at="2022-11-16T22:25:59 PST" duration-ms="122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateYourPageLogoTest status=SUCCESS method=YourStorePageTest.validateYourPageLogoTest()[pri:1, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:25:59 PST" name="startUp" finished-at="2022-11-16T22:26:03 PST" duration-ms="3621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateYourPageTitleTest()[pri:2, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:03 PST" name="validateYourPageTitleTest" finished-at="2022-11-16T22:26:03 PST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateYourPageTitleTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:03 PST" name="tearDown" finished-at="2022-11-16T22:26:03 PST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateYourPageTitleTest status=SUCCESS method=YourStorePageTest.validateYourPageTitleTest()[pri:2, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:03 PST" name="startUp" finished-at="2022-11-16T22:26:07 PST" duration-ms="4000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="getCurrencyTest()[pri:3, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:07 PST" name="getCurrencyTest" finished-at="2022-11-16T22:26:08 PST" duration-ms="1430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrencyTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:08 PST" name="tearDown" finished-at="2022-11-16T22:26:08 PST" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getCurrencyTest status=SUCCESS method=YourStorePageTest.getCurrencyTest()[pri:3, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:08 PST" name="startUp" finished-at="2022-11-16T22:26:12 PST" duration-ms="3511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doClickOnTheContactUsIconTest()[pri:4, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:12 PST" name="doClickOnTheContactUsIconTest" finished-at="2022-11-16T22:26:13 PST" duration-ms="1168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnTheContactUsIconTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:13 PST" name="tearDown" finished-at="2022-11-16T22:26:13 PST" duration-ms="104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doClickOnTheContactUsIconTest status=SUCCESS method=YourStorePageTest.doClickOnTheContactUsIconTest()[pri:4, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:13 PST" name="startUp" finished-at="2022-11-16T22:26:17 PST" duration-ms="3618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doClickOnTheRegisterPage()[pri:5, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:17 PST" name="doClickOnTheRegisterPage" finished-at="2022-11-16T22:26:21 PST" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnTheRegisterPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:21 PST" name="tearDown" finished-at="2022-11-16T22:26:21 PST" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doClickOnTheRegisterPage status=SUCCESS method=YourStorePageTest.doClickOnTheRegisterPage()[pri:5, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:21 PST" name="startUp" finished-at="2022-11-16T22:26:25 PST" duration-ms="3465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doClickOnTheLoginPage()[pri:6, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:25 PST" name="doClickOnTheLoginPage" finished-at="2022-11-16T22:26:26 PST" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnTheLoginPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:26 PST" name="tearDown" finished-at="2022-11-16T22:26:26 PST" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doClickOnTheLoginPage status=SUCCESS method=YourStorePageTest.doClickOnTheLoginPage()[pri:6, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:26 PST" name="startUp" finished-at="2022-11-16T22:26:30 PST" duration-ms="3696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doClickOnTheShoppingCartPage()[pri:7, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:30 PST" name="doClickOnTheShoppingCartPage" finished-at="2022-11-16T22:26:30 PST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnTheShoppingCartPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:30 PST" name="tearDown" finished-at="2022-11-16T22:26:31 PST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doClickOnTheShoppingCartPage status=SUCCESS method=YourStorePageTest.doClickOnTheShoppingCartPage()[pri:7, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:31 PST" name="startUp" finished-at="2022-11-16T22:26:35 PST" duration-ms="4837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="doClickOnTheCheckOutPage()[pri:8, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:35 PST" name="doClickOnTheCheckOutPage" finished-at="2022-11-16T22:26:37 PST" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doClickOnTheCheckOutPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:37 PST" name="tearDown" finished-at="2022-11-16T22:26:37 PST" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doClickOnTheCheckOutPage status=SUCCESS method=YourStorePageTest.doClickOnTheCheckOutPage()[pri:8, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:37 PST" name="startUp" finished-at="2022-11-16T22:26:40 PST" duration-ms="3724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="validateNavigationBarsTest()[pri:9, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:40 PST" name="validateNavigationBarsTest" finished-at="2022-11-16T22:26:41 PST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavigationBarsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:41 PST" name="tearDown" finished-at="2022-11-16T22:26:41 PST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateNavigationBarsTest status=SUCCESS method=YourStorePageTest.validateNavigationBarsTest()[pri:9, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:41 PST" name="startUp" finished-at="2022-11-16T22:26:45 PST" duration-ms="4173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="featuredTest()[pri:10, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:45 PST" name="featuredTest" finished-at="2022-11-16T22:26:45 PST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- featuredTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:45 PST" name="tearDown" finished-at="2022-11-16T22:26:45 PST" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=featuredTest status=SUCCESS method=YourStorePageTest.featuredTest()[pri:10, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:45 PST" name="startUp" finished-at="2022-11-16T22:26:50 PST" duration-ms="4367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="adsQuantityTest()[pri:11, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:50 PST" name="adsQuantityTest" finished-at="2022-11-16T22:26:50 PST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adsQuantityTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:50 PST" name="tearDown" finished-at="2022-11-16T22:26:50 PST" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adsQuantityTest status=SUCCESS method=YourStorePageTest.adsQuantityTest()[pri:11, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:50 PST" name="startUp" finished-at="2022-11-16T22:26:54 PST" duration-ms="3882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="adsTest()[pri:12, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:54 PST" name="adsTest" finished-at="2022-11-16T22:26:54 PST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be]" started-at="2022-11-16T22:26:54 PST" name="tearDown" finished-at="2022-11-16T22:26:54 PST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adsTest status=SUCCESS method=YourStorePageTest.adsTest()[pri:12, instance:com.qa.opencart.test.YourStorePageTest@1cf6d1be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.test.YourStorePageTest -->
+    </test> <!-- Selenium OPEN_CART (Google Chrome) -->
+  </suite> <!-- Smoke Test Suite TestNG OPEN_CART -->
+</testng-results>

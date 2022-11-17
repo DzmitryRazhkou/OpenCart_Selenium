@@ -1,0 +1,58 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Test Suite TestNG OPEN_CART" parallel="classes" thread-count="4">
+    <listeners>
+        <!--        <listener class-name="listeners.Listeners"/>-->
+    </listeners>
+
+    <test name="Selenium OPEN_CART (Marionette Firefox)">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.qa.opencart.test.YourStorePageTest">
+                <methods>
+                    <!--                    <include name="loginToAppFactory"/>-->
+                </methods>
+            </class>
+            <class name="com.qa.opencart.test.ContactUsPageTest">
+                <methods>
+                    <!--                    <include name="loginToAppFactory"/>-->
+                </methods>
+            </class>
+            <class name="com.qa.opencart.test.RegisterPageTest">
+                <methods>
+                    <!--                    <include name="loginToAppFactory"/>-->
+                </methods>
+            </class>
+            <class name="com.qa.opencart.test.LoginPageTest">
+                <methods>
+                    <!--                    <include name="loginToAppFactory"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Selenium OPEN_CART (Google Chrome)">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.qa.opencart.test.YourStorePageTest">
+                <methods>
+                    <!--                    <include name="loginToAppFactory"/>-->
+                </methods>
+            </class>
+            <class name="com.qa.opencart.test.ContactUsPageTest">
+                <methods>
+                    <!--                    <include name="loginToAppFactory"/>-->
+                </methods>
+            </class>
+            <class name="com.qa.opencart.test.RegisterPageTest">
+                <methods>
+                    <!--                    <include name="loginToAppFactory"/>-->
+                </methods>
+            </class>
+            <class name="com.qa.opencart.test.LoginPageTest">
+                <methods>
+                    <!--                    <include name="loginToAppFactory"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

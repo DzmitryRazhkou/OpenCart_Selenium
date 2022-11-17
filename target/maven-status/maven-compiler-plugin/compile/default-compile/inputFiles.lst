@@ -1,0 +1,15 @@
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/utils/Waiter.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/pages/YourStorePage.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/pages/ContactUsPage.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/utils/ScreenShot.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/pages/LoginPage.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/enums/Browsers.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/pages/SearchPage.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/utils/ConfigReader.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/pages/RegisterPage.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/pages/MyAccountPage.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/browser/BrowserFactory.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/pages/ShoppingCartPage.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/pages/CheckOutPage.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/pages/MyWishListPage.java
+/Users/dzmitryrazhkou/Documents/Automation/OpenCart_Selenium/src/main/java/com/qa/opencart/basepage/BasePage.java
