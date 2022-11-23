@@ -4,7 +4,7 @@ pipeline {
         maven "mvn"
     }
     stages {
-        stage('GitHub') {
+        stage(' =====> GitHub ---> Selenium Smoke Suite <--- Allure Report <===== ') {
             steps {
             git 'https://github.com/DzmitryRazhkou/OpenCart_Selenium.git'
             sh 'mvn clean test'
