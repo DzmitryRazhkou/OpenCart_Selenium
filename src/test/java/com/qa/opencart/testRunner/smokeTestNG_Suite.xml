@@ -30,29 +30,29 @@
         </classes>
     </test>
 
-    <test name="Selenium OPEN_CART (Google Chrome)">
-        <parameter name="browser" value="chrome"/>
-        <classes>
-            <class name="com.qa.opencart.test.YourStorePageTest">
-                <methods>
-                    <!--                    <include name="loginToAppFactory"/>-->
-                </methods>
-            </class>
-            <class name="com.qa.opencart.test.ContactUsPageTest">
-                <methods>
-                    <!--                    <include name="loginToAppFactory"/>-->
-                </methods>
-            </class>
-            <class name="com.qa.opencart.test.RegisterPageTest">
-                <methods>
-                    <!--                    <include name="loginToAppFactory"/>-->
-                </methods>
-            </class>
-            <class name="com.qa.opencart.test.LoginPageTest">
-                <methods>
-                    <!--                    <include name="loginToAppFactory"/>-->
-                </methods>
-            </class>
-        </classes>
-    </test>
+<!--    <test name="Selenium OPEN_CART (Google Chrome)">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.opencart.test.YourStorePageTest">-->
+<!--                <methods>-->
+<!--                    &lt;!&ndash;                    <include name="loginToAppFactory"/>&ndash;&gt;-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.qa.opencart.test.ContactUsPageTest">-->
+<!--                <methods>-->
+<!--                    &lt;!&ndash;                    <include name="loginToAppFactory"/>&ndash;&gt;-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.qa.opencart.test.RegisterPageTest">-->
+<!--                <methods>-->
+<!--                    &lt;!&ndash;                    <include name="loginToAppFactory"/>&ndash;&gt;-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.qa.opencart.test.LoginPageTest">-->
+<!--                <methods>-->
+<!--                    &lt;!&ndash;                    <include name="loginToAppFactory"/>&ndash;&gt;-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

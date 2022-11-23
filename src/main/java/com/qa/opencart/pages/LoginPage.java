@@ -53,7 +53,6 @@ public class LoginPage extends BasePage {
         wait.until(ExpectedConditions.presenceOfElementLocated(submitLocator));
         return driver.findElement(submitLocator);
     }
-
     public MyAccountPage loginCorrectCredentials(String email, String password) {
         log.info("User types an email. ");
         getEmail().clear();
@@ -94,7 +93,6 @@ public class LoginPage extends BasePage {
             return false;
         }
     }
-
     private WebElement getLogo() {
         By getLogoLocator = By.cssSelector("img[title='naveenopencart']");
         wait.until(ExpectedConditions.presenceOfElementLocated(getLogoLocator));

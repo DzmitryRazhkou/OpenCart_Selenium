@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+    tools {
+        maven "mvn"
+    }
+
+    stages {
+        stage('GitHub') {
+            steps {
+                git branch 'master' url: "https://github.com/DzmitryRazhkou/OpenCart_Selenium.git"
+            }
+        }
+    }
+
+    stages {
+        stage('Selenium Build') {
+            steps {
+                sh 'mvn clean test'
+            }
+            post {
+                suceess {
+                    allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+                }
+
+            }
+        }
+    }
+}

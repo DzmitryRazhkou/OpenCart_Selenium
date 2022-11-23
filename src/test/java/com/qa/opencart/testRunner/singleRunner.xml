@@ -4,17 +4,12 @@
 <!--        <listener class-name="listeners.Listeners"/>-->
     </listeners>
 
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="chrome"/>
     <test name="Selenium OPEN_CART (Marionette Firefox)">
         <classes>
-            <class name="com.qa.opencart.test.RegisterPageTest">
-                <methods>
-<!--                    <include name="loginToAppFactory"/>-->
-                </methods>
-            </class>
             <class name="com.qa.opencart.test.LoginPageTest">
                 <methods>
-                    <!--                    <include name="loginToAppFactory"/>-->
+                    <include name="doLoginBetweenOneToFourEmailJustNumbersPswCredentialsTest"/>
                 </methods>
             </class>
         </classes>
