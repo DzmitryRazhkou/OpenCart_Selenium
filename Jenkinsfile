@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('GitHub') {
             steps {
-                git branch 'master' url: "https://github.com/DzmitryRazhkou/OpenCart_Selenium.git"
+                git branch 'master', url: 'https://github.com/DzmitryRazhkou/OpenCart_Selenium.git'
             }
         }
     }
