@@ -12,6 +12,7 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Arrays;
 
 public class BrowserFactory {
 
@@ -43,8 +44,11 @@ public class BrowserFactory {
 
     private static WebDriver getChromeDriver() {
         WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.setExperimentalOption("useAutomationExtension", false);
+        options.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
         System.out.println(" =====> Selenium Chrome <===== ");
-        return new ChromeDriver();
+        return new ChromeDriver(options);
     }
 
     private static ChromeDriver getChromeHeadlessDriver() {

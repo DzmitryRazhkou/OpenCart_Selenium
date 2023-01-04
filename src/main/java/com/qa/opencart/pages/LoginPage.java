@@ -39,17 +39,17 @@ public class LoginPage extends BasePage {
 
 //    Login Feature:
     private WebElement getEmail() {
-        By emailLocator = By.id("input-email");
+        By emailLocator = By.id(prop.getProperty("emailIdLocator"));
         wait.until(ExpectedConditions.presenceOfElementLocated(emailLocator));
         return driver.findElement(emailLocator);
     }
     private WebElement getPassword() {
-        By passwordLocator = By.id("input-password");
+        By passwordLocator = By.id(prop.getProperty("passwordIdLocator"));
         wait.until(ExpectedConditions.presenceOfElementLocated(passwordLocator));
         return driver.findElement(passwordLocator);
     }
     private WebElement submitBtn() {
-        By submitLocator = By.cssSelector("input[type='submit']");
+        By submitLocator = By.cssSelector(prop.getProperty("submitCssLocator"));
         wait.until(ExpectedConditions.presenceOfElementLocated(submitLocator));
         return driver.findElement(submitLocator);
     }

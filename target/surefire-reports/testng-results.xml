@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="42" passed="42" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-22T22:49:55 PST" name="Smoke Test Suite TestNG OPEN_CART" finished-at="2022-11-22T22:51:23 PST" duration-ms="88153">
+  <suite started-at="2022-12-02T00:52:36 MST" name="Smoke Test Suite TestNG OPEN_CART" finished-at="2022-12-02T00:55:12 MST" duration-ms="155724">
     <groups>
     </groups>
-    <test started-at="2022-11-22T22:49:55 PST" name="Selenium OPEN_CART (Marionette Firefox)" finished-at="2022-11-22T22:51:23 PST" duration-ms="88153">
+    <test started-at="2022-12-02T00:52:36 MST" name="Selenium OPEN_CART (Marionette Firefox)" finished-at="2022-12-02T00:55:12 MST" duration-ms="155724">
       <class name="com.qa.opencart.test.RegisterPageTest">
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:49:55 PST" name="startUp" finished-at="2022-11-22T22:50:03 PST" duration-ms="8492" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:52:36 MST" name="startUp" finished-at="2022-12-02T00:52:45 MST" duration-ms="9257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateRegisterTitleTest()[pri:1, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:04 PST" name="validateRegisterTitleTest" finished-at="2022-11-22T22:50:05 PST" duration-ms="1443" status="PASS">
+        <test-method signature="validateRegisterTitleTest()[pri:1, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:52:45 MST" name="validateRegisterTitleTest" finished-at="2022-12-02T00:52:49 MST" duration-ms="3884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRegisterTitleTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:05 PST" name="tearDown" finished-at="2022-11-22T22:50:06 PST" duration-ms="583" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:52:49 MST" name="tearDown" finished-at="2022-12-02T00:52:49 MST" duration-ms="110" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:06 PST" name="startUp" finished-at="2022-11-22T22:50:10 PST" duration-ms="4185" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:52:49 MST" name="startUp" finished-at="2022-12-02T00:52:54 MST" duration-ms="4510" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,11 +44,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doRegisterNewCustomerTest()[pri:2, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:10 PST" name="doRegisterNewCustomerTest" finished-at="2022-11-22T22:50:13 PST" duration-ms="2663" status="PASS">
+        <test-method signature="doRegisterNewCustomerTest()[pri:2, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:52:54 MST" name="doRegisterNewCustomerTest" finished-at="2022-12-02T00:53:03 MST" duration-ms="9075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doRegisterNewCustomerTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:13 PST" name="tearDown" finished-at="2022-11-22T22:50:13 PST" duration-ms="442" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:03 MST" name="tearDown" finished-at="2022-12-02T00:53:03 MST" duration-ms="112" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:13 PST" name="startUp" finished-at="2022-11-22T22:50:17 PST" duration-ms="4422" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:03 MST" name="startUp" finished-at="2022-12-02T00:53:08 MST" duration-ms="5237" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,11 +70,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doRegisterExistingCustomerTest()[pri:3, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:17 PST" name="doRegisterExistingCustomerTest" finished-at="2022-11-22T22:50:20 PST" duration-ms="2684" status="PASS">
+        <test-method signature="doRegisterExistingCustomerTest()[pri:3, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:08 MST" name="doRegisterExistingCustomerTest" finished-at="2022-12-02T00:53:17 MST" duration-ms="9122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doRegisterExistingCustomerTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:20 PST" name="tearDown" finished-at="2022-11-22T22:50:21 PST" duration-ms="436" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:17 MST" name="tearDown" finished-at="2022-12-02T00:53:18 MST" duration-ms="118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:21 PST" name="startUp" finished-at="2022-11-22T22:50:24 PST" duration-ms="3872" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:18 MST" name="startUp" finished-at="2022-12-02T00:53:22 MST" duration-ms="4542" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,11 +96,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doRegisterNewCustomerMinimumPhoneNumberValueTest()[pri:4, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:24 PST" name="doRegisterNewCustomerMinimumPhoneNumberValueTest" finished-at="2022-11-22T22:50:27 PST" duration-ms="2156" status="PASS">
+        <test-method signature="doRegisterNewCustomerMinimumPhoneNumberValueTest()[pri:4, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:22 MST" name="doRegisterNewCustomerMinimumPhoneNumberValueTest" finished-at="2022-12-02T00:53:30 MST" duration-ms="8135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doRegisterNewCustomerMinimumPhoneNumberValueTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:27 PST" name="tearDown" finished-at="2022-11-22T22:50:27 PST" duration-ms="460" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:30 MST" name="tearDown" finished-at="2022-12-02T00:53:30 MST" duration-ms="110" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:27 PST" name="startUp" finished-at="2022-11-22T22:50:31 PST" duration-ms="4098" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:30 MST" name="startUp" finished-at="2022-12-02T00:53:34 MST" duration-ms="4068" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,11 +122,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doRegisterNewCustomerMaximumPhoneNumberValueTest()[pri:5, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:31 PST" name="doRegisterNewCustomerMaximumPhoneNumberValueTest" finished-at="2022-11-22T22:50:33 PST" duration-ms="2108" status="PASS">
+        <test-method signature="doRegisterNewCustomerMaximumPhoneNumberValueTest()[pri:5, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:34 MST" name="doRegisterNewCustomerMaximumPhoneNumberValueTest" finished-at="2022-12-02T00:53:44 MST" duration-ms="9519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doRegisterNewCustomerMaximumPhoneNumberValueTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:33 PST" name="tearDown" finished-at="2022-11-22T22:50:34 PST" duration-ms="440" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:44 MST" name="tearDown" finished-at="2022-12-02T00:53:44 MST" duration-ms="121" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:34 PST" name="startUp" finished-at="2022-11-22T22:50:38 PST" duration-ms="3868" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:44 MST" name="startUp" finished-at="2022-12-02T00:53:48 MST" duration-ms="4367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -148,11 +148,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doRegisterNewCustomerMinimumPasswordValueTest()[pri:6, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:38 PST" name="doRegisterNewCustomerMinimumPasswordValueTest" finished-at="2022-11-22T22:50:39 PST" duration-ms="1851" status="PASS">
+        <test-method signature="doRegisterNewCustomerMinimumPasswordValueTest()[pri:6, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:48 MST" name="doRegisterNewCustomerMinimumPasswordValueTest" finished-at="2022-12-02T00:53:56 MST" duration-ms="7567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doRegisterNewCustomerMinimumPasswordValueTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:39 PST" name="tearDown" finished-at="2022-11-22T22:50:40 PST" duration-ms="437" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:56 MST" name="tearDown" finished-at="2022-12-02T00:53:56 MST" duration-ms="112" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,7 +163,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:40 PST" name="startUp" finished-at="2022-11-22T22:50:45 PST" duration-ms="4921" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:53:56 MST" name="startUp" finished-at="2022-12-02T00:54:01 MST" duration-ms="4433" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -174,11 +174,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doRegisterNewCustomerMaximumPasswordValueTest()[pri:7, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:45 PST" name="doRegisterNewCustomerMaximumPasswordValueTest" finished-at="2022-11-22T22:50:47 PST" duration-ms="2037" status="PASS">
+        <test-method signature="doRegisterNewCustomerMaximumPasswordValueTest()[pri:7, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:01 MST" name="doRegisterNewCustomerMaximumPasswordValueTest" finished-at="2022-12-02T00:54:09 MST" duration-ms="8278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doRegisterNewCustomerMaximumPasswordValueTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:47 PST" name="tearDown" finished-at="2022-11-22T22:50:47 PST" duration-ms="428" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:09 MST" name="tearDown" finished-at="2022-12-02T00:54:09 MST" duration-ms="111" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,7 +189,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:47 PST" name="startUp" finished-at="2022-11-22T22:50:51 PST" duration-ms="3615" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:09 MST" name="startUp" finished-at="2022-12-02T00:54:13 MST" duration-ms="4421" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -200,11 +200,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doRegisterNewCustomerUnmatchedPasswordValueTest()[pri:8, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:51 PST" name="doRegisterNewCustomerUnmatchedPasswordValueTest" finished-at="2022-11-22T22:50:53 PST" duration-ms="1795" status="PASS">
+        <test-method signature="doRegisterNewCustomerUnmatchedPasswordValueTest()[pri:8, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:13 MST" name="doRegisterNewCustomerUnmatchedPasswordValueTest" finished-at="2022-12-02T00:54:21 MST" duration-ms="7291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doRegisterNewCustomerUnmatchedPasswordValueTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:53 PST" name="tearDown" finished-at="2022-11-22T22:50:53 PST" duration-ms="432" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:21 MST" name="tearDown" finished-at="2022-12-02T00:54:21 MST" duration-ms="118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -215,7 +215,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:53 PST" name="startUp" finished-at="2022-11-22T22:50:57 PST" duration-ms="4086" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:21 MST" name="startUp" finished-at="2022-12-02T00:54:26 MST" duration-ms="5095" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -226,11 +226,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doRegisterNewCustomerMinimumPasswordValueUnmatchedTest()[pri:9, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:57 PST" name="doRegisterNewCustomerMinimumPasswordValueUnmatchedTest" finished-at="2022-11-22T22:50:59 PST" duration-ms="1807" status="PASS">
+        <test-method signature="doRegisterNewCustomerMinimumPasswordValueUnmatchedTest()[pri:9, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:26 MST" name="doRegisterNewCustomerMinimumPasswordValueUnmatchedTest" finished-at="2022-12-02T00:54:33 MST" duration-ms="7018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doRegisterNewCustomerMinimumPasswordValueUnmatchedTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:59 PST" name="tearDown" finished-at="2022-11-22T22:50:59 PST" duration-ms="431" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:33 MST" name="tearDown" finished-at="2022-12-02T00:54:33 MST" duration-ms="113" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,7 +241,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:50:59 PST" name="startUp" finished-at="2022-11-22T22:51:03 PST" duration-ms="3744" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:33 MST" name="startUp" finished-at="2022-12-02T00:54:37 MST" duration-ms="4355" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -252,11 +252,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doRegisterNewCustomerWithoutAgreementPolicyTest()[pri:10, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:51:03 PST" name="doRegisterNewCustomerWithoutAgreementPolicyTest" finished-at="2022-11-22T22:51:05 PST" duration-ms="1973" status="PASS">
+        <test-method signature="doRegisterNewCustomerWithoutAgreementPolicyTest()[pri:10, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:37 MST" name="doRegisterNewCustomerWithoutAgreementPolicyTest" finished-at="2022-12-02T00:54:43 MST" duration-ms="6077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doRegisterNewCustomerWithoutAgreementPolicyTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:51:05 PST" name="tearDown" finished-at="2022-11-22T22:51:06 PST" duration-ms="432" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:43 MST" name="tearDown" finished-at="2022-12-02T00:54:44 MST" duration-ms="112" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,7 +267,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:51:06 PST" name="startUp" finished-at="2022-11-22T22:51:09 PST" duration-ms="3457" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:44 MST" name="startUp" finished-at="2022-12-02T00:54:48 MST" duration-ms="4709" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -278,11 +278,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doForgotPasswordValidatePageTest()[pri:11, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:51:09 PST" name="doForgotPasswordValidatePageTest" finished-at="2022-11-22T22:51:10 PST" duration-ms="1420" status="PASS">
+        <test-method signature="doForgotPasswordValidatePageTest()[pri:11, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:48 MST" name="doForgotPasswordValidatePageTest" finished-at="2022-12-02T00:54:52 MST" duration-ms="4097" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doForgotPasswordValidatePageTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:51:10 PST" name="tearDown" finished-at="2022-11-22T22:51:11 PST" duration-ms="429" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:52 MST" name="tearDown" finished-at="2022-12-02T00:54:52 MST" duration-ms="111" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -293,7 +293,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:51:11 PST" name="startUp" finished-at="2022-11-22T22:51:14 PST" duration-ms="3469" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:52 MST" name="startUp" finished-at="2022-12-02T00:54:57 MST" duration-ms="4666" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -304,11 +304,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doSendEmailForgotPasswordExistingCustomerTest()[pri:12, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:51:14 PST" name="doSendEmailForgotPasswordExistingCustomerTest" finished-at="2022-11-22T22:51:17 PST" duration-ms="2298" status="PASS">
+        <test-method signature="doSendEmailForgotPasswordExistingCustomerTest()[pri:12, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:54:57 MST" name="doSendEmailForgotPasswordExistingCustomerTest" finished-at="2022-12-02T00:55:02 MST" duration-ms="5118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSendEmailForgotPasswordExistingCustomerTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:51:17 PST" name="tearDown" finished-at="2022-11-22T22:51:17 PST" duration-ms="427" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:55:02 MST" name="tearDown" finished-at="2022-12-02T00:55:02 MST" duration-ms="107" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -319,7 +319,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:51:17 PST" name="startUp" finished-at="2022-11-22T22:51:21 PST" duration-ms="3580" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:55:02 MST" name="startUp" finished-at="2022-12-02T00:55:07 MST" duration-ms="4164" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -330,11 +330,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doSendEmailForgotPasswordNewCustomerTest()[pri:13, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:51:21 PST" name="doSendEmailForgotPasswordNewCustomerTest" finished-at="2022-11-22T22:51:23 PST" duration-ms="2005" status="PASS">
+        <test-method signature="doSendEmailForgotPasswordNewCustomerTest()[pri:13, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:55:07 MST" name="doSendEmailForgotPasswordNewCustomerTest" finished-at="2022-12-02T00:55:11 MST" duration-ms="4991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSendEmailForgotPasswordNewCustomerTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-11-22T22:51:23 PST" name="tearDown" finished-at="2022-11-22T22:51:23 PST" duration-ms="431" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.RegisterPageTest@26d9b808]" started-at="2022-12-02T00:55:11 MST" name="tearDown" finished-at="2022-12-02T00:55:12 MST" duration-ms="107" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -347,7 +347,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.opencart.test.RegisterPageTest -->
       <class name="com.qa.opencart.test.LoginPageTest">
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:49:55 PST" name="startUp" finished-at="2022-11-22T22:50:04 PST" duration-ms="8499" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:52:36 MST" name="startUp" finished-at="2022-12-02T00:52:45 MST" duration-ms="9274" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -358,11 +358,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateLoginPageTitleTest()[pri:1, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:04 PST" name="validateLoginPageTitleTest" finished-at="2022-11-22T22:50:05 PST" duration-ms="1094" status="PASS">
+        <test-method signature="validateLoginPageTitleTest()[pri:1, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:52:45 MST" name="validateLoginPageTitleTest" finished-at="2022-12-02T00:52:47 MST" duration-ms="1459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:05 PST" name="tearDown" finished-at="2022-11-22T22:50:05 PST" duration-ms="470" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:52:47 MST" name="tearDown" finished-at="2022-12-02T00:52:47 MST" duration-ms="125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -373,7 +373,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:05 PST" name="startUp" finished-at="2022-11-22T22:50:09 PST" duration-ms="4095" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:52:47 MST" name="startUp" finished-at="2022-12-02T00:52:52 MST" duration-ms="4935" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -384,11 +384,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doLoginValidCredentialsTest()[pri:2, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:09 PST" name="doLoginValidCredentialsTest" finished-at="2022-11-22T22:50:11 PST" duration-ms="1746" status="PASS">
+        <test-method signature="doLoginValidCredentialsTest()[pri:2, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:52:52 MST" name="doLoginValidCredentialsTest" finished-at="2022-12-02T00:52:55 MST" duration-ms="3437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginValidCredentialsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:11 PST" name="tearDown" finished-at="2022-11-22T22:50:11 PST" duration-ms="442" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:52:55 MST" name="tearDown" finished-at="2022-12-02T00:52:55 MST" duration-ms="110" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -399,7 +399,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:11 PST" name="startUp" finished-at="2022-11-22T22:50:16 PST" duration-ms="4155" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:52:55 MST" name="startUp" finished-at="2022-12-02T00:53:00 MST" duration-ms="4936" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -410,11 +410,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doLoginNotExistingCredentialsTest()[pri:3, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:16 PST" name="doLoginNotExistingCredentialsTest" finished-at="2022-11-22T22:50:17 PST" duration-ms="1239" status="PASS">
+        <test-method signature="doLoginNotExistingCredentialsTest()[pri:3, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:00 MST" name="doLoginNotExistingCredentialsTest" finished-at="2022-12-02T00:53:04 MST" duration-ms="3752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginNotExistingCredentialsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:17 PST" name="tearDown" finished-at="2022-11-22T22:50:17 PST" duration-ms="433" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:04 MST" name="tearDown" finished-at="2022-12-02T00:53:04 MST" duration-ms="117" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -425,7 +425,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:17 PST" name="startUp" finished-at="2022-11-22T22:50:21 PST" duration-ms="4169" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:04 MST" name="startUp" finished-at="2022-12-02T00:53:09 MST" duration-ms="4837" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -436,11 +436,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doLoginWrongEmailValidPswCredentialsTest()[pri:4, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:21 PST" name="doLoginWrongEmailValidPswCredentialsTest" finished-at="2022-11-22T22:50:23 PST" duration-ms="1282" status="PASS">
+        <test-method signature="doLoginWrongEmailValidPswCredentialsTest()[pri:4, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:09 MST" name="doLoginWrongEmailValidPswCredentialsTest" finished-at="2022-12-02T00:53:13 MST" duration-ms="3851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginWrongEmailValidPswCredentialsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:23 PST" name="tearDown" finished-at="2022-11-22T22:50:23 PST" duration-ms="436" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:13 MST" name="tearDown" finished-at="2022-12-02T00:53:13 MST" duration-ms="118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -451,7 +451,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:23 PST" name="startUp" finished-at="2022-11-22T22:50:27 PST" duration-ms="4166" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:13 MST" name="startUp" finished-at="2022-12-02T00:53:18 MST" duration-ms="4526" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -462,11 +462,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doLoginValidEmailWrongPswCredentialsTest()[pri:5, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:27 PST" name="doLoginValidEmailWrongPswCredentialsTest" finished-at="2022-11-22T22:50:29 PST" duration-ms="1159" status="PASS">
+        <test-method signature="doLoginValidEmailWrongPswCredentialsTest()[pri:5, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:18 MST" name="doLoginValidEmailWrongPswCredentialsTest" finished-at="2022-12-02T00:53:21 MST" duration-ms="2993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginValidEmailWrongPswCredentialsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:29 PST" name="tearDown" finished-at="2022-11-22T22:50:29 PST" duration-ms="438" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:21 MST" name="tearDown" finished-at="2022-12-02T00:53:21 MST" duration-ms="107" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -477,7 +477,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:29 PST" name="startUp" finished-at="2022-11-22T22:50:33 PST" duration-ms="3748" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:21 MST" name="startUp" finished-at="2022-12-02T00:53:25 MST" duration-ms="4138" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -488,11 +488,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doLoginBetweenOneToFourValidPswCredentialsTest()[pri:6, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:33 PST" name="doLoginBetweenOneToFourValidPswCredentialsTest" finished-at="2022-11-22T22:50:34 PST" duration-ms="1142" status="PASS">
+        <test-method signature="doLoginBetweenOneToFourValidPswCredentialsTest()[pri:6, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:25 MST" name="doLoginBetweenOneToFourValidPswCredentialsTest" finished-at="2022-12-02T00:53:27 MST" duration-ms="2256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginBetweenOneToFourValidPswCredentialsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:34 PST" name="tearDown" finished-at="2022-11-22T22:50:34 PST" duration-ms="454" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:27 MST" name="tearDown" finished-at="2022-12-02T00:53:27 MST" duration-ms="109" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -503,7 +503,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:34 PST" name="startUp" finished-at="2022-11-22T22:50:38 PST" duration-ms="3914" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:27 MST" name="startUp" finished-at="2022-12-02T00:53:31 MST" duration-ms="4251" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -514,11 +514,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doLoginValidEmailJustNumbersPswCredentialsTest()[pri:7, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:38 PST" name="doLoginValidEmailJustNumbersPswCredentialsTest" finished-at="2022-11-22T22:50:39 PST" duration-ms="1098" status="PASS">
+        <test-method signature="doLoginValidEmailJustNumbersPswCredentialsTest()[pri:7, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:31 MST" name="doLoginValidEmailJustNumbersPswCredentialsTest" finished-at="2022-12-02T00:53:34 MST" duration-ms="3042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginValidEmailJustNumbersPswCredentialsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:39 PST" name="tearDown" finished-at="2022-11-22T22:50:40 PST" duration-ms="439" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:34 MST" name="tearDown" finished-at="2022-12-02T00:53:35 MST" duration-ms="112" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -529,7 +529,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:40 PST" name="startUp" finished-at="2022-11-22T22:50:45 PST" duration-ms="4817" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:35 MST" name="startUp" finished-at="2022-12-02T00:53:39 MST" duration-ms="4382" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -540,11 +540,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doLoginBetweenOneToFourEmailJustNumbersPswCredentialsTest()[pri:8, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:45 PST" name="doLoginBetweenOneToFourEmailJustNumbersPswCredentialsTest" finished-at="2022-11-22T22:50:46 PST" duration-ms="1076" status="PASS">
+        <test-method signature="doLoginBetweenOneToFourEmailJustNumbersPswCredentialsTest()[pri:8, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:39 MST" name="doLoginBetweenOneToFourEmailJustNumbersPswCredentialsTest" finished-at="2022-12-02T00:53:42 MST" duration-ms="2649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginBetweenOneToFourEmailJustNumbersPswCredentialsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:46 PST" name="tearDown" finished-at="2022-11-22T22:50:46 PST" duration-ms="431" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:42 MST" name="tearDown" finished-at="2022-12-02T00:53:42 MST" duration-ms="111" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -555,7 +555,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:46 PST" name="startUp" finished-at="2022-11-22T22:50:50 PST" duration-ms="3620" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:42 MST" name="startUp" finished-at="2022-12-02T00:53:46 MST" duration-ms="4624" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -566,11 +566,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doLoginInvalidCredentialsTest()[pri:9, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:50 PST" name="doLoginInvalidCredentialsTest" finished-at="2022-11-22T22:50:51 PST" duration-ms="1087" status="PASS">
+        <test-method signature="doLoginInvalidCredentialsTest()[pri:9, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:46 MST" name="doLoginInvalidCredentialsTest" finished-at="2022-12-02T00:53:50 MST" duration-ms="3201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLoginInvalidCredentialsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:51 PST" name="tearDown" finished-at="2022-11-22T22:50:51 PST" duration-ms="445" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:50 MST" name="tearDown" finished-at="2022-12-02T00:53:50 MST" duration-ms="112" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -581,7 +581,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:51 PST" name="startUp" finished-at="2022-11-22T22:50:55 PST" duration-ms="3865" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:50 MST" name="startUp" finished-at="2022-12-02T00:53:54 MST" duration-ms="4385" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -592,11 +592,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doLogOutTest()[pri:10, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:55 PST" name="doLogOutTest" finished-at="2022-11-22T22:50:57 PST" duration-ms="2041" status="PASS">
+        <test-method signature="doLogOutTest()[pri:10, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:54 MST" name="doLogOutTest" finished-at="2022-12-02T00:53:58 MST" duration-ms="4190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogOutTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-11-22T22:50:57 PST" name="tearDown" finished-at="2022-11-22T22:50:58 PST" duration-ms="444" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.LoginPageTest@f78a47e]" started-at="2022-12-02T00:53:58 MST" name="tearDown" finished-at="2022-12-02T00:53:58 MST" duration-ms="111" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -609,7 +609,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.opencart.test.LoginPageTest -->
       <class name="com.qa.opencart.test.ContactUsPageTest">
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:49:55 PST" name="startUp" finished-at="2022-11-22T22:50:04 PST" duration-ms="8500" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:52:36 MST" name="startUp" finished-at="2022-12-02T00:52:45 MST" duration-ms="9256" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -620,11 +620,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateContactUsTitleTest()[pri:1, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:04 PST" name="validateContactUsTitleTest" finished-at="2022-11-22T22:50:05 PST" duration-ms="1279" status="PASS">
+        <test-method signature="validateContactUsTitleTest()[pri:1, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:52:45 MST" name="validateContactUsTitleTest" finished-at="2022-12-02T00:52:47 MST" duration-ms="1436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContactUsTitleTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:05 PST" name="tearDown" finished-at="2022-11-22T22:50:05 PST" duration-ms="465" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:52:47 MST" name="tearDown" finished-at="2022-12-02T00:52:47 MST" duration-ms="137" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -635,7 +635,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:05 PST" name="startUp" finished-at="2022-11-22T22:50:10 PST" duration-ms="4154" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:52:47 MST" name="startUp" finished-at="2022-12-02T00:52:52 MST" duration-ms="4915" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -646,11 +646,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doContactUsTest()[pri:2, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:10 PST" name="doContactUsTest" finished-at="2022-11-22T22:50:12 PST" duration-ms="2145" status="PASS">
+        <test-method signature="doContactUsTest()[pri:2, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:52:52 MST" name="doContactUsTest" finished-at="2022-12-02T00:52:56 MST" duration-ms="4147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doContactUsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:12 PST" name="tearDown" finished-at="2022-11-22T22:50:12 PST" duration-ms="448" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:52:56 MST" name="tearDown" finished-at="2022-12-02T00:52:56 MST" duration-ms="121" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -661,7 +661,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:12 PST" name="startUp" finished-at="2022-11-22T22:50:16 PST" duration-ms="3771" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:52:56 MST" name="startUp" finished-at="2022-12-02T00:53:01 MST" duration-ms="5092" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -672,11 +672,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doContactUsInvalidYourNameMinimumValueTest()[pri:3, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:16 PST" name="doContactUsInvalidYourNameMinimumValueTest" finished-at="2022-11-22T22:50:17 PST" duration-ms="1232" status="PASS">
+        <test-method signature="doContactUsInvalidYourNameMinimumValueTest()[pri:3, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:01 MST" name="doContactUsInvalidYourNameMinimumValueTest" finished-at="2022-12-02T00:53:05 MST" duration-ms="3802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doContactUsInvalidYourNameMinimumValueTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:17 PST" name="tearDown" finished-at="2022-11-22T22:50:18 PST" duration-ms="442" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:05 MST" name="tearDown" finished-at="2022-12-02T00:53:05 MST" duration-ms="109" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -687,7 +687,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:18 PST" name="startUp" finished-at="2022-11-22T22:50:21 PST" duration-ms="3888" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:05 MST" name="startUp" finished-at="2022-12-02T00:53:09 MST" duration-ms="4332" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -698,11 +698,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doContactUsInvalidYourNameMaximumValueTest()[pri:4, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:21 PST" name="doContactUsInvalidYourNameMaximumValueTest" finished-at="2022-11-22T22:50:23 PST" duration-ms="1240" status="PASS">
+        <test-method signature="doContactUsInvalidYourNameMaximumValueTest()[pri:4, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:09 MST" name="doContactUsInvalidYourNameMaximumValueTest" finished-at="2022-12-02T00:53:14 MST" duration-ms="4693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doContactUsInvalidYourNameMaximumValueTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:23 PST" name="tearDown" finished-at="2022-11-22T22:50:23 PST" duration-ms="460" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:14 MST" name="tearDown" finished-at="2022-12-02T00:53:14 MST" duration-ms="122" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -713,7 +713,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:23 PST" name="startUp" finished-at="2022-11-22T22:50:27 PST" duration-ms="4157" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:14 MST" name="startUp" finished-at="2022-12-02T00:53:19 MST" duration-ms="4548" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -724,11 +724,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doContactUsInvalidEmailAddressTest()[pri:5, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:27 PST" name="doContactUsInvalidEmailAddressTest" finished-at="2022-11-22T22:50:28 PST" duration-ms="1078" status="PASS">
+        <test-method signature="doContactUsInvalidEmailAddressTest()[pri:5, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:19 MST" name="doContactUsInvalidEmailAddressTest" finished-at="2022-12-02T00:53:22 MST" duration-ms="3223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doContactUsInvalidEmailAddressTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:28 PST" name="tearDown" finished-at="2022-11-22T22:50:29 PST" duration-ms="440" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:22 MST" name="tearDown" finished-at="2022-12-02T00:53:22 MST" duration-ms="110" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -739,7 +739,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:29 PST" name="startUp" finished-at="2022-11-22T22:50:33 PST" duration-ms="3942" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:22 MST" name="startUp" finished-at="2022-12-02T00:53:26 MST" duration-ms="4244" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -750,11 +750,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doContactUsInvalidEnquiryMinimumValueTest()[pri:6, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:33 PST" name="doContactUsInvalidEnquiryMinimumValueTest" finished-at="2022-11-22T22:50:34 PST" duration-ms="974" status="PASS">
+        <test-method signature="doContactUsInvalidEnquiryMinimumValueTest()[pri:6, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:26 MST" name="doContactUsInvalidEnquiryMinimumValueTest" finished-at="2022-12-02T00:53:30 MST" duration-ms="3070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doContactUsInvalidEnquiryMinimumValueTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:34 PST" name="tearDown" finished-at="2022-11-22T22:50:34 PST" duration-ms="448" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:30 MST" name="tearDown" finished-at="2022-12-02T00:53:30 MST" duration-ms="118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -765,7 +765,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:34 PST" name="startUp" finished-at="2022-11-22T22:50:38 PST" duration-ms="3885" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:30 MST" name="startUp" finished-at="2022-12-02T00:53:34 MST" duration-ms="4066" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -776,11 +776,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doContactUsInvalidEnquiryMaximumValueTest()[pri:7, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:38 PST" name="doContactUsInvalidEnquiryMaximumValueTest" finished-at="2022-11-22T22:50:41 PST" duration-ms="2391" status="PASS">
+        <test-method signature="doContactUsInvalidEnquiryMaximumValueTest()[pri:7, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:34 MST" name="doContactUsInvalidEnquiryMaximumValueTest" finished-at="2022-12-02T00:53:44 MST" duration-ms="10606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doContactUsInvalidEnquiryMaximumValueTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-11-22T22:50:41 PST" name="tearDown" finished-at="2022-11-22T22:50:41 PST" duration-ms="485" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.ContactUsPageTest@740cae06]" started-at="2022-12-02T00:53:44 MST" name="tearDown" finished-at="2022-12-02T00:53:44 MST" duration-ms="111" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -793,7 +793,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.opencart.test.ContactUsPageTest -->
       <class name="com.qa.opencart.test.YourStorePageTest">
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:49:55 PST" name="startUp" finished-at="2022-11-22T22:50:04 PST" duration-ms="8671" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:52:36 MST" name="startUp" finished-at="2022-12-02T00:52:47 MST" duration-ms="11113" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -804,11 +804,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateYourPageLogoTest()[pri:1, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:04 PST" name="validateYourPageLogoTest" finished-at="2022-11-22T22:50:04 PST" duration-ms="427" status="PASS">
+        <test-method signature="validateYourPageLogoTest()[pri:1, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:52:47 MST" name="validateYourPageLogoTest" finished-at="2022-12-02T00:52:47 MST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateYourPageLogoTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:04 PST" name="tearDown" finished-at="2022-11-22T22:50:05 PST" duration-ms="450" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:52:47 MST" name="tearDown" finished-at="2022-12-02T00:52:47 MST" duration-ms="140" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -819,7 +819,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:05 PST" name="startUp" finished-at="2022-11-22T22:50:09 PST" duration-ms="4506" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:52:47 MST" name="startUp" finished-at="2022-12-02T00:52:52 MST" duration-ms="4500" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -830,11 +830,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateYourPageTitleTest()[pri:2, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:09 PST" name="validateYourPageTitleTest" finished-at="2022-11-22T22:50:09 PST" duration-ms="54" status="PASS">
+        <test-method signature="validateYourPageTitleTest()[pri:2, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:52:52 MST" name="validateYourPageTitleTest" finished-at="2022-12-02T00:52:52 MST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateYourPageTitleTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:09 PST" name="tearDown" finished-at="2022-11-22T22:50:10 PST" duration-ms="446" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:52:52 MST" name="tearDown" finished-at="2022-12-02T00:52:52 MST" duration-ms="120" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -845,7 +845,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:10 PST" name="startUp" finished-at="2022-11-22T22:50:14 PST" duration-ms="4115" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:52:52 MST" name="startUp" finished-at="2022-12-02T00:52:56 MST" duration-ms="4309" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -856,11 +856,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="getCurrencyTest()[pri:3, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:14 PST" name="getCurrencyTest" finished-at="2022-11-22T22:50:15 PST" duration-ms="999" status="PASS">
+        <test-method signature="getCurrencyTest()[pri:3, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:52:56 MST" name="getCurrencyTest" finished-at="2022-12-02T00:52:58 MST" duration-ms="1630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCurrencyTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:15 PST" name="tearDown" finished-at="2022-11-22T22:50:15 PST" duration-ms="438" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:52:58 MST" name="tearDown" finished-at="2022-12-02T00:52:58 MST" duration-ms="113" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -871,7 +871,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:15 PST" name="startUp" finished-at="2022-11-22T22:50:19 PST" duration-ms="3964" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:52:58 MST" name="startUp" finished-at="2022-12-02T00:53:02 MST" duration-ms="4141" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -882,11 +882,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doClickOnTheContactUsIconTest()[pri:4, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:19 PST" name="doClickOnTheContactUsIconTest" finished-at="2022-11-22T22:50:20 PST" duration-ms="433" status="PASS">
+        <test-method signature="doClickOnTheContactUsIconTest()[pri:4, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:02 MST" name="doClickOnTheContactUsIconTest" finished-at="2022-12-02T00:53:04 MST" duration-ms="1275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doClickOnTheContactUsIconTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:20 PST" name="tearDown" finished-at="2022-11-22T22:50:20 PST" duration-ms="452" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:04 MST" name="tearDown" finished-at="2022-12-02T00:53:04 MST" duration-ms="124" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -897,7 +897,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:20 PST" name="startUp" finished-at="2022-11-22T22:50:24 PST" duration-ms="3776" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:04 MST" name="startUp" finished-at="2022-12-02T00:53:08 MST" duration-ms="4281" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -908,11 +908,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doClickOnTheRegisterPage()[pri:5, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:24 PST" name="doClickOnTheRegisterPage" finished-at="2022-11-22T22:50:25 PST" duration-ms="1037" status="PASS">
+        <test-method signature="doClickOnTheRegisterPage()[pri:5, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:08 MST" name="doClickOnTheRegisterPage" finished-at="2022-12-02T00:53:13 MST" duration-ms="4965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doClickOnTheRegisterPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:25 PST" name="tearDown" finished-at="2022-11-22T22:50:25 PST" duration-ms="453" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:13 MST" name="tearDown" finished-at="2022-12-02T00:53:13 MST" duration-ms="111" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -923,7 +923,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:25 PST" name="startUp" finished-at="2022-11-22T22:50:29 PST" duration-ms="3813" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:13 MST" name="startUp" finished-at="2022-12-02T00:53:18 MST" duration-ms="4816" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -934,11 +934,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doClickOnTheLoginPage()[pri:6, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:29 PST" name="doClickOnTheLoginPage" finished-at="2022-11-22T22:50:30 PST" duration-ms="674" status="PASS">
+        <test-method signature="doClickOnTheLoginPage()[pri:6, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:18 MST" name="doClickOnTheLoginPage" finished-at="2022-12-02T00:53:19 MST" duration-ms="1069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doClickOnTheLoginPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:30 PST" name="tearDown" finished-at="2022-11-22T22:50:30 PST" duration-ms="434" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:19 MST" name="tearDown" finished-at="2022-12-02T00:53:19 MST" duration-ms="105" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -949,7 +949,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:30 PST" name="startUp" finished-at="2022-11-22T22:50:34 PST" duration-ms="3751" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:19 MST" name="startUp" finished-at="2022-12-02T00:53:23 MST" duration-ms="4093" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -960,11 +960,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doClickOnTheShoppingCartPage()[pri:7, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:34 PST" name="doClickOnTheShoppingCartPage" finished-at="2022-11-22T22:50:34 PST" duration-ms="452" status="PASS">
+        <test-method signature="doClickOnTheShoppingCartPage()[pri:7, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:23 MST" name="doClickOnTheShoppingCartPage" finished-at="2022-12-02T00:53:24 MST" duration-ms="917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doClickOnTheShoppingCartPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:34 PST" name="tearDown" finished-at="2022-11-22T22:50:35 PST" duration-ms="461" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:24 MST" name="tearDown" finished-at="2022-12-02T00:53:24 MST" duration-ms="114" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -975,7 +975,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:35 PST" name="startUp" finished-at="2022-11-22T22:50:39 PST" duration-ms="4099" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:24 MST" name="startUp" finished-at="2022-12-02T00:53:29 MST" duration-ms="4275" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -986,11 +986,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="doClickOnTheCheckOutPage()[pri:8, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:39 PST" name="doClickOnTheCheckOutPage" finished-at="2022-11-22T22:50:40 PST" duration-ms="603" status="PASS">
+        <test-method signature="doClickOnTheCheckOutPage()[pri:8, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:29 MST" name="doClickOnTheCheckOutPage" finished-at="2022-12-02T00:53:30 MST" duration-ms="1490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doClickOnTheCheckOutPage -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:40 PST" name="tearDown" finished-at="2022-11-22T22:50:40 PST" duration-ms="450" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:30 MST" name="tearDown" finished-at="2022-12-02T00:53:30 MST" duration-ms="119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1001,7 +1001,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:40 PST" name="startUp" finished-at="2022-11-22T22:50:45 PST" duration-ms="4445" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:30 MST" name="startUp" finished-at="2022-12-02T00:53:34 MST" duration-ms="4142" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1012,11 +1012,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateNavigationBarsTest()[pri:9, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:45 PST" name="validateNavigationBarsTest" finished-at="2022-11-22T22:50:45 PST" duration-ms="197" status="PASS">
+        <test-method signature="validateNavigationBarsTest()[pri:9, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:34 MST" name="validateNavigationBarsTest" finished-at="2022-12-02T00:53:35 MST" duration-ms="407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigationBarsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:45 PST" name="tearDown" finished-at="2022-11-22T22:50:45 PST" duration-ms="438" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:35 MST" name="tearDown" finished-at="2022-12-02T00:53:35 MST" duration-ms="107" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1027,7 +1027,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:45 PST" name="startUp" finished-at="2022-11-22T22:50:49 PST" duration-ms="4042" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:35 MST" name="startUp" finished-at="2022-12-02T00:53:39 MST" duration-ms="4347" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1038,11 +1038,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="featuredTest()[pri:10, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:49 PST" name="featuredTest" finished-at="2022-11-22T22:50:49 PST" duration-ms="64" status="PASS">
+        <test-method signature="featuredTest()[pri:10, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:39 MST" name="featuredTest" finished-at="2022-12-02T00:53:39 MST" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- featuredTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:49 PST" name="tearDown" finished-at="2022-11-22T22:50:50 PST" duration-ms="433" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:39 MST" name="tearDown" finished-at="2022-12-02T00:53:40 MST" duration-ms="110" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1053,7 +1053,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:50 PST" name="startUp" finished-at="2022-11-22T22:50:53 PST" duration-ms="3619" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:40 MST" name="startUp" finished-at="2022-12-02T00:53:44 MST" duration-ms="4733" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1064,11 +1064,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="adsQuantityTest()[pri:11, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:53 PST" name="adsQuantityTest" finished-at="2022-11-22T22:50:53 PST" duration-ms="21" status="PASS">
+        <test-method signature="adsQuantityTest()[pri:11, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:44 MST" name="adsQuantityTest" finished-at="2022-12-02T00:53:44 MST" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adsQuantityTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:53 PST" name="tearDown" finished-at="2022-11-22T22:50:54 PST" duration-ms="437" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:44 MST" name="tearDown" finished-at="2022-12-02T00:53:45 MST" duration-ms="116" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1079,7 +1079,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:54 PST" name="startUp" finished-at="2022-11-22T22:50:57 PST" duration-ms="3598" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:45 MST" name="startUp" finished-at="2022-12-02T00:53:49 MST" duration-ms="4219" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1090,11 +1090,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="adsTest()[pri:12, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:57 PST" name="adsTest" finished-at="2022-11-22T22:50:58 PST" duration-ms="182" status="PASS">
+        <test-method signature="adsTest()[pri:12, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:49 MST" name="adsTest" finished-at="2022-12-02T00:53:49 MST" duration-ms="424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adsTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-11-22T22:50:58 PST" name="tearDown" finished-at="2022-11-22T22:50:58 PST" duration-ms="441" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.test.YourStorePageTest@4a883b15]" started-at="2022-12-02T00:53:49 MST" name="tearDown" finished-at="2022-12-02T00:53:49 MST" duration-ms="105" status="PASS">
           <params>
             <param index="0">
               <value>
